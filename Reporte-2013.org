@@ -326,6 +326,10 @@ audiencia de la Defensoria del Publico. Los recursos a nivel eedor de
 internet se consiguieron ad honorem
 vía la agrupación Software Libre con CFK. Se pidio en retribución un par de
 notas de video para promocionar OpCode. Hasta ahora se esperan esas notas.
+Pese a no tener ningún tipo de respuesta luego de esta asistencia en
+octubre, con motivo de las elecciones nacionales se les volvió a dar
+respuesta en tiempo recod a un pedido similar con los mismos resultados en
+tanto a respuestas.
 
 Frente a la dificultad de trabajo con la UDM, en Septiembre se deribo la
 negociación a Facundo Rodano y Facundo Illanes que negociaron, entre otras
@@ -413,3 +417,22 @@ Incentivamos la creación de una mutual como instancia asociativa de las
 redes comunitarias de la provincia de Córdoba.
 
 * ERP
+* Soporte Interno
+** Tic-INAES
+Se genero un espacio de asistencia tecnologica con base en herramientas de
+Software Libre que cubre el soporte interno de INAES tanto como el Sector Cooperativo / PyME desde donde se establecieron
+vinculos y buenas practicas. Todos las soluciones desarrolladas desde este
+espacio se encuentran en repositorios públicos.
+*** Creación de listas de correo para la comunicación de equipos de trabajo de INAES
+*** Configuración a nivel servidor de un blog y capacitación al área de juventud para su uso.
+*** Instalación y configuración de un sistema para geo referencia (Por ejemplo para rehalizar el mapeo de los cortes de luz)
+*** Prueba piloto de migración a Software Libre en el área de promoción
+*** Asistencia a la dirección de Sistemas de INAES
+
+** 
+** Centro Gallego
+Se brindo asistencia técnica al equipo liderado por Oscar Slepoy, se dio
+soporte para analizar los contratos de proveedores y gestión de presupuestos
+para la migración del Centro Gallego
+
+
