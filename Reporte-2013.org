@@ -1,0 +1,406 @@
+#+TITLE: Reporte de actividad 2013
+
+* Incubación de OpCode
+Sin lugar a duda, la incubación de la cooperativa de trabajo OpCode fue una
+de las tareas que consumio la mayor cantidad de mi tiempo el año pasado.
+
+La incubación fue un espacio extramadamente interesante donde todos
+aprendimos mucho.
+
+La metodología usada fue intentar ir desde un reglamento interno estandard
+de una cooperativa de trabajo hasta la implementación de metodología
+importada del mundo de las 'startups' (empresas de tecnología de alta
+productividad), operando asambleariamente y usando el control del
+financiamiento como última herramienta de presión.
+
+** Bootstrap: Marzo -> Mayo
+El grupo original fue compuesto por 7 personas:
+ + 2 parte de una cooperativa de trabajo especialisada en tecnologias de video.
+ + 2 parte de una cooperativa de trabajo en genesis sin negocio.
+ + 2 freelancers
+ + 1 originado de la CEB con quien ya veniamos trabajando en 2012.
+
+rapidamente fue claro que las motivaciones y la implicación al trabajo eran
+muy desparejas, y 3 integrantes renunciaron mas o menos voluntariamente en
+los primeros 3 meses. Lo que permitio aprender de los errores y emplear
+mejor sus remplazos.
+
++ *PROBLEMA:* intereses distintos adentro del grupo original, disparidad de
+  motivación y resultado.
++ *RESULTADO:* necesidad de separarse de algunos colaboradores.
++ *SOLUCIÓN:* definir claramente en el estatuto los objetivos y los limites.
+
+La despida de los compañeros levanto otro problema que me parece mas
+profundo, se discutio en asamblea como se iba a retribuir trabajo
+sub-optimo. El antagonismo creado por la estructura de incubacion llevo esa
+decisión a ser muy a favor de los laxos. Lo que, hoy analizo, llevo a una
+'cultura de empresa' que jugo encontra de los intereses cooperativos.
+
++ *PROBLEMA:* horizontalidad extrema.
++ *RESULTADO:* decisiones de asamblea en contra de la estructura global.
++ *SOLUCIÓN:* jerarquia de poder  clara en ciertos asuntos.
+
+La fase inicial fue muy caótica, mucha incertitud rodeaba el proyecto, los
+pagos se retrazaban, pero lo que mas notablemente daño la productividad fue
+la falta de espacio físico estable: La usina de medios se comprometio a
+abrirnos un espacio de oficinas, pero nunca llego, por ende, como solucion
+transitoria, usamos la sala de reunión de la conti, ruidosa y transitada.
+
++ *PROBLEMA:* espacio físico inadaptado a la actividad.
++ *RESULTADO:* dificultades de concentración, baja de la productividad.
++ *SOLUCIÓN:* asegurar el espacio físico antes de empezar.
+
+Tecnicamente, se probo dar mucha libertad de implementación, lo que resulto
+en diseño sub-optimo, desgraciadamente las faltas organizativa consumieron
+mucho tiempo.
+
++ *PROBLEMA:* dificultad en detectar diseños no aptos.
++ *RESULTADO:* un cantidad importante de trabajo vano.
++ *SOLUCIÓN:* medir rigourosamente, no creer los Curriculms.
+
+En el fin del periodo se implemento la metodología de trabajo dicha 'Agile',
+y mas precisamente el metodo de 'SCRUM', publicado en internet en:
+https://github.com/inaes-tic/SCRUMM
+
+el metodo se resume de la siguiente forma:
+1. se presenta al equipo los objetivos grandes a largo plazo.
+2. se determina entre todos la dificultad de los objetivos de manera
+  abstracta (i.e. el objetivo #1 es 3 veces mas dificil que el objetivo #4).
+3. se calcula el tiempo impartido a la realizacion de objetivos ponderados
+  por el tiempo final del proyecto y los coeficientes establecidos en la
+   etapa anterior.
+4. se recortan los objetivos en sub-objetivos realizables en 1 semana.
+
+después, cada semana, el responsable de SCRUM reparte 1 objetivo semanal por
+asociado, y 3 veces por semana verifica con cada uno sus avances,
+problematicas encontradas y pone al dia la planificación.
+
+este metodo nos resulto extremadamente eficiente y compatible con los
+principios cooperativos.
+
+** Conformación formal de la cooperativa: Junio -> Agosto
+Resueltos los problemas de personal, se contrato una persona para llevar a
+delante la parte administrativa. Esto permitio descargar a los
+desarrolladores que multiplicaron su productividad.
+
+Independientemente, notamos que el proceso de creación de cooperativa
+(apertura de cuenta, AFIP, ANSES, INAES) requeria la presencia del
+directorio de la cooperativa en varios momentos no conjugables, lo que en
+nuestro caso (mucho trabajo remoto, associados repartidos desde adrogue
+hasta tigre) requeria de varios dias donde la cooperativa se paralizaba para
+ir al banco credicoop a buscar un papel que no aparecia.
+
++ *PROBLEMA:* necesidad de presencia física para tramites de creación de
+  cooperativa.
++ *RESULTADO:* frustración y baja de productividad en el grupo humano.
++ *SOLUCIÓN:* digitalización de tramites, firma electronica.
+
+Junio tambien marco un paso de independencia para el grupo cooperativo
+cuando los associados empezaron a administrar ellos mismos las herramientas
+de seguimiento de proyecto establecidas (SCRUM), effectivamente el
+secretario de la cooperativa estuvo a cargo de la tarea que logró
+implementar solo desde fines de julio.
+
+*** Canal universitario de la UBA.
+en Junio nos convocó el rectorado de la UBA para la creación de su canal
+universitario. Este primer cliente marco la agenda tecnica de la
+cooperativa.
+
+los requerimientos de la Universidad nos hicieron reordenar recursos del
+Playout (nuestro proyecto central hasta entonces) en direccion de un
+prototipo de automatizador de camaras (Tetra) que teniamos pausado.
+
+La fecha de salida proyectada del canal era el 31 de Agosto y todos los
+elementos de la cooperativa trabajaron con increible empeño para llegar a
+estabilizar y probar cientificamente la solución para esa fecha.
+
+Desgraciadamente, por internas universitarias, el canal no vio el dia, y
+nunca se pago el desarrollo presupuestado. Igual, la plataforma se vío
+muy beneficiada por el ezfuerzo realizado para llegar a la fecha.
+
++ *PROBLEMA:* falta de claridad en la contratación, si bien ganamos una
+  oferta, no teniamos ningún documento oficial demostrandolo.
++ *RESULTADO:* trabajo no pago
++ *SOLUCIÓN:* más rigor a la hora de formalizar una contratación.
+
+aca un resumen del trabajo realizado en este marco:
+**** <2013-08-23 Fri> [50/50] Sprint CASPA
+***** [42/42] Terminadas
+****** [8/8] Diseño
+******* DONE Paginado basado en nuevo scroll interno
+DEADLINE: <2013-08-23 Fri>
+******* DONE Animacion de espera al paginar
+DEADLINE: <2013-08-23 Fri>
+******* FIXED Bug de draggable
+DEADLINE: <2013-08-23 Fri>
+******* DONE Arreglar layout de Add Media
+DEADLINE: <2013-08-23 Fri>
+******* DONE Arreglar close de mensaje de error en new playlist
+DEADLINE: <2013-08-23 Fri>
+******* DONE Logo Playout
+DEADLINE: <2013-08-23 Fri>
+******** DONE Ajustar paleta de colores
+DEADLINE: <2013-08-23 Fri>
+******** DONE Integrar al playout
+DEADLINE: <2013-08-23 Fri>
+****** DONE Refactoring de modelos
+DEADLINE: <2013-08-23 Fri>
+****** DONE Mover al servidor el read de backbone.io
+DEADLINE: <2013-08-23 Fri>
+******* (Tal vez se pueda rediseñar)
+DEADLINE: <2013-08-23 Fri>
+****** FIXED Backbone Model->get no busca en DB
+DEADLINE: <2013-08-23 Fri>
+******* FIXED Lo resuelve fetch related
+CLOSED: [2014-01-07 Tue 13:01] DEADLINE: <2013-08-23 Fri>
+:LOGBOOK:
+- State "FIXED"      from ""           [2014-01-07 Tue 13:01]
+:END:
+****** FIXED Backbone.io save->create
+DEADLINE: <2013-08-23 Fri>
+******* DONE Probar qué pasa mandando CREATE de un elemento que ya está en la DB
+DEADLINE: <2013-08-23 Fri>
+****** DONE Cambios en memoria #148
+DEADLINE: <2013-08-23 Fri>
+******* DONE No permitir cambiar de vista sin guardar (mandar alert)
+DEADLINE: <2013-08-23 Fri>
+****** DONE Playout view paginado
+DEADLINE: <2013-08-23 Fri>
+****** DONE Playout view no estaría eliminando elementos que salen de la vista
+DEADLINE: <2013-08-23 Fri>
+****** DONE Playout view muestra mal los clips cuando se hace lazy load
+DEADLINE: <2013-08-23 Fri>
+******* FIXED Corregido el scope de cambios a enter() y a update.
+DEADLINE: <2013-08-23 Fri>
+****** FIXED Plalist duration fails to update when lazy loading pieces
+DEADLINE: <2013-08-23 Fri>
+****** DONE Mongo Fulltext search
+DEADLINE: <2013-08-23 Fri>
+****** DONE No paginar Scheds en ScheduleView y PlayoutView
+DEADLINE: <2013-08-23 Fri>
+****** DONE Pasar alert de cambio de vista a modal
+DEADLINE: <2013-08-23 Fri>
+****** DONE Configurar nombres de las colecciones en la base de datos
+DEADLINE: <2013-08-23 Fri>
+****** DONE terminar los unbinds de todas las vistas
+DEADLINE: <2013-08-23 Fri>
+****** DONE mediaedit: lazy fetch de medias!
+DEADLINE: <2013-08-23 Fri>
+****** DONE mediaedit: killEditList: evitar borrar la vista para volver a crearla
+DEADLINE: <2013-08-23 Fri>
+****** DONE mediaedit: lazy fetch al mostrar la playlist (se está haciendo fetch antes de new MediaListView)
+DEADLINE: <2013-08-23 Fri>
+****** DONE Backbone relational
+DEADLINE: <2013-08-23 Fri>
+******* DONE Actualizar
+DEADLINE: <2013-08-23 Fri>
+******* DONE Considerar mantener relaciones por _id
+DEADLINE: <2013-08-23 Fri>
+******* DONE Evitar modificar pl que tiene occurrences
+DEADLINE: <2013-08-23 Fri>
+******* DONE Actualizar el mongo driver (Mosto)
+DEADLINE: <2013-08-23 Fri>
+******* DONE Revisar
+DEADLINE: <2013-08-23 Fri>
+****** DONE Colecciones dedicadas
+DEADLINE: <2013-08-23 Fri>
+******* DONE Usar distintas colecciones para las funcionalidades que las necesiten
+DEADLINE: <2013-08-23 Fri>
+******* WONTFIX Si hay colecciones compartidas evaluar cómo hacer para no arrastrar los filtros
+DEADLINE: <2013-08-23 Fri>
+****** DONE VisualSearch client side
+DEADLINE: <2013-08-23 Fri>
+******* DONE Averiguar que pasa al hacer SAVE con la lista filtrada por Knockback (Guarda todo!)
+DEADLINE: <2013-08-23 Fri>
+******* DONE Remove playlist filter when dragging medias
+DEADLINE: <2013-08-23 Fri>
+****** DONE Revisar router backbone
+DEADLINE: <2013-08-23 Fri>
+******* Los markers de config lo rompen
+DEADLINE: <2013-08-23 Fri>
+******* De hecho creo que ahora ni se puede salir de config :S
+DEADLINE: <2013-08-23 Fri>
+****** DONE Occurrence id a uuid
+DEADLINE: <2013-08-23 Fri>
+****** DONE Corregir funcionamiento de dummyRow
+DEADLINE: <2013-08-23 Fri>
+****** DONE Mensaje de resultado vacío para la búsqueda
+DEADLINE: <2013-08-23 Fri>
+****** DONE POV: cada tanto las sombras de pieces están mal distribuidas
+DEADLINE: <2013-08-23 Fri>
+******* Ocurre cuando se da de alta una nueva playlist a la que se le insertaron
+DEADLINE: <2013-08-23 Fri>
+los Pieces de forma desordenada, luego se graba y luego se schedulea en POV.
+****** DONE switchPlaylistEvent tiene bindeada una EditView vieja (?)
+DEADLINE: <2013-08-23 Fri>
+****** DONE Unbind en vistas PanelView y MasterView
+DEADLINE: <2013-08-23 Fri>
+****** DONE Cambiar Unbind por undelegateEvents en todas las Backbone.View's
+DEADLINE: <2013-08-23 Fri>
+****** DONE POV: anular la animación en el Unbind
+DEADLINE: <2013-08-23 Fri>
+
+** Optimizando la productividad: Septiembre -> Noviembre
+A principio de Septiembre un contacto en CN23 se acerco con una problematica
+compleja: tenian un material deformado temporalmente por un software de
+automacion de camaras que habian usado, y necesitaban evaluar la posibilidad
+de repararlo.
+
+usando el estado del arte de la investigación cientifica logramos (en 1
+semana) proveer una prueba de concepto de un metodo prometedor que
+reconstruia algoritmicamente imagenes perdidas por el software comercial que
+habian usado.
+
+a raiz de esos resultados CN23 contrato a la cooperativa para probar la
+reparación de 6 capitulos sosteniendo la investigación y usando recursos
+artisticos para contrarestar las limitaciones del algoritmo que se estaba
+desarrollando.
+
+este trabajo puso una gigantesca pression sobre el equipo artistico que
+resulto en la renuncia de una associada, y la realizacion por el resto de la
+cooperativa de la necesidad de:
++ estabilidad y confiabilidad
++ mejorar la productividad
++ mejorar la comunicacion y coordinacion de tareas.
+
+lo que abrio una charla que resulto en la escritura de un reglamento interno
+marcando limites claros a la falta de productividad y estabilidad.
+
+a nivel de apertura, este perido habrio charlas comerciales con:
++ educ.ar (deoportv) se charlo sobre la implementacion de una solucion de subtitulado
+  oculto (CC),el mismo sigue en discucion. Se diseño una solucion de transporte de
+  subtitutlado de baja latencia para eventos deportivos.
+
++ CONADIS para la implementacion de una solucion de subtitulado ocultos,
+  sigue en discucion. se diseño una solucion de tipo estenografico con
+  hardware libre producido en argentina.
+
++ EUDEBA para la implementacion de una solucion de ingesta, sigue en
+  discucion. se diseño e implemento una prueba de concepto de servidor de
+  ingesta innovador.
+
+** Diciembre ->  Actualidad
+A principios diciembre se decidio apoyar la creacion del canal de la
+cooperativa padre mugica en la villa 31. en la espera del presupuesto pasado
+(que ya esta llegando 2 meses mas tarde que lo pactado) la cooperativa se
+enfoco en mas pruebas formales de sus soluciones (ver 'relacion opcode <->
+usina de medios' para una discucion sobre lo que se puede o no probar sin el
+material pedido).
+
+En la mitad de esta segunda fase de elaboracion de tests fuimos contactados
+por la defensoria del publico para realizar el streaming de su evento de
+innauguracion.
+
+encaramos este proyecto en colaboracion con la empresa brazilera aovivo.tv
+y logramos responder en un par de dias a la elaboracion tecnica e
+implementacion de un servicio de streaming de calidad internacional.
+
+** relación opcode <-> Usina de Medios
+En abríl se hablo de pasar el pago de la cooperativa a Cooperar. Se charlo
+extensamente la relación con la usina de medios (mediada por Facundo
+Rodano), se pacto que la UDM tenia que:
+
++ incluir en su relevamiento cuestiones tecnologicas en via de un
+  diagnostico completo.
++ acercar 3 cooperativas necesitadas de tecnologias.
++ acercar el estudio de factivilidad del canal que hizo la UDM
+
+Por el otro lado, se pacto no contactar directamente  con las cooperativas
+(i.e. usar la UDM como articulador) y estar a disposición de sus necesidades
+tecnicas.
+
+(no se incluyeron las preguntas, y se acerco unicamente a Pablo Testoni de
+la cooperativa imagica y UDM, nunca nos llego la documentación)
+
+a principios de Mayo se decidio conectar la cooperativa a TRAMA (como su
+equipo de desarrollo) y de pedir una financiación formalmente al INAES.
+
+2 meses despues (julio), cuando pudimos terminar el documento de pedido formal de
+financiacion (hecho en nombre de TRAMA), se volvio para atras sobre la
+inclusión de la cooperativa a la estructura de TRAMA.
+
+En agosto, la cooperativa respondio en tiempo record al pedido de la Usina
+de Medios monto un servidor de archivos (FTP) para la cobertura de la
+audiencia de la Defensoria del Publico. Espacio que se consiguio ad honorem
+via la agrupación Software Libre con CFK. Se pidio en retribución un par de
+notas de video de la cooperativa. Hasta ahora se esperan esas notas.
+
+Frente a la dificultad de trabajo con la UDM, en Septiembre se deribo la
+negociación a Facundo Rodano y Facundo Illanes que negociaron el uso del
+laboratorio montado para Tecnopolis por la cooperativa. Nunca tuvimos
+accesso al laboratorio ni respuesta a nuestros pedidos.
+
+En la mitad de la resolucion del conflicto se resolvio comprar un
+laboratorio nuevo para responder a las necesidades del canal de la
+cooperativa padre mugica en la villa 31. El presupuesto se presento a fines
+de noviembre, tenia que ejecutarse en Diciembre y seguimos a la espera de
+alguna respuesta desde la Usina de Medios.
+
+En conclusión, nuestro trabajo se vio gravemente dificultado por la falta de
+equipamiento (necesario para probar tecnologia en el ambiente multimedia) y
+la caotica previsibilidad financiera. Ante esta situación cabe evaluar si
+Usina de Medios  o Cooperar eran los nodos de articulación indicados.
+
+* Sector medios
+
+** AFSCA
+en Febrero, empezamos a charlar con el sector de Proyectos especiales del
+AFSCA. Charla cortada por la intervencion de la Usina de Medios que nos
+requirio ser el unico actor en conversacion con el AFSCA.
+
+** Colsecor
+Se reporto que estan construyendo una solucion privativa, en IPTV/OTT lo que
+ya esta bastante resuelto y seria un tremendo paso atras perderlos. la UDM
+decidio coordinar este tema y no juzgo necesario seguir la charla iniciada.
+
+** ADECO
+Se ofrecio ayudar tecnicamente en Enero/Febrero, esta operción fue bloqueada
+por la Usina de Medios. ADECO tiene problemas que podemos solucionar muy facilmente, cosas que
+van rapido (streaming, conversion,...) y que se pueden usar como gancho
+hacia el resto del sector..
+
+** WallKin Tun TV
+Se siguio asesorando y conteniendo el desarrollo de WallKinTun TV.
+Principalmente a traves del compañero en territorio que estuvo cubriendo el
+rol de direcotr tecnico del canal.
+
+** Malbec & Open Broadcast
+Se participo en un espacio cybernetico que nuclea profesionales de
+tecnologia libre para los medios (el grupo Google+ Open Broadcast) donde
+logramos la conducición (estuvimos marcando agende desde Agosto) charlando
+las necesidades y puntos de convergencias de tecnologias libres para los
+medios.
+
+Nucleamos los distintos actores al rededor de la idea de 'Malbec', un cello
+de qualidad y apertura para tecnologias de Broadcasting.
+
+A traves de Open BroadCast y Malbec, logramos la attencion de profesionales
+reconocidos de la BBC, la television publica sueca, del ministerio de
+cultura de dinamarca, de canales comunitarios a traves del mundo, de
+y empresas de medios libres con las cuales mantenemos estrechas relaciones.
+
+notablemente, cubrimos via la cooperativa Opcode y una empresa brazilera
+(aovivo.net) la demanda de streaming que emitio la defensoria del publico.
+
+** Asesoria
+A fines de diciembre empezamos una muy satisfactoria relacion de
+asesoramiento con la cooperativa Proyecto Coopar, que acompañamos en temas
+de seguridad de datos y publicación web. Semana a semana estrechamos nuestra
+relacion y logramos avanzar soluciones tecnologicas reales.
+
+* Redes Libres
+Se avanzo un modelo de desarrollo de redes libres con integracion
+territorial y politica a travez de una charla informativa para sensibilizar
+a los agentes territoriales sobre la importancia estrategica de la gestion
+de redes por el sector de la economia solidaria en pos de darles las
+herramientas necesarias a la identificación de los grupos humanos en sus
+sectores que podrian estar en posición de participar en un experimento de
+despligue de una red de gestion cooperativa.
+
+Durante este encuentro intervinieron:
+
++ Emiliano Moscato: Asesor en Informática en Arsat
++ Nicolás Echániz: Fundador de la ONG Altermundi, creador de la red QuintanaLibre
++ Julian Santa Cruz: Fundador de la seccion de redes de Sonytel y Interplay.
+
+* ERP
