@@ -12,17 +12,17 @@ excluidos a los circuitos educativos formales. El apoyo economico permite
 abstraerlos de sus responsabilidades familiares directas en pos de la
 adquicision de un titulo, motor de progreso social.
 
-Si bien se repartieron casi 4 Millones de maquinas, un montón de jovenes
-quedan por abastecer, igualmente, mucho de los jovenes que toca el plan
-progresar no llegan a tener una maquina debido a su temprana divergencia de
-la educación formal.
+Si bien se repartieron casi 4 Millones de maquinas, muchos  jovenes
+han quedado fuera de este programa, ya sea por haber tenido que dejar los
+estudios o por haber egresado pre Conectar Igualdad.
 
-Para esos jovenes que acceden a una maquina, se nota en el territorio que
-siendo la unica computadora del hogar, pierden soberania sobre ella ya que
-es absorbida por los otros miembros de la familia.
+En muchos hogares la computadora a la que accedieron estos jovenes es la
+única maquina del hogar, y si bien esto implica un mayor acceso de la
+familia el mismo redunda en una perdida de autonomía de los jovenes sobre
+sus computadoras en pos del uso comunitario de su familia.
 
-Finalmente, si bien la netbook es un avance fenomenal, es una computadora
-poco adaptada a algunas tareas que requieren mas capacidad de procesamiento
+Finalmente, si bien la netbook es un avance de suma importancia, sabemos que
+algunas tareas requieren mas capacidad de procesamiento
 o espacio de pantalla.
 
 * Propuesta                                                          
