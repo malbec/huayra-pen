@@ -1,0 +1,164 @@
+#+TITLE: HUAYRA PROGRESAR
+#+LANGUAGE: es
+
+* Introducción
+El programa Connectar Igualdad tiene como objetivo el empoderamiento
+tecnologico de los estudiantes de segundario de la nación entregandoles una
+computadora (netbook) para acotar la brecha digital, hoy uno de los
+elementos de exclusión menos tratados.
+
+El plan progresar tiene como objetivo fomentar la integración de más jovenes
+excluidos a los circuitos educativos formales. El apoyo economico permite
+abstraerlos de sus responsabilidades familiares directas en pos de la
+adquicision de un titulo, motor de progreso social.
+
+Si bien se repartieron casi 4 Millones de maquinas, un montón de jovenes
+quedan por abastecer, igualmente, mucho de los jovenes que toca el plan
+progresar no llegan a tener una maquina debido a su temprana divergencia de
+la educación formal.
+
+Para esos jovenes que acceden a una maquina, se nota en el territorio que
+siendo la unica computadora del hogar, pierden soberania sobre ella ya que
+es absorbida por los otros miembros de la familia.
+
+Finalmente, si bien la netbook es un avance fenomenal, es una computadora
+poco adaptada a algunas tareas que requieren mas capacidad de procesamiento
+o espacio de pantalla.
+
+* Propuesta                                                          
+Se propone el desarrollo de un pendrive booteable conteniendo una versión de
+Huayra GNU/Linux[fn::sistema operativo de las netbooks de connectar
+igualdad]. Cuando se enchue el pendrive a cualquier computadora este ultimo
+permitira acceder a un escritorio persistente (cualquier modificación al
+entorno se vera reflejada en el proximo uso) conteniendo aplicaciones
+curadas especificamente para cada carrera.
+
+De esta manera el estudiante puede desplazarse con todo su sistema operativo
+y todos sus datos en una unidad chica (pendrive) que le permite usar cuando
+lo necesite toda la potencia de cualquier maquina que se le presente. Por
+ejemplo en las netbook del plan conectar igualdad, como en las maquinas de
+los CICs, NACs, CDRs, de cyberscafes o de su establecimiento escolar.
+
+Se propone enfocar el uso a los CICs y Universidades Nacionales abriendo las
+puertas a la experimentación real en áreas tradicionalmente excluyentes por
+costo de como el diseño industrial, la robotica, laprogramacion de
+dispositivos embedidos, la producción y el diseño audiovisual etc…
+
+se propone un diseño que garantiza:
++ *Seguridad de datos*: usando criptografía fuerte y una minima
+  infraestructura de nube (que se puede hospedar en los ministerios de
+  planificacion federal o de desarrollo social).
++ *Privacidad*: el uso de criptografía con clave personal asegura que ni el
+  administrador de la nube pueda leer los datos del usuario.
++ *Estado del arte tecnico*: curando software (libre) usado por la industria
+  internacional en ambito que enfoca el joven.
++ *Flexibilidad*: cualquier maquina es 'su maquina'. el usurio encuentra
+  exactamente el mismo entorno de trabajo independientemente del
+  equipamiento usado.
+
+* Extensiones especificas de uso en CICs
+** Diseño industrial
+Con la instalación de una impresora 3D de tipo RepRap TODO:link se puede
+transformar los CICs en centros de diseño industrial.
+
+Los usuarios del pendrive pueden diseñar piezas en 3D con herramientas como
+Blender, y hasta crear modelos de funcionamiento. Finalmente, pueden probar
+su impresión en los CICs.
+*** Costo Addicional
+10000 $ARS por CIC
+
+** TODO Producción Audiovisual                                     :vdifiore:
+Con la instalación de una maquina capas de transformarse en isla de edición
+se puede habilitar el uso de los CICs como nodo de producción audiovisual
+
+*** Costo Addicional
+10000 $ARS por CIC
+
+** Render Farm Audiovisual
+Usando la tecnologia de 'proxy editing' se puede editar en baja resolucion y
+'mandar a renderizar' el editado final.
+
+*** Costo Addicional
+10000 $ARS por CIC para una maquina de escritorio
+40000 $ARS por CIC para un server
+
+* Descripción técnica
+** Pendrive USB booteable
+Se propone extender el proyecto Debian Live que permite crear un pendrive
+arrancable con relativamente poco trabajo.
+
+** Criptografía
+Se propone cifrar todo el disco rígido usando LUKS.
+este diseño requiere un poco de desarrollo 
+
+#+ATTR_LaTeX: width=\textwidth
+#+LABEL: tbl:part-design
+#+CAPTION: Diseño de particionamiento
+#+begin_src ditaa :file part-design.png :cmdline -r -s 0.8 :exports results
+     +----------------------------------------------------------------------------+
+     |          PARTICIONAMIENTO DEL PENDRIVE HUAYRA PROGRESAR (TOTAL 16 Gb)      |
+     |                                                                            |
+     |      +-----------------------------+       +-----------------------------+ |
+     |      |0  Gestor de arranque        |       | 5  Datos de Usuario         | |
+     |      |   cBC6               400 Mb |       |                             | | 
+     |      +-----------------------------+       |     =CRYPT=                 | | 
+     |                                            |                             | | 
+     |      +-----------------------------+       |                             | | 
+     |      |1  Pivot root                |       |                             | | 
+     |      |   cED6               100 Mb |       |                             | | 
+     |      +-----------------------------+       |                             | | 
+     |                                            |                             | | 
+     |      +-------------+---------------+       |                             | | 
+     |      |2  ISOs + Recovery           |       |                             | | 
+     |      |                             |       |                             | | 
+     |      |   cEA8               1.5 Gb |       |                             | | 
+     |      +-----------------------------+       |                             | | 
+     |                                            |                             | | 
+     |      +-----------------------------+       |                             | | 
+     |      |3  Particion sistema #1      |       |                             | | 
+     |      |                             |       |                             | | 
+     |      |    =CRYPT=                  |       |                             | | 
+     |      |                             |       |                             | | 
+     |      |                             |       |                             | | 
+     |      |   cCAB                 3 Gb |       |                             | | 
+     |      +-----------------------------+       |                             | | 
+     |                                            |                             | | 
+     |      +-----------------------------+       |                             | | 
+     |      |4  Particion sistema #2      |       |                             | | 
+     |      |                             |       |                             | | 
+     |      |    =CRYPT=                  |       |                             | | 
+     |      |                             |       |                             | | 
+     |      |                             |       |                             | | 
+     |      |   cCAB                 3 Gb |       |   cEAA                 8 Gb | | 
+     |      +-----------------------------+       +-----------------------------+ |
+     |                                                                            | 
+     +----------------------------------------------------------------------------
+
+#+end_src
+#+results:
+[[file:part-design.png]]
+
+se arranca desde GRUB, de ahi se salta a un pivot root que consultando
+metadata de las particiones #3 y #4 elige la mas reciente, le pide al
+usuario una clave, la monta decifrada como /, y sigue arrancando.
+
+en el early-boot, intenta montar #5 con una clave compuesta (TODO).
+
+si falla, intenta la otra.
+
+este diseño permite cambiar de clave 'saltando' a la otra particion de
+sistema.
+
+la clave de los datos de usuarios (auto-generada) no cambia, pero vive
+cifrada en la partición de sistema y se abre con la clave de sistema.
+
+** Infraestructura de nube
+TODO: evaluar deja-dup y obnam
+
+Se propone usar la herramienta de backup additivo TODO, modificada para
+considerar solo archivos inferiores a 3Mb o macheando una regla de
+inclusión/exclusión especifica.
+
+las copias en la nube llegan cifradas en el lado cliente. Se puede usar un
+storage bobo del lado nube ya que toda la inteligencia esta del lado
+cliente.
