@@ -295,14 +295,14 @@ y logramos responder en un par de dias a la elaboracion tecnica e
 implementacion de un servicio de streaming de calidad internacional.
 
 ** relación opcode <-> Usina de Medios
-En abríl se hablo de pasar el pago de la cooperativa a Cooperar. Se charlo
+En abríl se hablo de pasar el pago de la OpCode (la cooperativa incubada) a Cooperar. Se charlo
 extensamente la relación con la usina de medios (mediada por Facundo
-Rodano), se pacto que la UDM tenia que:
+Rodano), y se pacto que la UDM tenia que:
 
-+ incluir en su relevamiento cuestiones tecnologicas en via de un
++ Incluir en su relevamiento cuestiones tecnologicas en via de un
   diagnostico completo.
-+ acercar 3 cooperativas necesitadas de tecnologias.
-+ acercar el estudio de factivilidad del canal que hizo la UDM
++ Acercar 3 cooperativas necesitadas de tecnologias.
++ Facilitar el estudio de factivilidad del canal que hizo la UDM
 
 Por el otro lado, se pacto no contactar directamente  con las cooperativas
 (i.e. usar la UDM como articulador) y estar a disposición de sus necesidades
@@ -311,22 +311,26 @@ tecnicas.
 (no se incluyeron las preguntas, y se acerco unicamente a Pablo Testoni de
 la cooperativa imagica y UDM, nunca nos llego la documentación)
 
-a principios de Mayo se decidio conectar la cooperativa a TRAMA (como su
-equipo de desarrollo) y de pedir una financiación formalmente al INAES.
+A principios de Mayo se decidio conectar OpCode con TRAMA (como su
+equipo de desarrollo) y pedir formalmente financiamiento al INAES.
 
-2 meses despues (julio), cuando pudimos terminar el documento de pedido formal de
-financiacion (hecho en nombre de TRAMA), se volvio para atras sobre la
+
+2 meses despues (julio), con toda la documentación requerida y el pedido formal de
+financimiento (hecho en nombre de TRAMA) se dió marcha atrás sobre la
 inclusión de la cooperativa a la estructura de TRAMA.
 
-En agosto, la cooperativa respondio en tiempo record al pedido de la Usina
-de Medios monto un servidor de archivos (FTP) para la cobertura de la
-audiencia de la Defensoria del Publico. Espacio que se consiguio ad honorem
-via la agrupación Software Libre con CFK. Se pidio en retribución un par de
-notas de video de la cooperativa. Hasta ahora se esperan esas notas.
+En agosto, la cooperativa respondio en tiempo record a un pedido de
+asistencia técnica realizado por la Usina
+de Medios mont un servidor de archivos (FTP) para la cobertura de la
+audiencia de la Defensoria del Publico. Los recursos a nivel eedor de
+internet se consiguieron ad honorem
+vía la agrupación Software Libre con CFK. Se pidio en retribución un par de
+notas de video para promocionar OpCode. Hasta ahora se esperan esas notas.
 
 Frente a la dificultad de trabajo con la UDM, en Septiembre se deribo la
-negociación a Facundo Rodano y Facundo Illanes que negociaron el uso del
-laboratorio montado para Tecnopolis por la cooperativa. Nunca tuvimos
+negociación a Facundo Rodano y Facundo Illanes que negociaron, entre otras
+cosas, que OpCode hiciera uso del
+laboratorio montado para Tecnopolis cuando la muestra terminase. Nunca tuvimos
 accesso al laboratorio ni respuesta a nuestros pedidos.
 
 En la mitad de la resolucion del conflicto se resolvio comprar un
