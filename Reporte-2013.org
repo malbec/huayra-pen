@@ -1,14 +1,13 @@
 #+TITLE: Reporte de actividad 2013
 
 * Incubación de OpCode
-Sin lugar a duda, la incubación de la cooperativa de trabajo OpCode fue una
-de las tareas que consumio la mayor cantidad de mi tiempo el año pasado.
-
-La incubación fue un espacio extramadamente interesante donde todos
+La incubación de la cooperativa de trabajo OpCode fue una
+de las tareas que consumio la mayor cantidad de mi tiempo el año pasado. La
+misma resulto ser un espacio extramadamente interesante, donde todos
 aprendimos mucho.
 
 La metodología usada fue intentar ir desde un reglamento interno estandard
-de una cooperativa de trabajo hasta la implementación de metodología
+de una cooperativa de trabajo hasta la implementación de una metodología
 importada del mundo de las 'startups' (empresas de tecnología de alta
 productividad), operando asambleariamente y usando el control del
 financiamiento como última herramienta de presión.
@@ -344,20 +343,23 @@ Usina de Medios  o Cooperar eran los nodos de articulación indicados.
 * Sector medios
 
 ** AFSCA
-en Febrero, empezamos a charlar con el sector de Proyectos especiales del
-AFSCA. Charla cortada por la intervencion de la Usina de Medios que nos
+En Febrero tuvimos una primera instancia de dialogo con el sector de
+Proyectos especiales. Este canal se corto cuando la Usina de Medios nos
 requirio ser el unico actor en conversacion con el AFSCA.
-
+ :ejemplo de temas conversados con AFSCA
 ** Colsecor
-Se reporto que estan construyendo una solucion privativa, en IPTV/OTT lo que
-ya esta bastante resuelto y seria un tremendo paso atras perderlos. la UDM
-decidio coordinar este tema y no juzgo necesario seguir la charla iniciada.
+Se reporto a Usina de Medios que estaban construyendo una solucion
+privativa, en IPTV/OTT (un tema que se puede tomar sin problemas con Software
+Libre) y que este camino seria un grave y peligrosoo paso hacia atras, así
+como perder la relación con Colsecor. la UDM tomo la coordinación del tema y
+no juzgo necesario incluir a nuestra comisión en la charla iniciada.
 
 ** ADECO
-Se ofrecio ayudar tecnicamente en Enero/Febrero, esta operción fue bloqueada
-por la Usina de Medios. ADECO tiene problemas que podemos solucionar muy facilmente, cosas que
-van rapido (streaming, conversion,...) y que se pueden usar como gancho
-hacia el resto del sector..
+En el marco de las mesas de trabajo de Opendor se les ofrecio ayudar
+tecnicamente ( Enero/Febrero), esta operción fue bloqueada
+por la Usina de Medios. ADECO tiene problemas que podemos solucionar muy
+facilmente, y en poco tiempo (streaming, conversion,...) y que se pueden usar como gancho
+hacia el resto del sector.
 
 ** WallKin Tun TV
 Se siguio asesorando y conteniendo el desarrollo de WallKinTun TV.
@@ -367,17 +369,17 @@ rol de direcotr tecnico del canal.
 ** Malbec & Open Broadcast
 Se participo en un espacio cybernetico que nuclea profesionales de
 tecnologia libre para los medios (el grupo Google+ Open Broadcast) donde
-logramos la conducición (estuvimos marcando agende desde Agosto) charlando
+logramos la conducición (estuvimos marcando agenda desde Agosto) charlando
 las necesidades y puntos de convergencias de tecnologias libres para los
 medios.
 
-Nucleamos los distintos actores al rededor de la idea de 'Malbec', un cello
-de qualidad y apertura para tecnologias de Broadcasting.
+Nucleamos los distintos actores al rededor de la idea de 'Malbec', un sello
+de calidad y apertura para tecnologias de Broadcasting.
 
-A traves de Open BroadCast y Malbec, logramos la attencion de profesionales
+A traves de Open BroadCast y Malbec, logramos la atencion de profesionales
 reconocidos de la BBC, la television publica sueca, del ministerio de
-cultura de dinamarca, de canales comunitarios a traves del mundo, de
-y empresas de medios libres con las cuales mantenemos estrechas relaciones.
+cultura de dinamarca, de canales comunitarios a traves del mundo y de
+empresas de medios libres con las cuales mantenemos estrechas relaciones.
 
 notablemente, cubrimos via la cooperativa Opcode y una empresa brazilera
 (aovivo.net) la demanda de streaming que emitio la defensoria del publico.
@@ -402,5 +404,8 @@ Durante este encuentro intervinieron:
 + Emiliano Moscato: Asesor en Informática en Arsat
 + Nicolás Echániz: Fundador de la ONG Altermundi, creador de la red QuintanaLibre
 + Julian Santa Cruz: Fundador de la seccion de redes de Sonytel y Interplay.
+
+Incentivamos la creación de una mutual como instancia asociativa de las
+redes comunitarias de la provincia de Córdoba.
 
 * ERP
