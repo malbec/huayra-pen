@@ -339,7 +339,7 @@ Todos las soluciones desarrolladas desde este espacio se encuentran en
 repositorios públicos.
 
 *** Instalación de una plataforma de gestión de proyectos
-Se instalo a pedido de la area de Facundo Rodano una plataforma de gestión
+Se instalo a pedido del área de Facundo Rodano una plataforma de gestión
 de proyectos en redmine.tic.inaes.gob.ar para la coordinacion de los equipos
 territoriales.
 
@@ -354,7 +354,7 @@ Rodano para la coordinacion de los agentes territoriaes.
 listas.tic.inaes.gob.ar esta abierta al resto del instituto para su uso.
 
 *** Configuración a nivel servidor de un blog y capacitación al área de juventud para su uso.
-A pedido de la comisión de juventud (y con el acorde de la area de Facundo
+A pedido de la comisión de juventud (y con el acuerdo del área de Facundo
 Rodano), se instalo en tic.inaes.gob.ar una plataforma de blog propulsada
 por software libre: Wordpress.
 Se instalo la pagina y se capacito a miembros de la comisión para su
