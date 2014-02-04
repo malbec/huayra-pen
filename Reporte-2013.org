@@ -319,10 +319,9 @@ financimiento (hecho en nombre de TRAMA) se dió marcha atrás sobre la
 inclusión de la cooperativa a la estructura de TRAMA.
 
 En agosto, la cooperativa respondio en tiempo record a un pedido de
-asistencia técnica realizado por la Usina
-de Medios mont un servidor de archivos (FTP) para la cobertura de la
-audiencia de la Defensoria del Publico. Los recursos a nivel eedor de
-internet se consiguieron ad honorem
+asistencia técnica realizado por la Usina de Medios mont un servidor de
+archivos (FTP) para la cobertura de la audiencia de la Defensoria del
+Publico. Los recursos a nivel eedor de internet se consiguieron ad honorem
 vía la agrupación Software Libre con CFK. Se pidio en retribución un par de
 notas de video para promocionar OpCode. Hasta ahora se esperan esas notas.
 Pese a no tener ningún tipo de respuesta luego de esta asistencia en
