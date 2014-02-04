@@ -123,122 +123,6 @@ muy beneficiada por el ezfuerzo realizado para llegar a la fecha.
 + *SOLUCIÓN:* más rigor a la hora de formalizar una contratación.
 
 aca un resumen del trabajo realizado en este marco:
-**** <2013-08-23 Fri> [50/50] Sprint CASPA
-***** [42/42] Terminadas
-****** [8/8] Diseño
-******* DONE Paginado basado en nuevo scroll interno
-DEADLINE: <2013-08-23 Fri>
-******* DONE Animacion de espera al paginar
-DEADLINE: <2013-08-23 Fri>
-******* FIXED Bug de draggable
-DEADLINE: <2013-08-23 Fri>
-******* DONE Arreglar layout de Add Media
-DEADLINE: <2013-08-23 Fri>
-******* DONE Arreglar close de mensaje de error en new playlist
-DEADLINE: <2013-08-23 Fri>
-******* DONE Logo Playout
-DEADLINE: <2013-08-23 Fri>
-******** DONE Ajustar paleta de colores
-DEADLINE: <2013-08-23 Fri>
-******** DONE Integrar al playout
-DEADLINE: <2013-08-23 Fri>
-****** DONE Refactoring de modelos
-DEADLINE: <2013-08-23 Fri>
-****** DONE Mover al servidor el read de backbone.io
-DEADLINE: <2013-08-23 Fri>
-******* (Tal vez se pueda rediseñar)
-DEADLINE: <2013-08-23 Fri>
-****** FIXED Backbone Model->get no busca en DB
-DEADLINE: <2013-08-23 Fri>
-******* FIXED Lo resuelve fetch related
-CLOSED: [2014-01-07 Tue 13:01] DEADLINE: <2013-08-23 Fri>
-:LOGBOOK:
-- State "FIXED"      from ""           [2014-01-07 Tue 13:01]
-:END:
-****** FIXED Backbone.io save->create
-DEADLINE: <2013-08-23 Fri>
-******* DONE Probar qué pasa mandando CREATE de un elemento que ya está en la DB
-DEADLINE: <2013-08-23 Fri>
-****** DONE Cambios en memoria #148
-DEADLINE: <2013-08-23 Fri>
-******* DONE No permitir cambiar de vista sin guardar (mandar alert)
-DEADLINE: <2013-08-23 Fri>
-****** DONE Playout view paginado
-DEADLINE: <2013-08-23 Fri>
-****** DONE Playout view no estaría eliminando elementos que salen de la vista
-DEADLINE: <2013-08-23 Fri>
-****** DONE Playout view muestra mal los clips cuando se hace lazy load
-DEADLINE: <2013-08-23 Fri>
-******* FIXED Corregido el scope de cambios a enter() y a update.
-DEADLINE: <2013-08-23 Fri>
-****** FIXED Plalist duration fails to update when lazy loading pieces
-DEADLINE: <2013-08-23 Fri>
-****** DONE Mongo Fulltext search
-DEADLINE: <2013-08-23 Fri>
-****** DONE No paginar Scheds en ScheduleView y PlayoutView
-DEADLINE: <2013-08-23 Fri>
-****** DONE Pasar alert de cambio de vista a modal
-DEADLINE: <2013-08-23 Fri>
-****** DONE Configurar nombres de las colecciones en la base de datos
-DEADLINE: <2013-08-23 Fri>
-****** DONE terminar los unbinds de todas las vistas
-DEADLINE: <2013-08-23 Fri>
-****** DONE mediaedit: lazy fetch de medias!
-DEADLINE: <2013-08-23 Fri>
-****** DONE mediaedit: killEditList: evitar borrar la vista para volver a crearla
-DEADLINE: <2013-08-23 Fri>
-****** DONE mediaedit: lazy fetch al mostrar la playlist (se está haciendo fetch antes de new MediaListView)
-DEADLINE: <2013-08-23 Fri>
-****** DONE Backbone relational
-DEADLINE: <2013-08-23 Fri>
-******* DONE Actualizar
-DEADLINE: <2013-08-23 Fri>
-******* DONE Considerar mantener relaciones por _id
-DEADLINE: <2013-08-23 Fri>
-******* DONE Evitar modificar pl que tiene occurrences
-DEADLINE: <2013-08-23 Fri>
-******* DONE Actualizar el mongo driver (Mosto)
-DEADLINE: <2013-08-23 Fri>
-******* DONE Revisar
-DEADLINE: <2013-08-23 Fri>
-****** DONE Colecciones dedicadas
-DEADLINE: <2013-08-23 Fri>
-******* DONE Usar distintas colecciones para las funcionalidades que las necesiten
-DEADLINE: <2013-08-23 Fri>
-******* WONTFIX Si hay colecciones compartidas evaluar cómo hacer para no arrastrar los filtros
-DEADLINE: <2013-08-23 Fri>
-****** DONE VisualSearch client side
-DEADLINE: <2013-08-23 Fri>
-******* DONE Averiguar que pasa al hacer SAVE con la lista filtrada por Knockback (Guarda todo!)
-DEADLINE: <2013-08-23 Fri>
-******* DONE Remove playlist filter when dragging medias
-DEADLINE: <2013-08-23 Fri>
-****** DONE Revisar router backbone
-DEADLINE: <2013-08-23 Fri>
-******* Los markers de config lo rompen
-DEADLINE: <2013-08-23 Fri>
-******* De hecho creo que ahora ni se puede salir de config :S
-DEADLINE: <2013-08-23 Fri>
-****** DONE Occurrence id a uuid
-DEADLINE: <2013-08-23 Fri>
-****** DONE Corregir funcionamiento de dummyRow
-DEADLINE: <2013-08-23 Fri>
-****** DONE Mensaje de resultado vacío para la búsqueda
-DEADLINE: <2013-08-23 Fri>
-****** DONE POV: cada tanto las sombras de pieces están mal distribuidas
-DEADLINE: <2013-08-23 Fri>
-******* Ocurre cuando se da de alta una nueva playlist a la que se le insertaron
-DEADLINE: <2013-08-23 Fri>
-los Pieces de forma desordenada, luego se graba y luego se schedulea en POV.
-****** DONE switchPlaylistEvent tiene bindeada una EditView vieja (?)
-DEADLINE: <2013-08-23 Fri>
-****** DONE Unbind en vistas PanelView y MasterView
-DEADLINE: <2013-08-23 Fri>
-****** DONE Cambiar Unbind por undelegateEvents en todas las Backbone.View's
-DEADLINE: <2013-08-23 Fri>
-****** DONE POV: anular la animación en el Unbind
-DEADLINE: <2013-08-23 Fri>
-
 ** Optimizando la productividad: Septiembre -> Noviembre
 A principio de Septiembre un contacto en CN23 se acerco con una problematica
 compleja: tenian un material deformado temporalmente por un software de
@@ -497,3 +381,6 @@ para la migración del Centro Gallego.
 
 Se analizó y recomendó soluciones de software libre para el software
 de gestión del centro, para poder salir del pleito con la empresa thinksoft.
+
+* ANEXO
+** Tareas realizadas por la cooperativa OpCode
