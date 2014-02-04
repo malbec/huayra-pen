@@ -431,7 +431,7 @@ Durante este encuentro intervinieron:
 Incentivamos la creación de una mutual como instancia asociativa de las
 redes comunitarias de la provincia de Córdoba.
 
-* Sistemas de Gestion Empresarial para coops electricas
+* Sistemas de Gestion Empresarial para cooperativas electricas
 Se armo una propuesta y un plan tecnico para la integracion de OpenERP como
 software de gestión y relacion con clientes en todas las cooperativas.
 
