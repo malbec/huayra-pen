@@ -420,19 +420,42 @@ redes comunitarias de la provincia de Córdoba.
 * Soporte Interno
 ** Tic-INAES
 Se genero un espacio de asistencia tecnologica con base en herramientas de
-Software Libre que cubre el soporte interno de INAES tanto como el Sector Cooperativo / PyME desde donde se establecieron
-vinculos y buenas practicas. Todos las soluciones desarrolladas desde este
-espacio se encuentran en repositorios públicos.
-*** Creación de listas de correo para la comunicación de equipos de trabajo de INAES
-*** Configuración a nivel servidor de un blog y capacitación al área de juventud para su uso.
-*** Instalación y configuración de un sistema para geo referencia (Por ejemplo para rehalizar el mapeo de los cortes de luz)
-*** Prueba piloto de migración a Software Libre en el área de promoción
-*** Asistencia a la dirección de Sistemas de INAES
+Software Libre que cubre el soporte interno de INAES tanto como el Sector
+Cooperativo / PyME desde donde se establecieron vinculos y buenas practicas.
+Todos las soluciones desarrolladas desde este espacio se encuentran en
+repositorios públicos.
 
-** 
+*** Instalación de una plataforma de gestión de proyectos
+Se instalo a pedido de la area de Facundo Rodano una plataforma de gestión
+de proyectos en redmine.tic.inaes.gob.ar para la coordinacion de los equipos
+territoriales.
+
+*** Creación de listas de correo para la comunicación de equipos de trabajo de INAES
+Se habilito un servidor de listas de coreos usado por el equipo de Facundo
+Rodano para la coordinacion de los agentes territoriaes.
+listas.tic.inaes.gob.ar esta abierta al resto del instituto para su uso.
+
+*** Configuración a nivel servidor de un blog y capacitación al área de juventud para su uso.
+A pedido de la comisión de juventud (y con el acorde de la area de Facundo
+Rodano), se instalo en tic.inaes.gob.ar una plataforma de blog propulsada
+por software libre: Wordpress.
+Se instalo la pagina y se capacito a miembros de la comisión para su
+administración.
+
+*** Instalación y configuración de un sistema para geo referencia 
+Se instalo en mapas.tic.inaes.gob.ar un sistema de geo-referencia y mapeo
+(ushahidi), para poder responder a requerimientos que venian de la area de
+prensa y para poder experimentar con varios mapeos (Por ejemplo para
+rehalizar el mapeo de los cortes de luz).
+
+*** Asistencia a la dirección de Sistemas de INAES
+Durante el año se acompaño a la dirección de sistemas del INAES en varios
+temas de administracion de servidores y de redes.
+
 ** Centro Gallego
 Se brindo asistencia técnica al equipo liderado por Oscar Slepoy, se dio
 soporte para analizar los contratos de proveedores y gestión de presupuestos
-para la migración del Centro Gallego
+para la migración del Centro Gallego.
 
-
+Se analizó y recomendó soluciones de software libre para el software
+de gestión del centro, para poder salir del pleito con la empresa thinksoft.
