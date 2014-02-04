@@ -445,6 +445,11 @@ Se instalo a pedido de la area de Facundo Rodano una plataforma de gestión
 de proyectos en redmine.tic.inaes.gob.ar para la coordinacion de los equipos
 territoriales.
 
+*** Instalación de un gestor de incidencias
+Se instalo para evaluar por la area de coordinacion territorial un gestor de
+incidencias. El mismo que se recomendo usar en 2012 (y se implemento con
+excito) en la area de informatica del instituto.
+
 *** Creación de listas de correo para la comunicación de equipos de trabajo de INAES
 Se habilito un servidor de listas de coreos usado por el equipo de Facundo
 Rodano para la coordinacion de los agentes territoriaes.
@@ -466,6 +471,10 @@ rehalizar el mapeo de los cortes de luz).
 *** Asistencia a la dirección de Sistemas de INAES
 Durante el año se acompaño a la dirección de sistemas del INAES en varios
 temas de administracion de servidores y de redes.
+
+*** Experimento de Software Libre en la area de Coordinacion de Promoción
+Se mantuvo la tecnologia instalada en 2012 y se procedio a la formacion de
+parte del equipo de soporte para dar respuestas en linux.
 
 ** Centro Gallego
 Se brindo asistencia técnica al equipo liderado por Oscar Slepoy, se dio
