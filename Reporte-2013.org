@@ -305,7 +305,10 @@ En febrero, se instalo en udm.tic.inaes.gob.ar un software de gestión de
 proyectos a pedido de la Usina de Medios. Nunca fue usado.
 
 En Marzo se decidio incubar un equipo tecnico para la asistencia de las
-problematicas relativas a medios en acorde con la Usina De Medios.
+problematicas relativas a medios en acorde con la Usina De Medios. El
+presupuesto original contenia un laboratorio de medios que se propuso montar
+a dentro de la Usina de Medios. Parece importante insistir la crucialidad de
+la prueba sobre casos reales de tecnologia destinadas a la area de Broadcasting.
 
 En abríl se hablo de pasar el pago de la OpCode (la cooperativa incubada) a
 Cooperar. Se charlo extensamente la relación con la usina de medios (mediada
@@ -326,9 +329,9 @@ la cooperativa imagica y UDM, nunca nos llego la documentación)
 A principios de Mayo se decidio conectar OpCode con TRAMA (como su
 equipo de desarrollo) y pedir formalmente financiamiento al INAES.
 
-2 meses despues (julio), con toda la documentación requerida y el pedido formal de
-financimiento (hecho en nombre de TRAMA) se dió marcha atrás sobre la
-inclusión de la cooperativa a la estructura de TRAMA.
+2 meses despues (julio), con toda la documentación requerida y el pedido
+formal de financimiento (hecho en nombre de TRAMA) se dió marcha atrás sobre
+la inclusión de la cooperativa a la estructura de TRAMA.
 
 En agosto, la cooperativa respondio en tiempo record a un pedido de
 asistencia técnica realizado por la Usina de Medios mont un servidor de
@@ -343,9 +346,10 @@ tanto a respuestas.
 
 Frente a la dificultad de trabajo con la UDM, en Septiembre se deribo la
 negociación a Facundo Rodano y Facundo Illanes que negociaron, entre otras
-cosas, que OpCode hiciera uso del
-laboratorio montado para Tecnopolis cuando la muestra terminase. Nunca tuvimos
-accesso al laboratorio ni respuesta a nuestros pedidos.
+cosas, que OpCode hiciera uso del laboratorio del gremio SAT-SAID, mas tarde
+del que se montó para Tecnopolis cuando la muestra terminase, finalmente del
+que la Usina tenia internamente. Nunca tuvimos accesso a ninguno de
+estoslaboratorio ni respuesta a nuestros pedidos.
 
 En la mitad de la resolucion del conflicto se resolvio comprar un
 laboratorio nuevo para responder a las necesidades del canal de la
