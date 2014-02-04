@@ -308,7 +308,8 @@ En Marzo se decidio incubar un equipo tecnico para la asistencia de las
 problematicas relativas a medios en acorde con la Usina De Medios. El
 presupuesto original contenia un laboratorio de medios que se propuso montar
 a dentro de la Usina de Medios. Parece importante insistir la crucialidad de
-la prueba sobre casos reales de tecnologia destinadas a la area de Broadcasting.
+la prueba sobre casos reales de tecnologia destinadas a la area de
+Broadcasting.
 
 En abríl se hablo de pasar el pago de la OpCode (la cooperativa incubada) a
 Cooperar. Se charlo extensamente la relación con la usina de medios (mediada
