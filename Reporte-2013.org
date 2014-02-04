@@ -440,6 +440,11 @@ electricas, y se reordeno la propuesta tomando en cuenta 2 cooperativas
 ejemplo, una chica y una grande para tener un panel mas amplio de
 experimentación.
 
+Se trabajo politicamente para acercarse del grupo de mantenimiento de
+OpenERP en argentina y particularmente de la cooperativa de trabajo moldeo
+que conduce el espacio. Fuimos invitados a varias reuniones de trabajo donde
+pudimos aportar experiencia en despliegue y gestion de proyectos open source.
+
 * Soporte Interno
 ** Tic-INAES
 Se genero un espacio de asistencia tecnologica con base en herramientas de
