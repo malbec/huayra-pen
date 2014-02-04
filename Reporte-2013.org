@@ -294,6 +294,7 @@ encaramos este proyecto en colaboracion con la empresa brazilera aovivo.tv
 y logramos responder en un par de dias a la elaboracion tecnica e
 implementacion de un servicio de streaming de calidad internacional.
 
+
 * relación con la Usina de Medios
 En Open Door se planteo un plan de trabajo conjunto en materias
 tecnologicas, se charlo con varios actores (ADECO, Colsecor, Radio Gráfica,
