@@ -431,7 +431,15 @@ Durante este encuentro intervinieron:
 Incentivamos la creación de una mutual como instancia asociativa de las
 redes comunitarias de la provincia de Córdoba.
 
-* ERP
+* Sistemas de Gestion Empresarial para coops electricas
+Se armo una propuesta y un plan tecnico para la integracion de OpenERP como
+software de gestión y relacion con clientes en todas las cooperativas.
+
+Charlando con Pablo Otero, se decidio enfocar el trabajo a las cooperativas
+electricas, y se reordeno la propuesta tomando en cuenta 2 cooperativas
+ejemplo, una chica y una grande para tener un panel mas amplio de
+experimentación.
+
 * Soporte Interno
 ** Tic-INAES
 Se genero un espacio de asistencia tecnologica con base en herramientas de
