@@ -294,10 +294,10 @@ encaramos este proyecto en colaboracion con la empresa brazilera aovivo.tv
 y logramos responder en un par de dias a la elaboracion tecnica e
 implementacion de un servicio de streaming de calidad internacional.
 
-** relación opcode <-> Usina de Medios
-En abríl se hablo de pasar el pago de la OpCode (la cooperativa incubada) a Cooperar. Se charlo
-extensamente la relación con la usina de medios (mediada por Facundo
-Rodano), y se pacto que la UDM tenia que:
+* relación con la Usina de Medios
+En abríl se hablo de pasar el pago de la OpCode (la cooperativa incubada) a
+Cooperar. Se charlo extensamente la relación con la usina de medios (mediada
+por Facundo Rodano), y se pacto que la UDM tenia que:
 
 + Incluir en su relevamiento cuestiones tecnologicas en via de un
   diagnostico completo.
@@ -313,7 +313,6 @@ la cooperativa imagica y UDM, nunca nos llego la documentación)
 
 A principios de Mayo se decidio conectar OpCode con TRAMA (como su
 equipo de desarrollo) y pedir formalmente financiamiento al INAES.
-
 
 2 meses despues (julio), con toda la documentación requerida y el pedido formal de
 financimiento (hecho en nombre de TRAMA) se dió marcha atrás sobre la
