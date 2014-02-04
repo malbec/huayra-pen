@@ -295,6 +295,18 @@ y logramos responder en un par de dias a la elaboracion tecnica e
 implementacion de un servicio de streaming de calidad internacional.
 
 * relación con la Usina de Medios
+En Open Door se planteo un plan de trabajo conjunto en materias
+tecnologicas, se charlo con varios actores (ADECO, Colsecor, Radio Gráfica,
+etc…) comunicandose que la articulación politica se haría en la Usina, que
+hasta el día de hoy no parece haber podido seguir la gestion para volver a
+convocarnos.
+
+En febrero, se instalo en udm.tic.inaes.gob.ar un software de gestión de
+proyectos a pedido de la Usina de Medios. Nunca fue usado.
+
+En Marzo se decidio incubar un equipo tecnico para la asistencia de las
+problematicas relativas a medios en acorde con la Usina De Medios.
+
 En abríl se hablo de pasar el pago de la OpCode (la cooperativa incubada) a
 Cooperar. Se charlo extensamente la relación con la usina de medios (mediada
 por Facundo Rodano), y se pacto que la UDM tenia que:
