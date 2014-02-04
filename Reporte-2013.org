@@ -383,4 +383,4 @@ Se analizó y recomendó soluciones de software libre para el software
 de gestión del centro, para poder salir del pleito con la empresa thinksoft.
 
 * ANEXO
-** Tareas realizadas por la cooperativa OpCode
+
