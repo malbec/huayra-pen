@@ -343,7 +343,7 @@ Todos las soluciones desarrolladas desde este espacio se encuentran en
 repositorios públicos.
 
 *** Instalación de una plataforma de gestión de proyectos
-Se instalo a pedido de la area de Facundo Rodano una plataforma de gestión
+Se instalo a pedido del área de Facundo Rodano una plataforma de gestión
 de proyectos en redmine.tic.inaes.gob.ar para la coordinación de los equipos
 territoriales.
 
