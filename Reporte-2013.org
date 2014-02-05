@@ -2,59 +2,63 @@
 
 * Incubación de OpCode
 La incubación de la cooperativa de trabajo OpCode fue una
-de las tareas que consumio la mayor cantidad de mi tiempo el año pasado. La
+de las tareas que consumió la mayor cantidad de mi tiempo el año pasado. La
 misma resulto ser un espacio extramadamente interesante, donde todos
 aprendimos mucho.
 
 La metodología usada fue intentar ir desde un reglamento interno estandard
 de una cooperativa de trabajo hasta la implementación de una metodología
 importada del mundo de las 'startups' (empresas de tecnología de alta
-productividad), operando asambleariamente y usando el control del
+productividad), trabajando asambleariamente y usando el control del
 financiamiento como última herramienta de presión.
 
 ** Bootstrap: Marzo -> Mayo
-El grupo original fue compuesto por 7 personas:
- + 2 parte de una cooperativa de trabajo especialisada en tecnologias de video.
- + 2 parte de una cooperativa de trabajo en genesis sin negocio.
- + 2 freelancers
- + 1 originado de la CEB con quien ya veniamos trabajando en 2012.
+El grupo original estuvo compuesto por 7 personas:
+ + Dos eran parte de una cooperativa de trabajo especializada en tecnologías de video.
+ + Dos eran parte de una cooperativa de trabajo en formación sin negocio.
+ + Dos trabajadores independientes.
+ + Uno originado de la CEB con quien ya veniamos trabajando desde 2012.
 
-rapidamente fue claro que las motivaciones y la implicación al trabajo eran
-muy desparejas, y 3 integrantes renunciaron mas o menos voluntariamente en
-los primeros 3 meses. Lo que permitio aprender de los errores y emplear
-mejor sus remplazos.
+Ráapidamente fue claro que las motivaciones y la implicación al trabajo eran
+muy desparejas, y en el transcurso de los tres primeros meses tres
+integrantes renunciaron mas o menos voluntariamente. Esto permitió aprender
+de los errores y emplear mejor sus remplazos.
 
-+ *PROBLEMA:* intereses distintos adentro del grupo original, disparidad de
-  motivación y resultado.
++ *PROBLEMA:* intereses distintos dentro del grupo original, disparidad de
+  motivación y resultados.
 + *RESULTADO:* necesidad de separarse de algunos colaboradores.
-+ *SOLUCIÓN:* definir claramente en el estatuto los objetivos y los limites.
++ *SOLUCIÓN:* definir claramente en el estatuto los objetivos y los límites.
 
-La despida de los compañeros levanto otro problema que me parece mas
+La renuncia de los compañeros genero otro problema que me parece mas
 profundo, se discutio en asamblea como se iba a retribuir trabajo
-sub-optimo. El antagonismo creado por la estructura de incubacion llevo esa
-decisión a ser muy a favor de los laxos. Lo que, hoy analizo, llevo a una
-'cultura de empresa' que jugo encontra de los intereses cooperativos.
+sub-optimo. El antagonismo creado por la estructura de incubación hizo que
+la decisión favoreciera a los laxos.
+
+Pasado el tiempo veo que esta situación genero una 'cultura de empresa' que
+jugo contra los intereses cooperativos.
+
 
 + *PROBLEMA:* horizontalidad extrema.
 + *RESULTADO:* decisiones de asamblea en contra de la estructura global.
-+ *SOLUCIÓN:* jerarquia de poder  clara en ciertos asuntos.
++ *SOLUCIÓN:* jerarquia de poder clara en ciertos asuntos.
 
-La fase inicial fue muy caótica, mucha incertitud rodeaba el proyecto, los
-pagos se retrazaban, pero lo que mas notablemente daño la productividad fue
-la falta de espacio físico estable: La usina de medios se comprometio a
-abrirnos un espacio de oficinas, pero nunca llego, por ende, como solucion
-transitoria, usamos la sala de reunión de la conti, ruidosa y transitada.
+La fase inicial fue muy caótica, el proyecto estaba rodeado de mucha
+incertidumbre y los pagos se retrasaban. Un problema adicional, que a mi
+criterio fue lo que mas daño la productividad, estuvo marcado por la falta
+de espacio físico estable: Si bien la Usina de Medios se comprometió a
+brindarle un espacio de oficina a la cooperativa que nunca se concreto y como solución
+transitoria se usó la sala de reunión de la conti, ruidosa y transitada.
 
-+ *PROBLEMA:* espacio físico inadaptado a la actividad.
++ *PROBLEMA:* carencia de un espacio físico acorde a la actividad.
 + *RESULTADO:* dificultades de concentración, baja de la productividad.
 + *SOLUCIÓN:* asegurar el espacio físico antes de empezar.
 
-Tecnicamente, se probo dar mucha libertad de implementación, lo que resulto
-en diseño sub-optimo, desgraciadamente las faltas organizativa consumieron
+Técnicamente, se probo dar mucha libertad de implementación, resultando en
+diseños sub-optimos, los cuales, sumados a faltas organizativas consumieron
 mucho tiempo.
 
 + *PROBLEMA:* dificultad en detectar diseños no aptos.
-+ *RESULTADO:* un cantidad importante de trabajo vano.
++ *RESULTADO:* un cantidad importante de trabajo en vano.
 + *SOLUCIÓN:* medir rigourosamente, no creer los Curriculms.
 
 En el fin del periodo se implemento la metodología de trabajo dicha 'Agile',
@@ -64,15 +68,15 @@ https://github.com/inaes-tic/SCRUMM
 el metodo se resume de la siguiente forma:
 1. se presenta al equipo los objetivos grandes a largo plazo.
 2. se determina entre todos la dificultad de los objetivos de manera
-  abstracta (i.e. el objetivo #1 es 3 veces mas dificil que el objetivo #4).
-3. se calcula el tiempo impartido a la realizacion de objetivos ponderados
+  abstracta (i.e. el objetivo #1 es 3 veces mas difícil que el objetivo #4).
+3. se calcula el tiempo impartido a la realización de objetivos ponderados
   por el tiempo final del proyecto y los coeficientes establecidos en la
    etapa anterior.
 4. se recortan los objetivos en sub-objetivos realizables en 1 semana.
 
 después, cada semana, el responsable de SCRUM reparte 1 objetivo semanal por
 asociado, y 3 veces por semana verifica con cada uno sus avances,
-problematicas encontradas y pone al dia la planificación.
+problemas encontrados y pone al dia la planificación.
 
 este metodo nos resulto extremadamente eficiente y compatible con los
 principios cooperativos.
@@ -80,139 +84,138 @@ principios cooperativos.
 ** Conformación formal de la cooperativa: Junio -> Agosto
 Resueltos los problemas de personal, se contrato una persona para llevar a
 delante la parte administrativa. Esto permitio descargar a los
-desarrolladores que multiplicaron su productividad.
+desarrolladores de tareas administrativas y multiplicar su productividad.
 
-Independientemente, notamos que el proceso de creación de cooperativa
-(apertura de cuenta, AFIP, ANSES, INAES) requeria la presencia del
+Independientemente, notamos que el proceso de creación de una cooperativa
+(apertura de cuenta, AFIP, ANSES, INAES) requería la presencia del
 directorio de la cooperativa en varios momentos no conjugables, lo que en
-nuestro caso (mucho trabajo remoto, associados repartidos desde adrogue
-hasta tigre) requeria de varios dias donde la cooperativa se paralizaba para
-ir al banco credicoop a buscar un papel que no aparecia.
+nuestro caso (mucho trabajo remoto, asociados repartidos desde adrogue
+hasta tigre) generaba varios días donde la cooperativa se paralizaba para
+ir al banco credicoop a buscar un papel que no aparecía.
 
 + *PROBLEMA:* necesidad de presencia física para tramites de creación de
   cooperativa.
 + *RESULTADO:* frustración y baja de productividad en el grupo humano.
-+ *SOLUCIÓN:* digitalización de tramites, firma electronica.
++ *SOLUCIÓN:* digitalización de tramites, firma electrónica.
 
 Junio tambien marco un paso de independencia para el grupo cooperativo
-cuando los associados empezaron a administrar ellos mismos las herramientas
-de seguimiento de proyecto establecidas (SCRUM), effectivamente el
+cuando los asociados empezaron a administrar ellos mismos las herramientas
+de seguimiento de proyecto establecidas (SCRUM).En concreto el
 secretario de la cooperativa estuvo a cargo de la tarea que logró
 implementar solo desde fines de julio.
 
 *** Canal universitario de la UBA.
-en Junio nos convocó el rectorado de la UBA para la creación de su canal
-universitario. Este primer cliente marco la agenda tecnica de la
+En Junio nos convocó el rectorado de la UBA para la creación de su canal
+universitario. Este primer cliente marco la agenda técnica de la
 cooperativa.
 
 los requerimientos de la Universidad nos hicieron reordenar recursos del
-Playout (nuestro proyecto central hasta entonces) en direccion de un
+Playout (nuestro proyecto central hasta entonces) en dirección de un
 prototipo de automatizador de camaras (Tetra) que teniamos pausado.
 
 La fecha de salida proyectada del canal era el 31 de Agosto y todos los
-elementos de la cooperativa trabajaron con increible empeño para llegar a
-estabilizar y probar cientificamente la solución para esa fecha.
+socios de la cooperativa trabajaron con increible empeño para llegar a
+estabilizar y probar científicamente la solución para esa fecha.
 
-Desgraciadamente, por internas universitarias, el canal no vio el dia, y
-nunca se pago el desarrollo presupuestado. Igual, la plataforma se vío
+Desgraciadamente, por internas universitarias, el canal no vio el día, y
+nunca se pago el desarrollo presupuestado.  la plataforma se vío
 muy beneficiada por el ezfuerzo realizado para llegar a la fecha.
 
 + *PROBLEMA:* falta de claridad en la contratación, si bien ganamos una
-  oferta, no teniamos ningún documento oficial demostrandolo.
+  oferta, no teníamos ningún documento oficial demostrandolo.
 + *RESULTADO:* trabajo no pago
 + *SOLUCIÓN:* más rigor a la hora de formalizar una contratación.
 
-aca un resumen del trabajo realizado en este marco:
+Rresumen del trabajo realizado en este marco:
 ** Optimizando la productividad: Septiembre -> Noviembre
-A principio de Septiembre un contacto en CN23 se acerco con una problematica
-compleja: tenian un material deformado temporalmente por un software de
-automacion de camaras que habian usado, y necesitaban evaluar la posibilidad
+A principio de Septiembre un contacto en CN23 se acerco con una problemática
+compleja: tenían un material deformado temporalmente por un software de
+automación de camaras que habían usado, y necesitaban evaluar la posibilidad
 de repararlo.
 
-usando el estado del arte de la investigación cientifica logramos (en 1
-semana) proveer una prueba de concepto de un metodo prometedor que
-reconstruia algoritmicamente imagenes perdidas por el software comercial que
-habian usado.
+Usando el estado del arte de la investigación científica, en una semana, se
+logro proveer una prueba de concepto de un método prometedor que reconstruía
+algoritmicamente imágenes perdidas por el software comercial usado por CN23.
 
-a raiz de esos resultados CN23 contrato a la cooperativa para probar la
+En base a estos resultados CN23 contrato a la cooperativa para probar la
 reparación de 6 capitulos sosteniendo la investigación y usando recursos
-artisticos para contrarestar las limitaciones del algoritmo que se estaba
+artísticos para contrarestar las limitaciones del algoritmo que se estaba
 desarrollando.
 
-este trabajo puso una gigantesca pression sobre el equipo artistico que
-resulto en la renuncia de una associada, y la realizacion por el resto de la
-cooperativa de la necesidad de:
+Este trabajo puso una presión muy grande sobre el equipo artístico que
+resulto en la renuncia de una asociada y permitió que el resto de la
+cooperativa viera la necesidad de:
 + estabilidad y confiabilidad
 + mejorar la productividad
-+ mejorar la comunicacion y coordinacion de tareas.
++ mejorar la comunicación y coordinación de tareas.
 
-lo que abrio una charla que resulto en la escritura de un reglamento interno
+Esto abrió una charla que resulto en la escritura de un reglamento interno
 marcando limites claros a la falta de productividad y estabilidad.
 
-a nivel de apertura, este perido habrio charlas comerciales con:
-+ educ.ar (deoportv) se charlo sobre la implementacion de una solucion de subtitulado
-  oculto (CC),el mismo sigue en discucion. Se diseño una solucion de transporte de
-  subtitutlado de baja latencia para eventos deportivos.
+A nivel de apertura, este perido habrio charlas comerciales con:
++ educ.ar (deoportv) se charlo sobre la implementación de una solución de subtitulado
+  oculto (CC) que aún sigue en discusión.
+ Se diseño una solucion de transporte de  subtitulado de baja latencia para eventos deportivos.
 
-+ CONADIS para la implementacion de una solucion de subtitulado ocultos,
-  sigue en discucion. se diseño una solucion de tipo estenografico con
++ CONADIS por la implementaci+on de una solución de
+  subtitulado oculto que aún sigue en discusión. Se diseño una solución de tipo estenográfico con
   hardware libre producido en argentina.
 
-+ EUDEBA para la implementacion de una solucion de ingesta, sigue en
-  discucion. se diseño e implemento una prueba de concepto de servidor de
++ EUDEBA por la implementación de una solucion de ingesta que aún sigue en
+  discusión. Se diseño e implemento una prueba de concepto de servidor de
   ingesta innovador.
 
 ** Diciembre ->  Actualidad
-A principios diciembre se decidio apoyar la creacion del canal de la
-cooperativa padre mugica en la villa 31. en la espera del presupuesto pasado
-(que ya esta llegando 2 meses mas tarde que lo pactado) la cooperativa se
-enfoco en mas pruebas formales de sus soluciones (ver 'relacion opcode <->
-usina de medios' para una discucion sobre lo que se puede o no probar sin el
+A principios diciembre se decidió apoyar la creación del canal de la
+cooperativa padre mugica en la villa 31. En la espera del presupuesto pasado
+(que ya esta llegando dos meses más tarde que lo pactado) la cooperativa se
+enfoco en realizar más pruebas formales de sus soluciones (ver 'relacion opcode <->
+usina de medios' para una discusión sobre lo que se puede o no probar sin el
 material pedido).
 
-En la mitad de esta segunda fase de elaboracion de tests fuimos contactados
-por la defensoria del publico para realizar el streaming de su evento de
-innauguracion.
+En la mitad de esta segunda fase de elaboración de tests fuimos contactados
+por la defensoría del público para realizar el streaming de su evento de
+inauguración.
 
-encaramos este proyecto en colaboracion con la empresa brazilera aovivo.tv
-y logramos responder en un par de dias a la elaboracion tecnica e
-implementacion de un servicio de streaming de calidad internacional.
+Encaramos este proyecto en colaboracion con la empresa brazilera aovivo.tv
+y logramos responder en un par de días a la elaboración técnica e
+implementación de un servicio de streaming de calidad internacional.
 
 
 * relación con la Usina de Medios
-En Open Door se planteo un plan de trabajo conjunto en materias
-tecnologicas, se charlo con varios actores (ADECO, Colsecor, Radio Gráfica,
-etc…) comunicandose que la articulación politica se haría en la Usina, que
-hasta el día de hoy no parece haber podido seguir la gestion para volver a
+En Open Door se planteo un plan de trabajo conjunto en materia
+tecnológica, se charlo con varios actores (ADECO, Colsecor, Radio Gráfica,
+etc…) comunicandose que la articulación política se haría desde la Usina, que
+hasta el día de hoy no parece haber podido seguir la gestión para volver a
 convocarnos.
 
 En febrero, se instalo en udm.tic.inaes.gob.ar un software de gestión de
 proyectos a pedido de la Usina de Medios. Nunca fue usado.
 
-En Marzo se decidio incubar un equipo tecnico para la asistencia de las
-problematicas relativas a medios en acorde con la Usina De Medios. El
+En Marzo se decidio incubar un equipo técnico para la asistencia de las
+problemáticas relativas a medios en acuerdo con la Usina De Medios. El
 presupuesto original contenia un laboratorio de medios que se propuso montar
-a dentro de la Usina de Medios. Parece importante insistir la crucialidad de
-la prueba sobre casos reales de tecnologia destinadas a la area de
+a dentro de la Usina de Medios. Es importante destacar este punto, ya que
+las pruebas sobre casos reales de la tecnológia destinada al área de
 Broadcasting.
 
-En abríl se hablo de pasar el pago de la OpCode (la cooperativa incubada) a
+En abríl se hablo de pasar el pago deOpCode (la cooperativa incubada) a
 Cooperar. Se charlo extensamente la relación con la usina de medios (mediada
-por Facundo Rodano), y se pacto que la UDM tenia que:
+por Facundo Rodano), y se pacto que la UDM tenía que:
 
-+ Incluir en su relevamiento cuestiones tecnologicas en via de un
++ Incluir en su relevamiento cuestiones tecnológicas en vía de un
   diagnostico completo.
-+ Acercar 3 cooperativas necesitadas de tecnologias.
-+ Facilitar el estudio de factivilidad del canal que hizo la UDM
++ Acercar 3 cooperativas necesitadas de tecnologías.
++ Facilitar el estudio de factivilidad realiado sobre el canal.
 
 Por el otro lado, se pacto no contactar directamente  con las cooperativas
 (i.e. usar la UDM como articulador) y estar a disposición de sus necesidades
-tecnicas.
+técnicas.
 
 (no se incluyeron las preguntas, y se acerco unicamente a Pablo Testoni de
-la cooperativa imagica y UDM, nunca nos llego la documentación)
+la cooperativa imagica y UDM, nunca nos facilito la documentación)
 
-A principios de Mayo se decidio conectar OpCode con TRAMA (como su
+A principios de Mayo se decidio conectar a OpCode con TRAMA (como su
 equipo de desarrollo) y pedir formalmente financiamiento al INAES.
 
 2 meses despues (julio), con toda la documentación requerida y el pedido
@@ -220,9 +223,9 @@ formal de financimiento (hecho en nombre de TRAMA) se dió marcha atrás sobre
 la inclusión de la cooperativa a la estructura de TRAMA.
 
 En agosto, la cooperativa respondio en tiempo record a un pedido de
-asistencia técnica realizado por la Usina de Medios mont un servidor de
-archivos (FTP) para la cobertura de la audiencia de la Defensoria del
-Publico. Los recursos a nivel eedor de internet se consiguieron ad honorem
+asistencia técnica realizado por la Usina de Medios montando un servidor de
+archivos (FTP) para la cobertura de la audiencia de la Defensoría del
+Publico. Los recursos a nivel proveedor de internet se consiguieron ad honorem
 vía la agrupación Software Libre con CFK. Se pidio en retribución un par de
 notas de video para promocionar OpCode. Hasta ahora se esperan esas notas.
 Pese a no tener ningún tipo de respuesta luego de esta asistencia en
@@ -235,76 +238,77 @@ negociación a Facundo Rodano y Facundo Illanes que negociaron, entre otras
 cosas, que OpCode hiciera uso del laboratorio del gremio SAT-SAID, mas tarde
 del que se montó para Tecnopolis cuando la muestra terminase, finalmente del
 que la Usina tenia internamente. Nunca tuvimos accesso a ninguno de
-estoslaboratorio ni respuesta a nuestros pedidos.
+estos laboratorios, ni respuesta a nuestros pedidos.
 
-En la mitad de la resolucion del conflicto se resolvio comprar un
+En la mitad de la resolución del conflicto se resolvio comprar un
 laboratorio nuevo para responder a las necesidades del canal de la
 cooperativa padre mugica en la villa 31. El presupuesto se presento a fines
 de noviembre, tenia que ejecutarse en Diciembre y seguimos a la espera de
 alguna respuesta desde la Usina de Medios.
 
 En conclusión, nuestro trabajo se vio gravemente dificultado por la falta de
-equipamiento (necesario para probar tecnologia en el ambiente multimedia) y
-la caotica previsibilidad financiera. Ante esta situación cabe evaluar si
+equipamiento (necesario para probar tecnología en el ambiente multimedia) y
+la caótica previsibilidad financiera. Ante esta situación cabe evaluar si
 Usina de Medios  o Cooperar eran los nodos de articulación indicados.
 
 * Sector medios
 ** AFSCA
 En Febrero tuvimos una primera instancia de dialogo con el sector de
 Proyectos especiales. Este canal se corto cuando la Usina de Medios nos
-requirio ser el unico actor en conversacion con el AFSCA.
+requirió ser el único actor en conversacion con el AFSCA.
  :ejemplo de temas conversados con AFSCA
 ** Colsecor
-Se reporto a Usina de Medios que estaban construyendo una solucion
+Se reporto a Usina de Medios que estaban construyendo una solución
 privativa, en IPTV/OTT (un tema que se puede tomar sin problemas con Software
-Libre) y que este camino seria un grave y peligrosoo paso hacia atras, así
+Libre) y que este camino seria un grave y peligroso paso hacia atrás, así
 como perder la relación con Colsecor. la UDM tomo la coordinación del tema y
 no juzgo necesario incluir a nuestra comisión en la charla iniciada.
 
 ** ADECO
-En el marco de las mesas de trabajo de Opendor se les ofrecio ayudar
-tecnicamente ( Enero/Febrero), esta operción fue bloqueada
+En el marco de las mesas de trabajo de Opendor se les ofrecio ayudarlos
+técnicamente ( Enero/Febrero), esta operación fue bloqueada
 por la Usina de Medios. ADECO tiene problemas que podemos solucionar muy
-facilmente, y en poco tiempo (streaming, conversion,...) y que se pueden usar como gancho
+facilmente, y en poco tiempo (streaming, conversión,...) y que se pueden usar como gancho
 hacia el resto del sector.
 
 ** WallKin Tun TV
 Se siguio asesorando y conteniendo el desarrollo de WallKinTun TV.
 Principalmente a traves del compañero en territorio que estuvo cubriendo el
-rol de direcotr tecnico del canal.
+rol de direcotr técnico del canal.
 
 ** Malbec & Open Broadcast
 Se participo en un espacio cybernetico que nuclea profesionales de
-tecnologia libre para los medios (el grupo Google+ Open Broadcast) donde
-logramos la conducición (estuvimos marcando agenda desde Agosto) charlando
-las necesidades y puntos de convergencias de tecnologias libres para los
+tecnología libre para los medios (el grupo Google+ Open Broadcast) donde
+logramos la conducción (estuvimos marcando agenda desde Agosto) charlando
+las necesidades y puntos de convergencias de tecnológias libres para los
 medios.
 
 Nucleamos los distintos actores al rededor de la idea de 'Malbec', un sello
-de calidad y apertura para tecnologias de Broadcasting.
+de calidad y apertura para tecnologías de Broadcasting.
 
-A traves de Open BroadCast y Malbec, logramos la atencion de profesionales
-reconocidos de la BBC, la television publica sueca, del ministerio de
-cultura de dinamarca, de canales comunitarios a traves del mundo y de
+A traves de Open BroadCast y Malbec, logramos la atención de profesionales
+reconocidos de la BBC, la televisión publica sueca, del ministerio de
+cultura de Dinamarca, de canales comunitarios a traves del mundo y de
 empresas de medios libres con las cuales mantenemos estrechas relaciones.
 
 notablemente, cubrimos via la cooperativa Opcode y una empresa brazilera
-(aovivo.net) la demanda de streaming que emitio la defensoria del publico.
+(aovivo.net) la demanda de streaming que emitió la inauguración de la casa
+de la Defensoría del público.
 
-** Asesoria
-A fines de diciembre empezamos una muy satisfactoria relacion de
+** Asesoría
+A fines de diciembre empezamos una muy satisfactoria relación de
 asesoramiento con la cooperativa Proyecto Coopar, que acompañamos en temas
 de seguridad de datos y publicación web. Semana a semana estrechamos nuestra
-relacion y logramos avanzar soluciones tecnologicas reales.
+relación y logramos avanzar soluciones tecnológicas reales.
 
 * Redes Libres
-Se avanzo un modelo de desarrollo de redes libres con integracion
-territorial y politica a travez de una charla informativa para sensibilizar
-a los agentes territoriales sobre la importancia estrategica de la gestion
+Se avanzo sobre un modelo de desarrollo de redes libres con integración
+territorial y política a través de una charla informativa para sensibilizar
+a los agentes territoriales sobre la importancia estratégica de la gestión
 de redes por el sector de la economia solidaria en pos de darles las
-herramientas necesarias a la identificación de los grupos humanos en sus
+herramientas necesarias para la identificación de los grupos humanos en sus
 sectores que podrian estar en posición de participar en un experimento de
-despligue de una red de gestion cooperativa.
+despligue de una red de gestión cooperativa.
 
 Durante este encuentro intervinieron:
 
@@ -316,23 +320,23 @@ Incentivamos la creación de una mutual como instancia asociativa de las
 redes comunitarias de la provincia de Córdoba.
 
 * Sistemas de Gestion Empresarial para cooperativas electricas
-Se armo una propuesta y un plan tecnico para la integracion de OpenERP como
-software de gestión y relacion con clientes en todas las cooperativas.
+Se armo una propuesta y un plan técnico para la integración de OpenERP como
+software de gestión y relación con clientes en todas las cooperativas.
 
 Charlando con Pablo Otero, se decidio enfocar el trabajo a las cooperativas
-electricas, y se reordeno la propuesta tomando en cuenta 2 cooperativas
+eléctricas, y se reordeno la propuesta tomando en cuenta 2 cooperativas
 ejemplo, una chica y una grande para tener un panel mas amplio de
 experimentación.
 
-Se trabajo politicamente para acercarse del grupo de mantenimiento de
-OpenERP en argentina y particularmente de la cooperativa de trabajo moldeo
+Se trabajo políticamente para acercarse del grupo de mantenimiento de
+OpenERP en argentina y particularmente de la cooperativa de trabajo Moldeo
 que conduce el espacio. Fuimos invitados a varias reuniones de trabajo donde
-pudimos aportar experiencia en despliegue y gestion de proyectos open
+pudimos aportar experiencia en despliegue y gestión de proyectos open
 source.
 
 * Soporte Interno
 ** Tic-INAES
-Se genero un espacio de asistencia tecnologica con base en herramientas de
+Se genero un espacio de asistencia tecnológica con base en herramientas de
 Software Libre que cubre el soporte interno de INAES tanto como el Sector
 Cooperativo / PyME desde donde se establecieron vinculos y buenas practicas.
 Todos las soluciones desarrolladas desde este espacio se encuentran en
@@ -340,21 +344,21 @@ repositorios públicos.
 
 *** Instalación de una plataforma de gestión de proyectos
 Se instalo a pedido de la area de Facundo Rodano una plataforma de gestión
-de proyectos en redmine.tic.inaes.gob.ar para la coordinacion de los equipos
+de proyectos en redmine.tic.inaes.gob.ar para la coordinación de los equipos
 territoriales.
 
 *** Instalación de un gestor de incidencias
-Se instalo para evaluar por la area de coordinacion territorial un gestor de
+Se instalo para su evaluación por el área de coordinación territorial un gestor de
 incidencias. El mismo que se recomendo usar en 2012 (y se implemento con
-excito) en la area de informatica del instituto.
+éxito) en el área de informática del instituto.
 
 *** Creación de listas de correo para la comunicación de equipos de trabajo de INAES
 Se habilito un servidor de listas de coreos usado por el equipo de Facundo
-Rodano para la coordinacion de los agentes territoriaes.
-listas.tic.inaes.gob.ar esta abierta al resto del instituto para su uso.
+Rodano para la coordinación de los agentes territoriaes.
+listas.tic.inaes.gob.ar (este recurso esta abierto al resto del instituto para su uso).
 
 *** Configuración a nivel servidor de un blog y capacitación al área de juventud para su uso.
-A pedido de la comisión de juventud (y con el acorde de la area de Facundo
+A pedido de la comisión de juventud (y con el acuerdo del área de Facundo
 Rodano), se instalo en tic.inaes.gob.ar una plataforma de blog propulsada
 por software libre: Wordpress.
 Se instalo la pagina y se capacito a miembros de la comisión para su
@@ -362,16 +366,16 @@ administración.
 
 *** Instalación y configuración de un sistema para geo referencia 
 Se instalo en mapas.tic.inaes.gob.ar un sistema de geo-referencia y mapeo
-(ushahidi), para poder responder a requerimientos que venian de la area de
+(ushahidi), para poder responder a requerimientos que venían del área de
 prensa y para poder experimentar con varios mapeos (Por ejemplo para
 rehalizar el mapeo de los cortes de luz).
 
 *** Asistencia a la dirección de Sistemas de INAES
 Durante el año se acompaño a la dirección de sistemas del INAES en varios
-temas de administracion de servidores y de redes.
+temas de administración de servidores y de redes.
 
-*** Experimento de Software Libre en la area de Coordinacion de Promoción
-Se mantuvo la tecnologia instalada en 2012 y se procedio a la formacion de
+*** Experimento de Software Libre en el área de Coordinación de Promoción
+Se mantuvo la tecnología instalada en 2012 y se procedio a la formación de
 parte del equipo de soporte para dar respuestas en linux.
 
 ** Centro Gallego
@@ -379,8 +383,7 @@ Se brindo asistencia técnica al equipo liderado por Oscar Slepoy, se dio
 soporte para analizar los contratos de proveedores y gestión de presupuestos
 para la migración del Centro Gallego.
 
-Se analizó y recomendó soluciones de software libre para el software
-de gestión del centro, para poder salir del pleito con la empresa thinksoft.
+Se analizó y recomendó soluciones de software libre de gestión, para poder salir del pleito con la empresa thinksoft.
 
 * ANEXO
 ##+INCLUDE: "~/src/TV/SCRUMM/SCRUM.org" :minlevel 1
