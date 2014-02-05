@@ -12,7 +12,7 @@ importada del mundo de las 'startups' (empresas de tecnología de alta
 productividad), trabajando asambleariamente y usando el control del
 financiamiento como última herramienta de presión.
 
-** Bootstrap: Marzo -> Mayo
+** Bootstrap: Marzo → Mayo
 El grupo original estuvo compuesto por 7 personas:
  + Dos eran parte de una cooperativa de trabajo especializada en tecnologías de video.
  + Dos eran parte de una cooperativa de trabajo en formación sin negocio.
@@ -81,7 +81,7 @@ problemas encontrados y pone al dia la planificación.
 este metodo nos resulto extremadamente eficiente y compatible con los
 principios cooperativos.
 
-** Conformación formal de la cooperativa: Junio -> Agosto
+** Conformación formal de la cooperativa: Junio → Agosto
 Resueltos los problemas de personal, se contrato una persona para llevar a
 delante la parte administrativa. Esto permitio descargar a los
 desarrolladores de tareas administrativas y multiplicar su productividad.
@@ -127,7 +127,7 @@ muy beneficiada por el ezfuerzo realizado para llegar a la fecha.
 + *SOLUCIÓN:* más rigor a la hora de formalizar una contratación.
 
 Rresumen del trabajo realizado en este marco:
-** Optimizando la productividad: Septiembre -> Noviembre
+** Optimizando la productividad: Septiembre → Noviembre
 A principio de Septiembre un contacto en CN23 se acerco con una problemática
 compleja: tenían un material deformado temporalmente por un software de
 automación de camaras que habían usado, y necesitaban evaluar la posibilidad
@@ -165,11 +165,11 @@ A nivel de apertura, este perido habrio charlas comerciales con:
   discusión. Se diseño e implemento una prueba de concepto de servidor de
   ingesta innovador.
 
-** Diciembre ->  Actualidad
+** Diciembre →  Actualidad
 A principios diciembre se decidió apoyar la creación del canal de la
 cooperativa padre mugica en la villa 31. En la espera del presupuesto pasado
 (que ya esta llegando dos meses más tarde que lo pactado) la cooperativa se
-enfoco en realizar más pruebas formales de sus soluciones (ver 'relacion opcode <->
+enfoco en realizar más pruebas formales de sus soluciones (ver 'relacion opcode <→
 usina de medios' para una discusión sobre lo que se puede o no probar sin el
 material pedido).
 
