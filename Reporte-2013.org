@@ -328,7 +328,8 @@ Durante este encuentro intervinieron:
 | Julian Santa Cruz: | Fundador de la seccion de redes de Sonytel y Interplay.        |
 
 Incentivamos la creación de una mutual como instancia asociativa de las
-redes comunitarias de la provincia de Córdoba.
+redes comunitarias de la provincia de Córdoba y de la experiencia del Delta
+Tigrense.
 
 * Sistemas de Gestion Empresarial para cooperativas electricas
 Se armo una propuesta y un plan técnico para la integración de OpenERP como
