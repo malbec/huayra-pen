@@ -255,22 +255,27 @@ Usina de Medios  o Cooperar eran los nodos de articulación indicados.
 * Sector medios
 ** AFSCA
 En Febrero tuvimos una primera instancia de dialogo con el sector de
-Proyectos especiales. Este canal se corto cuando la Usina de Medios nos
-requirió ser el único actor en conversacion con el AFSCA.
- :ejemplo de temas conversados con AFSCA
+Proyectos especiales. Si bien los funcionarios del AFSCA presentaron un gran
+interés en el desarrollo de su política en Software Libre Derribamos el
+contacto a la Usina de Medios marcando claramente el interés que
+representaba la organización para nuestros proyectos. Hasta la fecha, no
+tuvimos mas noticias de la evolución de las conversaciones.
+
 ** Colsecor
 Se reporto a Usina de Medios que estaban construyendo una solución
 privativa, en IPTV/OTT (un tema que se puede tomar sin problemas con Software
 Libre) y que este camino seria un grave y peligroso paso hacia atrás, así
 como perder la relación con Colsecor. la UDM tomo la coordinación del tema y
-no juzgo necesario incluir a nuestra comisión en la charla iniciada.
+no juzgo necesario incluir a nuestra comisión en las charlas posteriores.
 
 ** ADECO
-En el marco de las mesas de trabajo de Opendor se les ofrecio ayudarlos
-técnicamente ( Enero/Febrero), esta operación fue bloqueada
-por la Usina de Medios. ADECO tiene problemas que podemos solucionar muy
-facilmente, y en poco tiempo (streaming, conversión,...) y que se pueden usar como gancho
-hacia el resto del sector.
+En el marco de las mesas de trabajo de Opendor se detecto problemas tecnicos
+superficiales que bloqueaban la productividad de las cooperativas y PYMEs
+asociadas a ADECO. Tras consulta con la Usina de Medios, se decidió dejarles
+gestionar la negociación política antes de apoyar técnicamente la
+estructura. Hasta la fecha, no tuvimos mas noticias de la evolución de las
+conversaciones.
+
 
 ** WallKin Tun TV
 Se siguio asesorando y conteniendo el desarrollo de WallKinTun TV.
