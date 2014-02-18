@@ -397,7 +397,10 @@ Se brindo asistencia técnica al equipo liderado por Oscar Slepoy, se dio
 soporte para analizar los contratos de proveedores y gestión de presupuestos
 para la migración del Centro Gallego.
 
-Se analizó y recomendó soluciones de software libre de gestión, para poder salir del pleito con la empresa thinksoft.
+Se analizó y recomendó soluciones de software libre de gestión, para poder
+salir del pleito con la empresa ThinkSoft. Como lo analizo correctamente
+Oscar Slepoy, la inversión técnica, económica y política hecha sobre el
+sistema ThinkSoft no permite en este momento pensar en una migración.
 
 * ANEXO
 ##+INCLUDE: "~/src/TV/SCRUMM/SCRUM.org" :minlevel 1
