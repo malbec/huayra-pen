@@ -263,10 +263,12 @@ tuvimos mas noticias de la evolución de las conversaciones.
 
 ** Colsecor
 Se reporto a Usina de Medios que estaban construyendo una solución
-privativa, en IPTV/OTT (un tema que se puede tomar sin problemas con Software
-Libre) y que este camino seria un grave y peligroso paso hacia atrás, así
-como perder la relación con Colsecor. la UDM tomo la coordinación del tema y
-no juzgo necesario incluir a nuestra comisión en las charlas posteriores.
+privativa, en IPTV/OTT (un tema que se puede tomar sin problemas con
+Software Libre, y una demanda amplia en el sector ya que permite modernizar
+y abaratar servicios de cable e internet) y que este camino seria un grave y
+peligroso paso hacia atrás, así como perder la relación con Colsecor. la UDM
+tomo la coordinación del tema y no juzgo necesario incluir a nuestra
+comisión en las charlas posteriores.
 
 ** ADECO
 En el marco de las mesas de trabajo de Opendor se detecto problemas tecnicos
@@ -279,10 +281,14 @@ conversaciones.
 ** WallKin Tun TV
 Se siguio asesorando y conteniendo el desarrollo de WallKinTun TV.
 Principalmente a traves del compañero en territorio que estuvo cubriendo el
-rol de direcotr técnico del canal.
+rol de director técnico del canal.
+
+A raíz de esos esfuerzos el canal sigue al aire, sigue operando 100% con
+Software Libre, y goza ahora de una programación de calidad hecha
+integralmente por los miembros de la comunidad en gestión.
 
 ** Malbec & Open Broadcast
-Se participo en un espacio cybernetico que nuclea profesionales de
+Se participo en un espacio cibernético que nuclea profesionales de
 tecnología libre para los medios (el grupo Google+ Open Broadcast) donde
 logramos la conducción (estuvimos marcando agenda desde Agosto) charlando
 las necesidades y puntos de convergencias de tecnológias libres para los
@@ -317,9 +323,9 @@ despligue de una red de gestión cooperativa.
 
 Durante este encuentro intervinieron:
 
-+ Emiliano Moscato: Asesor en Informática en Arsat
-+ Nicolás Echániz: Fundador de la ONG Altermundi, creador de la red QuintanaLibre
-+ Julian Santa Cruz: Fundador de la seccion de redes de Sonytel y Interplay.
+| Emiliano Moscato:  | Asesor en Informática en Arsat                                 |
+| Nicolás Echániz:   | Fundador de la ONG Altermundi, creador de la red QuintanaLibre |
+| Julian Santa Cruz: | Fundador de la seccion de redes de Sonytel y Interplay.        |
 
 Incentivamos la creación de una mutual como instancia asociativa de las
 redes comunitarias de la provincia de Córdoba.
