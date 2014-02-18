@@ -331,6 +331,8 @@ Incentivamos la creación de una mutual como instancia asociativa de las
 redes comunitarias de la provincia de Córdoba y de la experiencia del Delta
 Tigrense.
 
+El echo en la provincia de Buenos Aires fue nulo.
+
 * Sistemas de Gestion Empresarial para cooperativas electricas
 Se armo una propuesta y un plan técnico para la integración de OpenERP como
 software de gestión y relación con clientes en todas las cooperativas.
