@@ -166,7 +166,7 @@ A nivel de apertura, este perido habrio charlas comerciales con:
   discusión. Se diseño e implemento una prueba de concepto de servidor de
   ingesta innovador.
 
-** Diciembre → Actualidad
+** Estabilización: Diciembre → Actualidad
 A principios diciembre se decidió apoyar la creación del canal de la
 cooperativa padre mugica en la villa 31. En la espera del presupuesto pasado
 (que ya esta llegando dos meses más tarde que lo pactado) la cooperativa se
