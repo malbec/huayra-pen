@@ -401,5 +401,4 @@ salir del pleito con la empresa ThinkSoft. Como lo analizo correctamente
 Oscar Slepoy, la inversión técnica, económica y política hecha sobre el
 sistema ThinkSoft no permite en este momento pensar en una migración.
 
-* ANEXO
-##+INCLUDE: "~/src/TV/SCRUMM/SCRUM.org" :minlevel 1
+
