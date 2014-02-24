@@ -1,5 +1,5 @@
 #+TITLE: Reporte de actividad 2013
-#+LANG: es
+#+LANGUAGE: es
 
 * Incubación de OpCode
 La incubación de la cooperativa de trabajo OpCode fue una
