@@ -1,6 +1,6 @@
 #+TITLE: Reporte de actividad 2013
 #+LANGUAGE: es
-#Latex_header: \usepackage{babel}[es]
+#+Latex_header: \usepackage{babel}[es]
 
 * Incubación de OpCode
 La incubación de la cooperativa de trabajo OpCode fue una
