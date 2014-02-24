@@ -1,4 +1,5 @@
 #+TITLE: Reporte de actividad 2013
+#+LaTeX_CLASS: koma-report
 #+LANGUAGE: es
 #+Latex_header: \usepackage{babel}[es]
 
