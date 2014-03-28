@@ -1,0 +1,23 @@
+* guía de instalación de guerrilla
+** descarga
+descargar airtime-easy-setup.deb desde
+http://apt.sourcefabric.org/misc/airtime-easy-setup.deb
+
+para algunos casos es necesario descargar el .deb de airtime desde
+http://apt.sourcefabric.org/
+** Instalación
+abrir una terminal y desde el / donde se descargaron los .deb ejecutar:
+sudo dpkg -i airtime-easy-setup.deb
+sudo apt-get upate
+sudo apt-get install airtime (va a dar errores, no preocuparse)
+para reparar los errores del punto anterior:
+sudo apt-get install -f
+** archivos a modificar a mano
+el instalador comete dos errores que vamos a reparar a mano, al instalar nos
+va dar un error de apache, no asustarse y hacer lo siguiente:
+sudo /etc/airtime/apache.vhost.tpl y editar el archivo para que quede así
+Options -Indexes +FollowSymLinks +MultiViews
+              AllowOverride All
+              Require all granted
+ejecutar sudo apt-get install -f
+
