@@ -1,0 +1,10 @@
+* Paginas a revisar
+** Capitulo V Audacity
+*** hoja 40 def SL
+*** hoja 41 destacar que en linux se puede usar gestor de programas para instalar
+*** hoja 43 incorporar ogg y ver mas a fondo lame
+*** hoja 51 ver errores de tipeo
+*** Revisar que las capturas se condigan con audacity en Linux y evaluar generarlas desde limux
+
+
+
