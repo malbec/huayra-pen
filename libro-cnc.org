@@ -1,0 +1,91 @@
+* Introducción
+
+** Airtime
+
+Airtime es un software de transmisión libre para programar y gestionar una
+estación de radio. Se puede acceder y cargar archivos a la estación desde un
+navegador web y verificar automáticamente los metadatos. El calendario de la
+programación se maneja a través de una interfaz fácil de usar y origina la
+reproducción de audios con una precisión de sub segundo.
+
+
+Airtime pretende proporcionar una solución para una amplia gama de proyectos
+radiales desde comunitarios, públicos y comerciales. Gracias a que Airtime
+es capaz de escalar el tamaño de un proyecto con facilidad, permite su
+implementación en varios escenarios, que van desde un transmisor aislado al
+cual se puede acceder de forma remota a través de Internet hasta una red
+local de computadoras que funciona como sistema central para almacenar
+datos. Airtime respalda formatos de uso común como el .mp3 y otros
+equivalentes abiertos y libres como Ogg Vorbis.
+
+
+** Sourcefabric
+
+Sourcefabric cree en la calidad, el periodismo independiente. Proporcionamos
+las organizaciones de noticias con el software, experiencia y apoyo para
+producirla en línea, en forma impresa y en el aire.
+
+Sourcefabric se estableció como una organización sin fines de lucro Checa
+con sede en Praga, sucursales en Berlín y Toronto, y representantes en
+Minsk, Guatemala, Varsovia, Belgrado y Cluj. Comenzó su vida como CAMP en
+1998, la división de nuevos medios del Fondo de Inversión para el Desarrollo
+de Medios . En 2010 se puso en marcha como una organización totalmente
+autónoma la obtención de financiación privada que impulsó Sourcefabric en
+las filas de uno de los mayores proyectos de código abierto de Europa para
+las noticias y los medios de comunicación.
+
+Los productos de Sourcefabric son construidos por expertos de comunicación y
+un equipo altamente cualificado de más de 30 funcionarios técnicos,
+desarrolladores, administradores de sistemas e ingenieros de control de
+calidad.
+
+
+Software libre
+
+Software libre es el software que respeta la libertad de los usuarios y la
+comunidad. En grandes líneas, significa que los usuarios tienen la libertad
+para ejecutar, copiar, distribuir, estudiar, modificar y mejorar el
+software. Es decir, el software libre es una cuestión de libertad, no de
+precio. 
+
+Con estas libertades, los usuarios (tanto individualmente como en forma
+colectiva) controlan el programa y lo que este hace. Cuando los usuarios no
+controlan el programa, decimos que dicho programa no es libre, o que es
+privativo. Un programa que no es libre controla a los usuarios, y el
+programador controla el programa, con lo cual el programa resulta ser un
+instrumento de poder injusto.
+
+Un programa es software libre si los usuarios tienen las cuatro libertades esenciales:
+La libertad de ejecutar el programa para cualquier propósito (libertad 0).
+La libertad de estudiar cómo funciona el programa, y cambiarlo para que haga lo que usted quiera (libertad 1). El acceso al código fuente es una condición necesaria para ello.
+La libertad de redistribuir copias para ayudar a su prójimo (libertad 2).
+La libertad de distribuir copias de sus versiones modificadas a terceros (libertad 3). Esto le permite ofrecer a toda la comunidad la oportunidad de beneficiarse de las modificaciones. El acceso al código fuente es una condición necesaria para ello.
+
+Fuente: gnu.org
+
+* Instalación
+
+Gracias a su caracteristica de Software Libre Airtime ofrece la posibilidad
+de descargar la ultima version del soft directamente desde su pagina oficial
+( http://apt.sourcefabric.org/misc/airtime-easy-setup.deb ).   
+
+Una vez que entramos al link de descarga, nos solicita un destino donde
+guardar el archivo ejecutable, seleccionamos el mismo y aceptamos. 
+
+Ya con el archivo ejecutable en nuestro equipo, vamos al lugar donde 
+guardamos el archivo y ejecutamos el archivo con doble clic. 
+
+
+1. Hacer click en Instalar
+2. Al necesitar permisos de administrador del sistema nos requiere la
+   contraseña del mismo. La escribimos y seguimos adelante haciendo clic
+   sobre el botón "autenticar".
+3. En el medio de la instalación nos va a preguntar si queremos instalar
+   Icecast 2, hacemos clic en sí y continuamos.
+4. Nos solicita el nombre del servidor para entablar la comunicación: escribimos “localhost” y luego enter.
+5 – Inmediatamente desp nos obliga a establecer una contraseña de:
+a) los recursos de Icecast 2.
+b) El repetidor de Icecast 2.
+c) Administrador de Icecast 2.
+Completamos y avanzamos.
+6 – La instalacion se completo, cerramos el lanzador de aplicaciones y ya estamos en condiciones de abrir nuestro Airtime para empezar a programar la radio.
