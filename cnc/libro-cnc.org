@@ -1,3 +1,12 @@
+
+#+LANGUAGE: es
+#+Latex_class: koma-report
+#+AUTHOR: Niv Sardi <niv.sardi@unq.edu.ar>
+#+AUTHOR: Vladimir di Fiore <vdifiore@gmail.com>
+#+AUTHOR: La Comunidad del Sotano
+#+AUTHOR: SourceFabric
+#+TITLE: Uso de Airtime y R4dit - Manual 5 CNC
+
 * Introducción
 
 ** Airtime
@@ -83,12 +92,10 @@ guardamos el archivo y ejecutamos el archivo con doble clic.
 3. En el medio de la instalación nos va a preguntar si queremos instalar
    Icecast 2, hacemos clic en sí y continuamos.
 4. Nos solicita el nombre del servidor para entablar la comunicación: escribimos “localhost” y luego enter.
-5. Inmediatamente desp nos obliga a establecer una contraseña de:
-a. los recursos de Icecast 2.
-b. El repetidor de Icecast 2.
-c) Administrador de Icecast 2.
-Completamos y avanzamos.
-6 – La instalacion se completo, cerramos el lanzador de aplicaciones y ya
+5. Inmediatamente después  nos solicita establecer una contraseña para: los
+   recursos de Icecast 2, El repetidor de Icecast 2 y el administrador de
+   Icecast 2. Completamos y avanzamos.
+6. La instalacion se completo, cerramos el lanzador de aplicaciones y ya
 estamos en condiciones de abrir nuestro Airtime para empezar a programar la
 radio.
 * Configuración
@@ -179,7 +186,9 @@ de la misma manera que los controles de la consola de transmisión, ya que
 nos va a indicar que es lo que esta conectado con la salida a aire. Cuando
 se activa el interruptor, otra línea naranja lo conecta al indicador *Al Aire*.
 
-
+\vfill
+[[file:img/Screenshot309-Master_source_switch.png]]
+\vfill
 
 
 Si marcaste la casilla Auto Source Transition en la página Configuración de Streaming, el interruptor de Master Source se pondrá automáticamente en
