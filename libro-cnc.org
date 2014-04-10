@@ -83,9 +83,173 @@ guardamos el archivo y ejecutamos el archivo con doble clic.
 3. En el medio de la instalación nos va a preguntar si queremos instalar
    Icecast 2, hacemos clic en sí y continuamos.
 4. Nos solicita el nombre del servidor para entablar la comunicación: escribimos “localhost” y luego enter.
-5 – Inmediatamente desp nos obliga a establecer una contraseña de:
-a) los recursos de Icecast 2.
-b) El repetidor de Icecast 2.
+5. Inmediatamente desp nos obliga a establecer una contraseña de:
+a. los recursos de Icecast 2.
+b. El repetidor de Icecast 2.
 c) Administrador de Icecast 2.
 Completamos y avanzamos.
-6 – La instalacion se completo, cerramos el lanzador de aplicaciones y ya estamos en condiciones de abrir nuestro Airtime para empezar a programar la radio.
+6 – La instalacion se completo, cerramos el lanzador de aplicaciones y ya
+estamos en condiciones de abrir nuestro Airtime para empezar a programar la
+radio.
+* Configuración
+** Configuración de  la señal
+
+
+Puedes configurar las señales directas de Icecast y SHOUTcast y la tarjeta
+de sonido al hacer clic en Streams en el menú System.
+
+
+En la esquina superior En el encabezado de la página Stream Settings hay una
+casilla con varias opciones globales como Hardware Audio Output, que
+habilita la reproducción desde la tarjeta de sonido predeterminada en el
+servidor, si hay una definida. La función predeterminada Output Type de ALSA
+en el menú desplegable será útil para la mayoría de servidores con una
+tarjeta de sonido. Si no, tienes la opción de esciger una de otras
+interfaces de Liquidsoap disponibles, como OSS o PortAudio.Si estás usando
+la alimentación de audio en el hardware, y no transmitirás directamente a
+Icecast o SHOUTcast, puedes hacer clic en Save a la derecha de la página en
+este punto.
+
+
+La segunda casilla habilita el envío de metadatos Icecast Vorbis con
+transmisiones directas. Esta opción es opcional porque algunos reproductores
+tienen errores que los desconectan de transmisiones Ogg Vorbis cuando un
+servidor de Icecast notifica el inicio de otra pista.
+
+
+El botón de radio Stream Label radio button allows you to set the metadata
+that will be sent with direct streams; Artist and Title, Show, Artist and
+Title, or Station name and Show name. 
+
+
+
+
+** Configuración de señal entrante
+
+
+Al lado izquierdo inferior de la página Stream Settings puedes configurar
+las señales remotas entrantes de programas para DJ como Mixxx o IDJC, o las
+aplicaciones de smartphone que usan los reporteros. Airtime soporta dos
+tipos de señal entrante; Show Source, que permite que una persona envíe la
+señal de su propio programa, y Master Source, que puede bloquear Show Source
+si es necesario. Si ningún tipo de señal está disponible, Airtime volverá al
+modo Scheduled Play (las listas de reproducción y archivos calendarizados en
+Airtime, antes de un programa).
+
+
+La casilla Auto Source Transition permite que la reproducción varíe
+automáticamente a la fuente de mayor prioridad cuando una entrada
+autenticada se conecta o desconecta de Airtime. El campo Switch Transition
+Fade fija la longitud de desvanecimiento para los archivos de audio porque
+la reproducción cambiará de una fuente remota y de vuelta. El
+desvanecimiento predeterminado es de medio segundo.
+
+
+Cada tipo de señal entrante requiere una cuenta de usuario y contraseña
+antes de conectar al emisor remoto con Airtime. La cuenta principal (Master
+Username) y la contraseña principal (Master Password) pueden fijarse en la
+casilla Input Stream Settings, mientras la autenticación de las fuentes
+individuales está fijada en el calendario de Airtime. Lee el capítulo
+Calendario para conocer más detalles.
+
+
+Las señales entrantes deben tener un puerto para que el locutor remoto se
+conecte, el cual debe ser en número en el rango entre 1024 y 49151. Si
+tienes el servidor de señal de Icecast o SHOUTcast funcionando en la misma
+máquina que Airtime, debes evitar los puertos 8000 or 8001 para cualquier
+tipo de señal entrante de Airtime. Esto sucede porque tanto Icecast como
+SHOUTcast usan el puerto 8000, y SHOUTcast también usa el puerto 8001. Si
+los nombres de usuario y contraseñas son similares, los locutores remotos
+pueden conectarse accidentalmente al servidor de señal directamente,
+sobrepasando Airtime.
+
+
+Para evitar la confusión, también se recomienda que uses otro Mount Point
+(el nombre de archivo específico para que los oyentes y locutores se
+conecten) diferente del que usa tu servidor público de Icecast o SHOUTcast.
+
+
+
+
+Si tu servidor de Airtime está en un firewall, y deseas que los locutores
+remotos se conecten con las señales externas por el Internet público, puede
+que desees hacer clic en la opción Override para fijar un URL de conexión
+que esté disponible fuera de tu red de área local. Tal URL puede basarse en
+el nombre de dominio que se asigna al router que reenvía el puerto apropiado
+a tu servidor de Airtime. Luego haz clic en OK para guardar el URL de
+conexión.
+
+
+** Intercambiar señales entrantes
+
+En el panel principal, las fuentes de señales entrantes aparecen junto a una
+línea naranja que las conecta al interruptor, al cual puedes considerar como
+un cable de parche que conecta la fuente al mezclador de emisiones. Cuando
+se activa el interruptor, otra línea naranja lo conecta al indicador On Air
+como un cable de parche que conecta el mezclador al transmisor.
+
+
+
+
+Si has marcado la casilla Auto Source Transition en la página Stream
+Settings, el interruptor de Master Source se pondrá automáticamente en
+posición activa, a la izquierda, cuando una fuente principal se conecte con
+Airtime. De lo contrario, puedes activar los interruptores manualmente al
+hacer clic en el lado izquierdo del interruptor, o desactivarlos al hacer
+clic en la derecha. Los interruptores no debed ser arrastrados con el mouse,
+como sucedería con un interruptor de hardware. Las señales de entrada en
+vivo, Show Source y Scheduled Play, pueden activarse o desactivarse
+manualmente de la misma forma.
+
+
+
+
+Para forzar la desconexión de una fuente remota, por ejemplo, cuando la
+fuente de señal ha tenido una falla y ya no envía sonido, haz clic en el
+ícono X a la izquierda del nombre de fuente.
+
+
+** Configuración de señales de salida
+
+A la derecha de la página, puedes configurar tres señales de salida
+independientes con diferentes tasas de bit, y enviar sus señales a
+diferentes servidores de Icecast o SHOUTcast. De forma predeterminada, solo
+la señal Stream 1 está habilitada, y esta señal llega a Icecast en el mismo
+servidor que la dirección de localhost de IP 127.0.0.1.
+
+
+Para configurar otra señal, haz clic en la barra con el número de señal para
+expandir la casilla, y asegúrate de que esté marcado Enabled. Ingresa al
+menos la dirección de IP del servidor o el nombre de dominio y los detalles
+del puerto. El puerto predeterminado para los servidores de Icecast y
+SHOUTcast es 8000.
+
+
+
+
+Haz clic en Additional Options para expandir la casilla donde puedes
+ingresar el nombre de usuario, la contraseña y los metadatos para el
+servidor de señal. El nombre de usuario predeterminado para servidores de
+Icecast es source, y su este es el nombre que usas en tu servidor de señal,
+hallarás ese campo vacío. Puedes fijar también el Mount Point con que se
+conectarán los oyentes. Luego, haz clic en Save en la esquina superior o
+inferior derecha para actualizar la configuración de señal de Airtime.
+
+
+
+
+Al seleccionar un servidor de SHOUTcast en el menú desplegable Service Type
+estarás restringido para solo usar el formato MP3, de manera que el formato
+Ogg Vorbis esté bloqueado en el menú Stream Type. El nombre de usuario para
+las fuentes de señal de SHOUTcast es fijo, por lo que no debes ingresar este
+valor en Additional Options, pero sí deberás proveer una contraseña.
+
+
+
+
+Cualquier problema de conexión entre Liquidsoap y Icecast o SHOUTcast
+aparecerá en la página Stream Settings. Por ejemplo, si ingresas la
+contraseña equivocada, verás el mensaje de error Authentication Required.
+Para arreglar esto, ingresa la contraseña correcta en la casilla Additional
+Options y haz clic en Save.
+
