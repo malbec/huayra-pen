@@ -92,65 +92,57 @@ Completamos y avanzamos.
 estamos en condiciones de abrir nuestro Airtime para empezar a programar la
 radio.
 * Configuración
-** Configuración de  la señal
+** Configuración de transmisión
+*** Configuración de  la señal
 
 
-Puedes configurar las señales directas de Icecast y SHOUTcast y la tarjeta
-de sonido al hacer clic en Streams en el menú System.
+Al hacer clic en "Streams" en el menú de sistema *Airtime* nos permite
+configurar servidores como Icecast o
+SHOUTcast o la placa de sonido de la computadora.
 
 
 En la esquina superior En el encabezado de la página Stream Settings hay una
 casilla con varias opciones globales como Hardware Audio Output, que
-habilita la reproducción desde la tarjeta de sonido predeterminada en el
-servidor, si hay una definida. La función predeterminada Output Type de ALSA
+habilita la reproducción desde la placa de sonido predeterminada en el
+servidor, si hay una definida. La opción predeterminada Output Type "ALSA"
 en el menú desplegable será útil para la mayoría de servidores con una
-tarjeta de sonido. Si no, tienes la opción de esciger una de otras
-interfaces de Liquidsoap disponibles, como OSS o PortAudio.Si estás usando
-la alimentación de audio en el hardware, y no transmitirás directamente a
-Icecast o SHOUTcast, puedes hacer clic en Save a la derecha de la página en
-este punto.
+placa de sonido, en caso contrario tenemos la opción de elegir alguna de las
+interfaces de Liquidsoap disponibles, como OSS o PortAudio. Si *Airtime* va
+a salir directo a consola y no va a usar salida de streaming no hace falta
+configurar nada más, solo haremos un clic en el botón "guardar" ubicado a la
+derecha de la página. 
 
 
-La segunda casilla habilita el envío de metadatos Icecast Vorbis con
-transmisiones directas. Esta opción es opcional porque algunos reproductores
-tienen errores que los desconectan de transmisiones Ogg Vorbis cuando un
-servidor de Icecast notifica el inicio de otra pista.
+*** Configurando una señal entrante
 
 
-El botón de radio Stream Label radio button allows you to set the metadata
-that will be sent with direct streams; Artist and Title, Show, Artist and
-Title, or Station name and Show name. 
+Al lado izquierdo inferior de la página "Stream Settings" podemos configurar
+señales de entrada remotas o externas a *Airtime* como programas para DJ
+como Mixxx. *Airtime* soporta dos tipos de señal entrante:
+**** Show Source
+ que permite que una persona envíe la señal de su propio programa
+**** Master Source
+que puede bloquear Show Source si es necesario.
 
-
-
-
-** Configuración de señal entrante
-
-
-Al lado izquierdo inferior de la página Stream Settings puedes configurar
-las señales remotas entrantes de programas para DJ como Mixxx o IDJC, o las
-aplicaciones de smartphone que usan los reporteros. Airtime soporta dos
-tipos de señal entrante; Show Source, que permite que una persona envíe la
-señal de su propio programa, y Master Source, que puede bloquear Show Source
-si es necesario. Si ningún tipo de señal está disponible, Airtime volverá al
-modo Scheduled Play (las listas de reproducción y archivos calendarizados en
-Airtime, antes de un programa).
+Cuando no haya ningún tipo de señal disponible, *Airtime* volverá al
+modo programación automática (las listas de reproducción y archivos calendarizados en
+*Airtime*, antes de un programa).
 
 
 La casilla Auto Source Transition permite que la reproducción varíe
 automáticamente a la fuente de mayor prioridad cuando una entrada
-autenticada se conecta o desconecta de Airtime. El campo Switch Transition
+autenticada se conecta o desconecta de *Airtime*. El campo Switch Transition
 Fade fija la longitud de desvanecimiento para los archivos de audio porque
 la reproducción cambiará de una fuente remota y de vuelta. El
 desvanecimiento predeterminado es de medio segundo.
 
 
-Cada tipo de señal entrante requiere una cuenta de usuario y contraseña
-antes de conectar al emisor remoto con Airtime. La cuenta principal (Master
+Cada tipo de señal entrante requiere una cuenta de usuario con su contraseña. La cuenta principal (Master
 Username) y la contraseña principal (Master Password) pueden fijarse en la
 casilla Input Stream Settings, mientras la autenticación de las fuentes
-individuales está fijada en el calendario de Airtime. Lee el capítulo
-Calendario para conocer más detalles.
+individuales se configura desde el calendario de *Airtime* cuando agregamos
+un nuevo programa. (ver el capítulo programación automática y manejo de 
+Calendario para conocer más detalles.)
 
 
 Las señales entrantes deben tener un puerto para que el locutor remoto se
@@ -164,39 +156,37 @@ pueden conectarse accidentalmente al servidor de señal directamente,
 sobrepasando Airtime.
 
 
-Para evitar la confusión, también se recomienda que uses otro Mount Point
+Para evitar la confusión, también se recomienda que uses otro punto de montaje
 (el nombre de archivo específico para que los oyentes y locutores se
 conecten) diferente del que usa tu servidor público de Icecast o SHOUTcast.
 
 
 
 
-Si tu servidor de Airtime está en un firewall, y deseas que los locutores
-remotos se conecten con las señales externas por el Internet público, puede
-que desees hacer clic en la opción Override para fijar un URL de conexión
+Si tu servidor de *Airtime* está atrás de un firewall, y deseas que los locutores
+remotos se conecten mediante Internet, puede que desees hacer clic en la opción Override para fijar un URL de conexión
 que esté disponible fuera de tu red de área local. Tal URL puede basarse en
 el nombre de dominio que se asigna al router que reenvía el puerto apropiado
-a tu servidor de Airtime. Luego haz clic en OK para guardar el URL de
+a tu servidor de *Airtime*. Luego haz clic en OK para guardar el URL de
 conexión.
 
 
-** Intercambiar señales entrantes
+*** Intercambiar señales entrantes
 
 En el panel principal, las fuentes de señales entrantes aparecen junto a una
-línea naranja que las conecta al interruptor, al cual puedes considerar como
-un cable de parche que conecta la fuente al mezclador de emisiones. Cuando
-se activa el interruptor, otra línea naranja lo conecta al indicador On Air
-como un cable de parche que conecta el mezclador al transmisor.
+línea naranja que las conecta al interruptor, la cual se puede considerar 
+de la misma manera que los controles de la consola de transmisión, ya que
+nos va a indicar que es lo que esta conectado con la salida a aire. Cuando
+se activa el interruptor, otra línea naranja lo conecta al indicador *Al Aire*.
 
 
 
 
-Si has marcado la casilla Auto Source Transition en la página Stream
-Settings, el interruptor de Master Source se pondrá automáticamente en
+Si marcaste la casilla Auto Source Transition en la página Configuración de Streaming, el interruptor de Master Source se pondrá automáticamente en
 posición activa, a la izquierda, cuando una fuente principal se conecte con
-Airtime. De lo contrario, puedes activar los interruptores manualmente al
+*Airtime*. Caso contrario, los interruptores se activarán  manualmente al
 hacer clic en el lado izquierdo del interruptor, o desactivarlos al hacer
-clic en la derecha. Los interruptores no debed ser arrastrados con el mouse,
+clic en el derecho. Los interruptores no deben ser arrastrados con el mouse,
 como sucedería con un interruptor de hardware. Las señales de entrada en
 vivo, Show Source y Scheduled Play, pueden activarse o desactivarse
 manualmente de la misma forma.
@@ -204,14 +194,14 @@ manualmente de la misma forma.
 
 
 
-Para forzar la desconexión de una fuente remota, por ejemplo, cuando la
-fuente de señal ha tenido una falla y ya no envía sonido, haz clic en el
+Para forzar la desconexión de una fuente remota, por ejemplo, cuando ha
+tenido una falla y ya no envía sonido, solo hay que hacer clic en el
 ícono X a la izquierda del nombre de fuente.
 
 
-** Configuración de señales de salida
+*** Configuración de señales de salida
 
-A la derecha de la página, puedes configurar tres señales de salida
+A la derecha de la página, podemos configurar tres señales de salida
 independientes con diferentes tasas de bit, y enviar sus señales a
 diferentes servidores de Icecast o SHOUTcast. De forma predeterminada, solo
 la señal Stream 1 está habilitada, y esta señal llega a Icecast en el mismo
@@ -219,7 +209,7 @@ servidor que la dirección de localhost de IP 127.0.0.1.
 
 
 Para configurar otra señal, haz clic en la barra con el número de señal para
-expandir la casilla, y asegúrate de que esté marcado Enabled. Ingresa al
+expandir la casilla, y asegúrate de que esté marcado "habilitada". Ingresa al
 menos la dirección de IP del servidor o el nombre de dominio y los detalles
 del puerto. El puerto predeterminado para los servidores de Icecast y
 SHOUTcast es 8000.
@@ -227,13 +217,8 @@ SHOUTcast es 8000.
 
 
 
-Haz clic en Additional Options para expandir la casilla donde puedes
-ingresar el nombre de usuario, la contraseña y los metadatos para el
-servidor de señal. El nombre de usuario predeterminado para servidores de
-Icecast es source, y su este es el nombre que usas en tu servidor de señal,
-hallarás ese campo vacío. Puedes fijar también el Mount Point con que se
-conectarán los oyentes. Luego, haz clic en Save en la esquina superior o
-inferior derecha para actualizar la configuración de señal de Airtime.
+Haciendo clic en "opciones Avanzadas" vamos acceder a las opciones para ingresar el nombre de usuario, la contraseña y los metadatos para el
+servidor de streaming
 
 
 
@@ -253,3 +238,68 @@ contraseña equivocada, verás el mensaje de error Authentication Required.
 Para arreglar esto, ingresa la contraseña correcta en la casilla Additional
 Options y haz clic en Save.
 
+
+* Bilioteca de medios
+** Normalización y catalogación de archivos
+Antes de agregar los archivos a la biblioteca de medios recomendamos que los
+mismos esten normalizados mediante el uso de *Audacity* y que los mismos
+estén correctamente etiquetados, ya qeu luego *Airtime* se va a guiar de la
+meta data del archivo para mostrarnos la información o realizar selecciones
+automáticas de contenido.
+*** ¿Qué son los metadatos?
+
+Si tenés un tema que se llama, por ejemplo, El Arriero.mp3 solamente sabés el
+nombre del tema. No conocés quien es el artista, el disco, el año del disco,
+etc. Si organizás esa información usando las carpetas, podés saber que el
+tema es de Atahualpa Yupanqui por ejemplo, o que pertenece al género
+flocklore. O el mismo tema interpretado por otro artista, como la banda
+Divididos, que pertenece al género rocanrol. Pero si compartís ese archivo
+con un amigo, sin pasarle las carpetas, él no va a tener esa información. Es
+por eso que los metadatos guardan toda esa información dentro del mp3 y esa
+es la información que usa *Airtime* para ordenar, mostrar y seleccionar los temas.
+*** Etiquetando o modificando los metadatos
+Ahora que ya sabemos la utilidad de contar con nuestros archivos
+correctamente etiquetados vamos a ver paso a paso como realizar la tarea de
+completar los metadatos de nuestros archivos usando *easytag*
+** Ingesta de archivos
+*** Desde el servidor
+Si tenemos acceso a la maquina donde esta instalado *Airtime* simplemente
+copiaremos los archivos de audio previamente normalizados y etiquetados en
+la carpeta donde la bilioteca de medios busca archivos nuevos de forma que
+el servidor pueda importarlos de forma automática.
+*** Desde el navegador
+En caso de no tener acceso directo al servidor de *Airtime* podemos usar
+agregar los archivos previamente normalizados y etiquetados a la biblioteca
+de medios usando la opción Agregar Contenido desde la interfaz de administración. Esta página incluye una casilla para cargar archivos con solo
+arrastrarlos de las carpetas en tu computadora.
+
+
+
+
+Si tu navegador no es compatible con la opción de arrastre, podes usar el
+botón "agregar archivos", el cuál tiene un signo de suma blanco sobre un círculo verde, para abrir una ventana de selección en tu computadora.
+
+
+
+Después de agregar todos los archivos necesarios haremos clic sobre el botón "Comenzar a
+subir" (el botón tiene un ícono de flecha verde.)
+
+
+
+La fila del archivo actualmente en carga estará marcado con un verde pálido.
+En el final de la lista de carga contamos con  una barra de progreso para
+ver la carga de nuestros archivos. (La velocidad de carga depende de
+la conexión de red entre la computadora y el servidor de *Airtime*.) 
+
+
+
+
+Una vez se halla cargado exitosamente, cada fila de archivo mostrará un tilde blanco en el ícono de círculo verde.
+
+
+
+Tus archivos estarán entonces importados en la biblioteca de Airtime, listos para incluirse en tus listas de reproducción y programas para transmisión. 
+** tipo de contenidos  
+En nuestra biblioteca de medios vamos a encontrar todos los archivos de
+audio que hayamos subido y las listas de reproducción o bloques de contenido
+creadas por nosotros usando la interfaz de administración de *Airtime*
