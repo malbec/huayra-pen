@@ -363,8 +363,8 @@ del sonido en la lista de reproducción.
 
 
 Los bloques inteligentes nos permite seleccionar los archivos en función de
-los parámetros de búsqueda que asignemos. Estos bloques pueden ser dinamicos o estaticos.
-Screen h bloque vacio
+los parámetros de búsqueda que asignemos. Estos bloques pueden ser dinámicos o estáticos.
+Screen h bloque vacío
 
 Supongamos que queremos un programa de una hora llena de Rock, pero sólo con
 música que no se haya pasado en la última semana. Para hacerlo vamos a crear
@@ -374,23 +374,82 @@ desde la semana pasada en cualquier programa.
 
 
 Bloque Inteligente Estático.
-Screen i estattico 1
- Un bloque inteligente estático guardará los criterios y generara el contenido del bloque inmediatamente. Esto le permite editar y ver en la biblioteca antes de añadir a una presentación de forma manual. Esta es una gran manera de generar una lista de reproducción rápidamente y luego afinar el orden o el contenido de esa lista de reproducción.
-Screen j estatico2
+Screen i estático 1
+Un bloque inteligente estático guardará los criterios y generara el
+contenido del bloque inmediatamente. Esto nos permite editar y ver en la
+biblioteca antes de añadir a una presentación de forma manual. Esta es una
+gran manera de generar una lista de reproducción rápidamente y luego afinar
+el orden o el contenido de esa lista de reproducción.
+
+Screen j estático2
 
 Bloque inteligente Dinámico.
 Screen H otra vez ?
-Un bloque inteligente dinámico sólo guardará los criterios de búsqueda estableciendo los parámetros. El contenido será asignado cuando se agregue  a un evento. Así que, aunque no puedas ver y editar el contenido en la Biblioteca, es posible agregar este bloque a cualquier evento y cada vez que se reproduzca va a generar de nuevo la búsqueda en base a los parámetros establecidos.
-Screen k dinamico 1
+
+Un bloque inteligente dinámico, a diferencia del estático, sólo guardará los criterios de búsqueda
+que establezcamos, ya que el contenido será asignado cada vez que un
+evento lo invoque. Estos bloques no nos permiten editar el contenido que
+seleccionaron de la Biblioteca. La utilidad de usarlos es que cada vez que
+se reproduzca va a generar de nuevo la búsqueda en base a los parámetros
+establecidos, logrando que el evento no suene igual a la semana anterior.
+
+Screen k dinámico 1
+
 Como crear un Bloque Inteligente.
-1- Click en Biblioteca.
-2-Click en “Open Media Builder “
-3- Click en Nuevo
-4-Click en nuevo Bloque Inteligente.
-5-Cambiar el nombre para facilitar su búsqueda. 
-6-Seleccionar entre Bloque dinámico o estático. 
-7- Donde dice “seleccionar criterio” se refiere a los parámetros de búsqueda de los archivos de audio (Ej., autor, estilo, género, etc.). 
-8-Donde dice “seleccione un modificador” define el criterio para tener para tener una búsqueda más eficaz.
-9- Tipear la palabra que queremos seleccionar. 
-Ej: Criterio: Genero   Modificador: Contiene  ROCK
-10-guardar. 
+1. Clic en Biblioteca.
+2. Clic en “Open Media Builder “
+3. Clic en Nuevo
+4- Clic en nuevo Bloque Inteligente.
+5. Cambiar el nombre para facilitar su búsqueda. 
+6. Seleccionar entre Bloque dinámico o estático. 
+7. Donde dice “seleccionar criterio” se refiere a los parámetros de búsqueda de los archivos de audio (Ej., autor, estilo, género, etc.). 
+8. Donde dice “seleccione un modificador” define el criterio para tener para tener una búsqueda más eficaz.
+9. Tipear la palabra que queremos seleccionar (Ej: Criterio: Genero   Modificador: Contiene  ROCK).
+10. Guardar. 
+** Eventos o programas
+
+Screen A otra vez?
+
+La vista de calendario de *Airtime* tiene tres vistas: Día, Semana y Año,
+las cuales pueden cambiarse con los botones grises en la esquina superior
+derecha. En la esquina superior izquierda de la página, puedes avanzar o
+retroceder en el calendario con sólo hacer clic en los botones del triángulo
+blanco con fondo gris. haciendo clic en Hoy vas a ir a la visualización del
+día actual en la vista de agenda. En las vistas por día o por semana, hay un
+menú de arrastrado que te permite fijar la resolución del calendario, de un
+minuto a sesenta minutos por fila.
+
+
+Para generar un evento nuevo en el calendario se deberá ir a la pestaña que
+dice CALENDARIO (*Solo los administradores y programadores pueden crear eventos nuevos*)
+Al crear un evento tendremos los siguientes datos
+Screen l show1
+1. Qué? - En esta sección , ingresa el nombre, el URL del sitio público, el género y la descripción del programa que creaste.
+2. Cuando? - Determinar los campos de fecha de inicio y finalización y la hora de inicio y finalización y si se repite, cuantas veces, y hasta cuándo.
+3. Entrada de Streming en vivo - En la sección Record & Rebroadcast, la
+   opción Record? permite la grabación automática de la línea de entrada en
+   la tarjeta de audio. Si deseas que la grabación se repita en otro
+   horario, selecciona la casilla Rebroadcast? y luego selecciona hasta diez
+   fechas y horas en la opción Choose Days.
+
+Screen l1 show2
+4.  Quien? - En la sección quien, escribe las primeras letras del nombre del
+    DJ para ese programa en los campos de búsqueda, y selecciona un nombre
+    de la base de datos o escoge uno en la lista vertical contigua. Esta
+    asociación del DJ con un programa particular le permite a ese
+    presentador agregar archivos de reproducción al programa, así que es
+    importante verificar que el nombre asignado sea correcto.
+5. Estilo - Finalmente, selecciona el color de fondo y el color para el
+   texto en la sección Style, para que el nuevo programa pueda ser
+   identificado más fácilmente en el calendario.
+
+
+	*tener cuidado de no sobrescribir los eventos*
+
+Como cargar audios al evento
+Screen m agregarcontenidos 
+1. Clic en el signo de admiración Rojo del evento. 
+2. Añadir/eliminar contenido.
+3. Arrastrar hasta el campo de la lista de reproducción los archivos
+   seleccionados. (Pueden ser bloques inteligentes y listas de reproducción).
+4. Hacer clic en ok para guardar nuestro contenido.
