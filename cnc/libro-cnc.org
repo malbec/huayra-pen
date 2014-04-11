@@ -5,7 +5,7 @@
 #+AUTHOR: Vladimir di Fiore <vdifiore@gmail.com>
 #+AUTHOR: La Comunidad del Sotano
 #+AUTHOR: SourceFabric
-#+TITLE: Uso de Airtime y R4dit - Manual 5 CNC
+#+TITLE: Manual 5 CNC: Uso de Airtime y R4dit
 
 * Introducción
 
@@ -249,6 +249,12 @@ Options y haz clic en Save.
 
 
 * Bilioteca de medios
+Es desde donde *Airtime* gestiona todos nuestros archivos multimedia. Vamos
+a poder buscar entre nuestros archivos multimedia, ordenar los resultados de
+acuerdo a diferentes criterios (nombre, genero, Album, etc)  y arrastrar los resultados individuales a una
+lista de reproducción abierta o a un bloque inteligente. También es posible
+arreglar la lista de reproducción actual usando la función arrastrar.
+
 ** Normalización y catalogación de archivos
 Antes de agregar los archivos a la biblioteca de medios recomendamos que los
 mismos esten normalizados mediante el uso de *Audacity* y que los mismos
@@ -312,3 +318,44 @@ Tus archivos estarán entonces importados en la biblioteca de Airtime, listos pa
 En nuestra biblioteca de medios vamos a encontrar todos los archivos de
 audio que hayamos subido y las listas de reproducción o bloques de contenido
 creadas por nosotros usando la interfaz de administración de *Airtime*
+* Armando nuestra programación
+Ahora que tenemos todo configurado y sabemos como agregar archivos
+multimedia a la bilioteca de medios de nuestra radio es hora de ver como
+armar la programación de la misma.
+** Listas de reproducción y bloques inteligentes
+*** Lista de reproducción.
+Una lista de reproducción nos permite seleccionar y agrupar diferentes archivos de audio para posteriormente poder agregarlos agrupados a un evento
+del calendario.(para *Airtime* lo que llamamos programas son eventos) 
+
+
+En una lista de reproducción podremos cargar tanto bloques inteligentes como
+archivos de audio,  pero *no otra lista de reproducción*. Una vez que tenemos
+nuestra lista definida, la podremos incluir en los eventos del calendario.
+
+*** Generar una lista de reproducción paso a paso 
+
+1. Clic en Biblioteca.
+Screen c biblioteca medio llena
+2. Clic en “Open Media Builder “
+Screen C1 media builder
+3. Clic en Nuevo
+Screen d lista vacia
+4. Clic en Nueva Lista de reproducción
+5. Cambiar el nombre para facilitar su ubicación.
+6. Arrastrar las canciones o bloques inteligentes al campo de trabajo de nuestra lista de reproducción. 
+Screen e listallenando
+
+Luego de arrastrar los archivos hacia la nueva lista de reproducción, el
+tiempo total aparecerá en la esquina superior derecha. La duración de un
+archivo individual aparece en cada fila de la lista de reproducción con
+letras blancas, y debajo de esta cifra aparece el tiempo transcurrido desde
+el inicio de la Lista, en una letra gris más pequeña.
+Screen f lista llena
+
+*** fade in – fade out: efecto de edición donde el archivo de audio va increcendo en volumen (fade in) o va decrecendo (fade out). ver *Audacity*
+Screen g lista aleatoria?.
+Haz clic en el botón en el botón de Fade (dos fechas horizontales blancas
+cruzando un rectángulo gris), a la derecha de los botones New y Delete, para
+abrir una barra beige donde puedes fijar el desvanecimiento y crecimiento
+del sonido en la lista de reproducción.
+
