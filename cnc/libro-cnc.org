@@ -322,8 +322,8 @@ creadas por nosotros usando la interfaz de administración de *Airtime*
 Ahora que tenemos todo configurado y sabemos como agregar archivos
 multimedia a la bilioteca de medios de nuestra radio es hora de ver como
 armar la programación de la misma.
-** Listas de reproducción y bloques inteligentes
-*** Lista de reproducción.
+** Listas de reproducción
+
 Una lista de reproducción nos permite seleccionar y agrupar diferentes archivos de audio para posteriormente poder agregarlos agrupados a un evento
 del calendario.(para *Airtime* lo que llamamos programas son eventos) 
 
@@ -359,3 +359,38 @@ cruzando un rectángulo gris), a la derecha de los botones New y Delete, para
 abrir una barra beige donde puedes fijar el desvanecimiento y crecimiento
 del sonido en la lista de reproducción.
 
+** Bloques Inteligentes
+
+
+Los bloques inteligentes nos permite seleccionar los archivos en función de
+los parámetros de búsqueda que asignemos. Estos bloques pueden ser dinamicos o estaticos.
+Screen h bloque vacio
+
+Supongamos que queremos un programa de una hora llena de Rock, pero sólo con
+música que no se haya pasado en la última semana. Para hacerlo vamos a crear
+un Bloque Inteligente con dos parametros,  primero que identifique todas las
+pistas con el género Rock, y un segundo que descarte los archivos reproducidos
+desde la semana pasada en cualquier programa. 
+
+
+Bloque Inteligente Estático.
+Screen i estattico 1
+ Un bloque inteligente estático guardará los criterios y generara el contenido del bloque inmediatamente. Esto le permite editar y ver en la biblioteca antes de añadir a una presentación de forma manual. Esta es una gran manera de generar una lista de reproducción rápidamente y luego afinar el orden o el contenido de esa lista de reproducción.
+Screen j estatico2
+
+Bloque inteligente Dinámico.
+Screen H otra vez ?
+Un bloque inteligente dinámico sólo guardará los criterios de búsqueda estableciendo los parámetros. El contenido será asignado cuando se agregue  a un evento. Así que, aunque no puedas ver y editar el contenido en la Biblioteca, es posible agregar este bloque a cualquier evento y cada vez que se reproduzca va a generar de nuevo la búsqueda en base a los parámetros establecidos.
+Screen k dinamico 1
+Como crear un Bloque Inteligente.
+1- Click en Biblioteca.
+2-Click en “Open Media Builder “
+3- Click en Nuevo
+4-Click en nuevo Bloque Inteligente.
+5-Cambiar el nombre para facilitar su búsqueda. 
+6-Seleccionar entre Bloque dinámico o estático. 
+7- Donde dice “seleccionar criterio” se refiere a los parámetros de búsqueda de los archivos de audio (Ej., autor, estilo, género, etc.). 
+8-Donde dice “seleccione un modificador” define el criterio para tener para tener una búsqueda más eficaz.
+9- Tipear la palabra que queremos seleccionar. 
+Ej: Criterio: Genero   Modificador: Contiene  ROCK
+10-guardar. 
