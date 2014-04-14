@@ -9,7 +9,35 @@
 
 * Introducción
 ** Huayra Medios
-......
+
+*Huayra* GNU/Linux nació como el sistema operativo libre de Conectar
+Igualdad y desde su presentación formal en 2013 diversas dependencias del
+Estado lo han ido adoptando como sistema operativo. Su desarrollo se basa en
+Debian, un proyecto libre con mas de 20 años de trayectoria y una comunidad
+de desarrolladores y usuarios de gran magnitud. El desarrollo de Huayra se
+enmarca en las políticas públicas que nuestro país viene tomando,
+garantizando la autonomía y soberanía tecnológica con respecto a los estándares de
+corporaciones transnacionales.
+
+
+Usar GNU/Linux nos permite, como decía Newton sobre el avance del conocimiento,
+“pararnos sobre los hombros de un gigante”. En términos de desarrollo local
+no implica ninguna forma de dependencia, como lo implica en otros sectores
+de la industria, el recurrir a tecnología desarrollada en los países
+centrales. Por un lado no implica una merma en la riqueza nacional vía
+drenaje de divisas en concepto de regalías, dividendos o remesa de
+utilidades. Por el otro, no atrofia la capacidad nacional de avanzar en el
+rubro tan vital para el desarrollo como el de Investigación y Desarrollo
+(I+D). Más bien al contrario, la estimula. De este modo, al utilizar
+GNU/Linux gozamos de todas las ventajas de "pararse sobre los hombros de un
+gigante" sin las desventajas que esto acarrea en algunos sectores.
+
+Es sobre esta base que desde la CNC decidimos sumar al ecosistema Huayra una
+versión orientada a los medios, permitiendo que toda persona que instale
+*Huayra Medios* (o algo parecido) cuente con herramientas de alto nivel profesional para
+la producción en radio, tele y prensa gráfica, así como para la emisión de
+esos contenidos.   
+
 ** Airtime
 
 Airtime es un software de transmisión libre para programar y gestionar una
@@ -261,9 +289,11 @@ Antes de agregar los archivos a la biblioteca de medios recomendamos que los
 mismos estén normalizados, es decir que estén a un mismo nivel de volumen,
 que de tener ruidos los mismos se hayan eliminado y que no contengan
 silencios que puedan afectar nuestra programación radial. Para realizar
-estar tareas les podemos usar *Audacity*. Una vez editados y normalizados
-nuestros audios nos ocuparemos dey que los mismos estén correctamente
-etiquetados, ya que luego *Airtime* usará la metadata del archivo para mostrarnos la información o realizar selecciones
+estar tareas les podemos usar *Audacity*. Con nuestros audios normalizados
+nos ocuparemos de que los mismos estén correctamente etiquetados, ya que
+luego *Airtime* usará la metadata del archivo para mostrarnos la información
+o realizar selecciones
+
 automáticas de contenido.
 
 *** ¿Qué son los metadatos?
