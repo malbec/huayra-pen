@@ -8,7 +8,8 @@
 #+TITLE: Manual 5 CNC: Uso de Airtime y R4dit
 
 * Introducción
-
+** Huayra Medios
+......
 ** Airtime
 
 Airtime es un software de transmisión libre para programar y gestionar una
@@ -274,8 +275,21 @@ por eso que los metadatos guardan toda esa información dentro del mp3 y esa
 es la información que usa *Airtime* para ordenar, mostrar y seleccionar los temas.
 *** Etiquetando o modificando los metadatos
 Ahora que ya sabemos la utilidad de contar con nuestros archivos
-correctamente etiquetados vamos a ver paso a paso como realizar la tarea de
-completar los metadatos de nuestros archivos usando *easytag*
+correctamente etiquetados vamos a ver como realizar la tarea de
+completar los metadatos de nuestros archivos usando el programa *easytag*
+(sí no estas usando *Huayra Medios* desde tu Linux podes ir al gestor de
+programas, buscar *EasyTag* y seleccionarlo para instalar)
+
+*EasyTag* nos permite administrar los metadatos de nuestros archivos, si
+ contamos con conexión a Internet el programa puede busar los datos del tema
+ y sugerirnos completar todos los campos, caso contrario o si es una
+ producción nuestra nos limitaremos a completar los campos que necesitemos.
+ Recordemos que cuanto más claras sean las etiquetas que usemos más fácil
+ nos resultará encontrar los audios en nuestra Biblioteca de medios. 
+
+\vfill
+[[file:img/easytag.png]]
+\vfill
 ** Ingesta de archivos
 *** Desde el servidor
 Si tenemos acceso a la maquina donde esta instalado *Airtime* simplemente
