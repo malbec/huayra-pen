@@ -1,0 +1,85 @@
+# -*- ispell-local-dictionary: "castellano8" -*-
+#+INCLUDE: "opcode-header.org"
+#+TITLE: Live Stream del Evento
+#+LaTeX_HEADER: \titlehead{Presupuesto}
+#+LaTeX_HEADER: \subject{Defensoría del Público}
+#+LaTeX_HEADER: \fancyhead[L]{Defensoría del Público}\fancyhead[R]{Live Stream del Evento}
+
+* Defensoría del Público
+Por medio del presente presupuesto se ofrece servicio de cobertura
+audiovisual y transmisión por internet de la audiencia pública a realizarse
+el día 25 en la ciudad de Pergamino.
+
+** Prestaciones
+
+*** Encoding
+Conversión de la señal a los formatos más eficientes de audio y video
+profesional orientados a web, compatibles con múltiples dispositivos
+digitales. Se lleva a cabo mediante un encoder a utilizar dentro de las
+instalaciones del evento. El formato de video será H.264 y el de audio AAC.
+
+*** Transcoding + Player HTML5
+La señal encodeada y lista para reproducirse en PCs mediante Flash, se
+transcodificará adaptativamente a los formatos que los players HTML5 son
+capaces de reproducir. De esta manera se podrá disfrutar del servicio desde
+todos aquellos dispositivos móviles que no admiten Flash, tales como iPhone
+y iPad de Apple, Blackberry, y toda la gama de dispositivos que corren
+Android desde la versión 4.
+
+*** Servicio de Streaming vía CDN
+Se prestará el servicio de delivery de la señal mediante una CDN (Content
+Delivery Network) que consiste en una red de servidores de contenido que
+reciben el material, lo fragmentan y sirven las distintas partes a demanda
+del cliente para luego reproducir el video volviendo a unirlas. De esta
+manera se puede garantizar que el delay de un servidor no arruine la calidad
+del stream, asi como también se hace posible una gran cantidad de audiencia
+simultánea.
+
+*** Integración a la web
+Se proveerá el reproductor que más se adapte a los requerimientos, el cual
+podrá incluirse en el sitio web de la Defensoría del Público para que los
+visitantes frecuentes lo encuentren sin dificultad.
+
+*** Operador On Site
+Se proveerá de un operador que esté presente en las instalaciones del evento
+en los horarios en los que se realice la preparación y la cobertura.
+De este modo se puede garantizar un mejor funcionamiento y respuesta inmediata
+ante eventualidades.
+
+
+** Presupuesto
+
+|---+----------------------------+----------|
+|   | Prestaciones               |    Costo |
+|---+----------------------------+----------|
+| # | Encoding                   |     2000 |
+| # | Transcoding y Player HTML5 |     3000 |
+| # | Streaming via CDN          |     3000 |
+| # | Integración a la Web       |      500 |
+| # | Operador On Site           |     2500 |
+|---+----------------------------+----------|
+| _ |                            |      tot |
+| # | Total                      | 11000.00 |
+| _ |                            |      iva |
+| # | IVA                        |  2310.00 |
+| _ |                            |    final |
+| # | Final                      | 13310.00 |
+|---+----------------------------+----------|
+#+TBLFM: $tot=vsum (@2..@-2);%0.2f::$iva=$tot*0.21;%0.2f::$final=$tot+$iva;%0.2f::
+
+
+** Condiciones
+*** Validez del Presupuesto
+El presente presupuesto tiene una validez de 30 (treinta) días desde la fecha de presentación.
+Cualquier solicitud de modificación requerira de evaluación y consiguiente presupuestación.
+
+*** Flujo de Pagos
+La factura se emitirá dentro del plazo de una semana hábil una vez finalizado el servicio.
+Todos los precios están expresados en Pesos Argentinos (ARS).
+
+** Datos del Prestatario
+| Razón social | : | Cooperativa de Trabajo Opcode Limitada             |   |
+| CUIT         | : | 30-71416735-5                                      |   |
+| Domicilio    | : | Borges Jorge Luis 2240 5to "36", C.A.B.A, CP 1425. |   |
+| Email        | : | info@opcode.coop                                   |   |
+| Teléfono     | : | 1558380018                                         |   |
