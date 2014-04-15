@@ -68,7 +68,8 @@ Importa y exporta archivos WAV, AIFF, AU, y Ogg Vorbis
 
 Nota: Audacity no trabaja con los formatos WMA, AAC, o el resto de los formatos de archivo
 propietarios o restringidos.
-*** Editando
+** Prácticas
+*** Grabación
 A modo de práctica vamos a grabar una locución
 
 1. Es necesario tener instalado un micrófono y tenerlo listo para grabar.
@@ -111,8 +112,119 @@ que se tenga especial interés (a costa de un gran tamaño).
 Una vez elegida la calidad, pulsamos en el botón Aceptar para guardar las
 preferencias.
 
+Ahora podemos grabar nuestra voz. Para ello, pulsamos sobre el botón grabar
+y comenzamos a hablar. Cuando terminemos de hablar (y no antes) pulsamos
+sobre el botón parar. También es bueno recordar que, una vez terminemos de
+decir lo que queremos grabar, NO debemos decir nada ANTES de pulsar el botón
+parar, pues pueden quedar “colas de sonido” que no deseamos (ni queremos
+editar para eliminarlas).
+\vfill
+file:img/grabando_audacity.png
+\vfill
 
+Sólo nos queda guardar el archivo grabado, antes de pensar siquiera en
+editarlo (para mejorar algunos aspectos del mismo) ya que, de otro modo, podríamos perder nuestra grabación y tendríamos que volver a empezar.
+*Audacity* tiene su tipo de archivo predeterminado (es decir, que sólo puede
+leer Audacity) y para poder usarlo fuera del programa no sirve sólo con
+guardar, sino que es necesario exportarlo. Para ello, pulsamos en el menú
+Archivo > Exportar. En la ventana emergente, nos pedirá que introduzcamos un nombre para este archivo y que elijamos la carpeta donde vamos a guardarlo
+(semejante a lo necesario para guardar cualquier archivo en Linux o Windows).
 
+*** Editando
+Para comenzar con la edición de un archivo, vamos a grabar un fragmento de
+sonido con el nombre prueba.wav. Podemos usar el siguiente texto para
+nuestra grabación 
+«Ésta es una grabación de sonido. El objetivo de este archivo es aprender a editarlo usando el programa *Audacity*. ¡Comenzamos a trabajar!... Ya está.».
+
+ Antes de editarlo, tenemos que abrir el archivo prueba.wav (si lo
+   editamos justo después de grabarlo, no será necesario abrirlo aunque, si no lo hemos hecho antes, es preciso Exportarlo como wav).
+\vfill
+file:img/editando_audacity.png
+\vfill
+El dibujo que se ha generado muestra el patrón de sonido de nuestra
+   grabación. Este patrón es como un gráfico espacio-temporal de nuestras
+   palabras. Está compuesto de “bolas” o “triángulos” más o menos grandes y
+   alargados, con “espacios” o “líneas” en medio. Cada “bola” puede ser una
+   palabra, o incluso una o varias sílabas. Cada espacio es una pausa en
+   nuestra locución, y será más o menos amplio, en función del tiempo
+   empleado en cada pausa. Por ejemplo, el espacio entre palabras puede ser 
+   muy pequeño,  a veces inexistente, si unimos el final de una palabra con
+   el principio de otra... Pero estas pausas son las que nos indicarán dónde comienza o termina una parte de la grabación.
+
+Ahora vamos a aprender a seleccionar un fragmento de nuestra grabación. Para
+ello usaremos la herramienta Selección, que está justo debajo de la barra de
+menú:
+\vfill
+file:img/controles_audacity.png
+\vfill
+Esta herramienta está seleccionada siempre, de forma predeterminada. Vemos
+que si llevamos el puntero dentro del patrón del sonido, la flecha se convierte en la misma línea que muestra el icono de esta
+herramienta.
+1. Hacemos clic en un punto cualquiera del patrón de sonido. Vemos que en
+   ese punto se inserta una línea.
+\vfill
+file:img/seleccionar_audacity.png
+\vfill
+Ahora, mientras pulsamos la tecla "shift", vamos a hacer clic nuevamente en
+otro punto del patrón sonoro, posterior a la línea marcada.
+ \vfill
+file:seleccion2_audacity.png
+\vfill
+Otra opción de seleccionar es haciendo clic y, sin soltar, arrastrar el puntero hasta el lugar que deseemos (que sería como ese segundo clic).
+
+El espacio que se muestra sombreado, es lo que hemos seleccionado. Podemos
+comprobarlo, pulsando sobre el botón Reproducir.
+Cortar una cola de sonido
+Escuchamos el sonido, en primer lugar. Cuando grabamos, añadimos una frase
+final: “YA ESTÁ”. Hemos simulado así esas colas de sonido que a veces nos
+quedan cuando grabamos, cuando hablamos algo antes de cortar la grabación.
+Una “cola” también puede ser ese final “sin sonido”, con el que termina
+nuestra grabación, que no añade más que tamaño al archivo y, a veces, con un siseo.
+Lo que vamos a aprender a hacer es cortar esta “cola de sonido” del final.
+
+1. Escuchamos cuidadosamente el archivo. Tras la primera audición, podemos
+   seleccionar el fragmento concreto que deseamos reproducir para escucharlo con más detenimiento.
+2. Nos damos cuenta que, conforme se reproduce dicho fragmento, una línea
+   verde va avanzando sobre el patrón del sonido. Esta línea es la que nos
+   da la clave de dónde empieza la parte que deseamos cortar (ya que se trata de una “cola”, la parte donde termina está... al final del patrón).
+3. Finalmente, seleccionamos sólo la parte que deseamos cortar, la parte que
+   dice “Ya está”. Podemos probar varias veces, escuchando una y otra vez el
+   fragmento, y desplazando las líneas de selección, hasta afinar lo más
+   posible en la parte a cortar. Cuanto más precisos seamos, menos se notará el “corte”.
+Para desplazar las líneas de corte, colocamos el puntero sobre una de ellas,
+hacemos clic y, sin soltar, la arrastramos. Si se trata de la línea de corte
+de inicio, la arrastramos hacia la derecha; si es la línea de corte final,
+la arrastramos hacia la izquierda.
+4. Seleccionamos la opción del menú Editar > Cortar (o bien pulsamos el
+   atajo de teclado Ctrl + X).
+
+Nuestra grabación ha quedado así: «Ésta es una grabación de sonido. El
+objetivo de este archivo es aprender a editarlo usando el programa Audacity.
+¡Comenzamos a trabajar»».
+
+Copiar y pegar un fragmento
+
+Puede ser que nos resulte necesario añadir un fragmento (sonido o palabra) a
+nuestra grabación, bien desde otro archivo, bien una parte del archivo que estamos editando. El proceso es sencillo y prácticamente idéntico en ambos casos.
+Como práctica, copiaremos las palabras “A TRABAJAR” (al final de nuestra
+grabación) y las pegaremos al inicio del fragmento.
+1. En primer lugar, seleccionamos las palabras.
+2. Seleccionamos la opción del menú Editar > Copiar (o bien usamos el atajo de teclado Ctrl + C).
+3. Hacemos clic con el puntero en el punto donde deseamos insertarlas. En este caso, al inicio de la
+grabación.
+\vfill
+file:img/pegar_audacity.png
+\vfill
+4. En ese punto, vamos a pegar el fragmento copiado. Para ello,
+   seleccionamos la opción del menú Editar > Pegar (o bien usamos el atajo
+   de teclado Ctrl + V). Ahora tenemos dos fragmentos idénticos en nuestra
+   grabación.
+Nuestra grabación ha quedado así: «A trabajar. Ésta es una grabación de
+sonido. El objetivo de este archivo es aprender a editarlo usando el programa Audacity. ¡Comenzamos a trabajar!».
+También podemos probar a hacer esto
+Si queremos, podemos eliminar también las palabras finales, para que quede
+así: «A trabajar. Ésta es una grabación de sonido. El objetivo de este
+archivo es aprender a editarlo usando el programa Audacity. ¡Comenzamos!».
 
 ** Instalando aplicaciones con Synaptic 
 En nuestro *Huayra Medios* disponemos de una herramienta para instalar,
