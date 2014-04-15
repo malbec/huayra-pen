@@ -1,10 +1,7 @@
 
 #+LANGUAGE: es
 #+Latex_class: koma-report
-#+AUTHOR: Niv Sardi <niv.sardi@unq.edu.ar>
-#+AUTHOR: Vladimir di Fiore <vdifiore@gmail.com>
-#+AUTHOR: La Comunidad del Sotano
-#+AUTHOR: SourceFabric
+#+AUTHOR: Niv Sardi <niv.sardi@unq.edu.ar>, Vladimir di Fiore <vdifiore@gmail.com>, La Comunidad del Sótano, SourceFabric
 #+TITLE: Manual 5 CNC: Uso de Airtime y R4dit
 
 * Introducción
@@ -38,7 +35,42 @@ versión orientada a los medios, permitiendo que toda persona que instale
 la producción en radio, tele y prensa gráfica, así como para la emisión de
 esos contenidos.   
 
-** Airtime
+* Audacity
+
+
+** Instalando aplicaciones con Synaptic 
+En nuestro *Huayra Medios* disponemos de una herramienta para instalar,
+desinstalar y actualizar los programas de nuestra computadora que se llama
+*Gestor de paquetes Synaptic*, esta herramienta nos permite tener el control
+completo de todos los paquetes (aplicaciones) instalados en nuestro sistema.
+
+Para entrar a Synaptic hay que ir a Sistema -> Administración -> Gestor de
+paquetes Synaptic.
+*¡Recordá que para usarlo necesitas tener conexión a Internet! *
+
+En la pantalla principal de Synaptic vas a encontrar la lista de categorías
+en el lado izquierdo y la de los paquetes a la derecha.
+\vfill
+file:img/synaptic.png
+\vfill
+Si sabés el nombre de la aplicación, podés escribirlo en el “Filtro rápido”
+que está ubicado arriba y hacer clic en “aplicar” para instalarlo (por
+ejemplo  audacity). Si no conocés el nombre podes guiarte por las
+“categorías”, por ejemplo, podés ir a “Internet” y marcar la aplicación que
+necesites o bien, usar el botón “buscar”.
+Cuando  encuentres el paquete (aplicación) que queres instalar  tildá
+“marcar para instalar” o hacé doble-clic en el nombre del paquete.
+
+Muchas veces al tildar uno de los paquetes vas a ver que *Synaptic*  marca
+otros. Esto te indica que otros paquetes o bien son necesarios para que
+funcione la aplicación que querés instalar o pueden ser de utilidad para que funcione
+mejor. Estos son los "paquetes recomendados".
+
+Synaptic te permite instalar cualquier tipo de paquete, ya sea una
+aplicación en sí o alguna librería o cualquier pieza de software que
+necesite el sistema.
+
+* Airtime
 
 Airtime es un software de transmisión libre para programar y gestionar una
 estación de radio. Se puede acceder y cargar archivos a la estación desde un
@@ -501,3 +533,12 @@ Screen m agregarcontenidos
 3. Arrastrar hasta el campo de la lista de reproducción los archivos
    seleccionados. (Pueden ser bloques inteligentes y listas de reproducción).
 4. Hacer clic en ok para guardar nuestro contenido.
+* Bibliografía y sitios recomendados
+Para hacer este libro tomamos la misma filosofía del Software Libre, no
+reinventar la rueda, por esa razón el mismo recopila fragmentos de varios
+manuales y suma contenido propio.
+** Textos usados en el presente libro
+*** Tutorial de instalación en Linux - Conectar Igualdad equipo Huayra
+*** Tutorial de uso de Audacity - Educ.ar
+*** Manual de uso de Airtime - Sourcefabric
+** Sitios de ínterés 
