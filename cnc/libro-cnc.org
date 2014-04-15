@@ -37,6 +37,45 @@ esos contenidos.
 
 * Audacity
 
+*Audacity* es un programa de grabación y edición de sonidos fácil de usar, multiplataforma, de libre uso y
+de código abierto. Puede grabar y reproducir sonidos, importar y exportar
+archivos WAV, AIFF, MP3, y más. De hecho, es uno de los programas libres de
+edición de sonido más fiable y avanzado que existe actualmente
+
+El programa ofrece las posibilidades básicas de cortar, copiar y pegar,
+sumando la posibilidad de deshacer la última acción de forma ilimitada,
+trabajar con varias pistas a la vez (Audacity es una aplicación multi
+pista), mezclarlas, aplicar diversos efectos o grabar varios instrumentos.
+
+*** CARACTERÍSTICAS
+
+Con *Audacity* podemos realizar tareas como
+
+**** Grabar sonidos en vivo.
+Puede grabar sonidos en directo usando un micrófono o un mezclador, o bien digitalizar
+grabaciones de cintas de casete, discos de vinilo, o minidisc o copiar
+encima de pistas existentes para crear grabaciones multi-pista. ( contando
+con el hardware especifico puede grabar hasta 16 canales simultáneos). Los
+medidores de niveles pueden monitorizar el volumen antes, durante y después
+de la grabación.
+**** Convertir cintas y grabaciones a sonido digital o CD.
+Es posible Importar archivos de sonido, editarlos y combinarlos con otros archivos o nuevas grabaciones.
+**** Edita archivos Ogg Vorbis, MP3 y WAV.
+Importa y exporta archivos WAV, AIFF, AU, y Ogg Vorbis
+**** Permite cortar, pegar, empalmar y mezclar sonidos, así como cambiar la velocidad o el tono de una grabación.
+**** Soporta trabajar con archivos de sonido "crudos" o Raw
+**** Crea archivos WAV o AIFF para almacenarlos en CD de sonido.
+
+Nota: Audacity no trabaja con los formatos WMA, AAC, o el resto de los formatos de archivo
+propietarios o restringidos.
+*** Editando
+
+Esta herramienta nos brinda una edición sencilla mediante cortar, copiar, pegar y borrar.
+Utiliza ilimitados niveles de deshacer (y rehacer) para volver a cualquier estado anterior.
+Rápida edición de archivos grandes.
+Edita y mezcla un número ilimitado de pistas.
+Utiliza la herramienta de dibujo para alterar las muestras individuales.
+Disuelve el sonido suavemente con la herramienta «envolvente».
 
 ** Instalando aplicaciones con Synaptic 
 En nuestro *Huayra Medios* disponemos de una herramienta para instalar,
@@ -343,8 +382,8 @@ es la información que usa *Airtime* para ordenar, mostrar y seleccionar los tem
 Ahora que ya sabemos la utilidad de contar con nuestros archivos
 correctamente etiquetados vamos a ver como realizar la tarea de
 completar los metadatos de nuestros archivos usando el programa *easytag*
-(sí no estas usando *Huayra Medios* desde tu Linux podes ir al gestor de
-programas, buscar *EasyTag* y seleccionarlo para instalar)
+(sí no estas usando *Huayra Medios* desde tu Linux podes ir al *gestor de
+paquetes synaptic*, buscar *EasyTag* y seleccionarlo para instalar)
 
 *EasyTag* nos permite administrar los metadatos de nuestros archivos, si
  contamos con conexión a Internet el programa puede busar los datos del tema
