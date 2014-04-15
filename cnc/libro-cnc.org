@@ -69,13 +69,50 @@ Importa y exporta archivos WAV, AIFF, AU, y Ogg Vorbis
 Nota: Audacity no trabaja con los formatos WMA, AAC, o el resto de los formatos de archivo
 propietarios o restringidos.
 *** Editando
+A modo de práctica vamos a grabar una locución
 
-Esta herramienta nos brinda una edición sencilla mediante cortar, copiar, pegar y borrar.
-Utiliza ilimitados niveles de deshacer (y rehacer) para volver a cualquier estado anterior.
-Rápida edición de archivos grandes.
-Edita y mezcla un número ilimitado de pistas.
-Utiliza la herramienta de dibujo para alterar las muestras individuales.
-Disuelve el sonido suavemente con la herramienta «envolvente».
+1. Es necesario tener instalado un micrófono y tenerlo listo para grabar.
+2. Abrimos el programa Audacity. Vemos una serie de botones en la parte superior, similares a los de
+cualquier reproductor o grabadora
+
+\vfill
+file:img/controles_audacity.png
+\vfill
+
+3. Antes de grabar, es necesario que determinemos la calidad de sonido que
+   deseamos obtener (si queremos que se escuche muy bien, lo que generará un
+   archivo más grande, o si podemos perder algo de calidad obteniendo un
+   archivo más pequeño). Para ello, vamos al menú Editar > Preferencias.
+ La ventana emergente contiene varias solapas. Pulsamos sobre la pestaña Calidad.
+El primer valor que encontramos, Frecuencia de muestreo predeterminado, es
+el más importante. Es la calidad con que vamos a grabar el archivo. En
+general, deberíamos grabar con la mejor calidad posible, ya que siempre
+podremos guardar el archivo final con una calidad inferior.
+\vfill
+file:img/calidad_audacity.png
+\vfill
+
+De todas formas, podemos decidir entre las siguientes opciones
+
+***** 11025Hz 
+Sonido de calidad inferior pero que consigue archivos de poco tamaño.
+Aconsejable para grabaciones en donde no sea imprescindible la calidad del
+sonido, sino sólo escuchar lo grabado.
+***** 16000Hz 
+Sonido de calidad algo mejor, aunque en algunos archivos no se escucha
+diferencia con el anterior; en esos casos, es preferible siempre un archivo más pequeño (por lo que elegiremos la opción anterior).
+***** 22050Hz
+Sonido de calidad normal. Aconsejable para cualquier grabación, en general.
+***** 44100Hz 
+Sonido de alta calidad. Aconsejable para aplicaciones multimedia, en donde
+es importante la calidad del sonido, así como en aquellas grabaciones en las
+que se tenga especial interés (a costa de un gran tamaño).
+
+Una vez elegida la calidad, pulsamos en el botón Aceptar para guardar las
+preferencias.
+
+
+
 
 ** Instalando aplicaciones con Synaptic 
 En nuestro *Huayra Medios* disponemos de una herramienta para instalar,
