@@ -225,7 +225,81 @@ También podemos probar a hacer esto
 Si queremos, podemos eliminar también las palabras finales, para que quede
 así: «A trabajar. Ésta es una grabación de sonido. El objetivo de este
 archivo es aprender a editarlo usando el programa Audacity. ¡Comenzamos!».
+*** Aplicando efectos
+**** Eliminación de ruido
+En ocasiones, lo que grabamos puede contener cierto ruido de fondo, bien
+debido al ambiente, bien ruidos producidos por el micrófono o la computadora
+(especialmente, cuando el micrófono no es muy bueno). Por ello, nos puede
+resultar muy útil eliminar el ruido para obtener una grabación lo más limpia
+y nítida posible.
+*Audacity* dispone de una opción que permite la eliminación del ruido. En
+realidad, lo que hace el programa es eliminar determinadas frecuencias, en
+las que se encuentra el ruido... Pero al eliminar esas frecuencias, junto al ruido está eliminando partes de la grabación que comparten
+esas frecuencias. Por tanto, usar este efecto debe realizarse con
+precaución. Dependiendo de las frecuencias en donde se encuentre el ruido,
+el resultado, tras aplicar este efecto, puede ser un fragmento limpio y
+nítido o bien un fragmento con un sonido algo metalizado. Somos nosotros los
+que hemos de valorar si el resultado nos compensa o no.
+Para eliminar el ruido de un fragmento, en primer lugar hemos de seleccionar
+la parte en donde detectemos que hay ruido (o donde más ruido hay).
 
+A continuación, pulsamos sobre el menú Efecto y elegimos la opción Reducción de ruido...
+Nos aparecerá una ventana emergente, que nos indicará dos pasos para
+realizar este efecto.
+\vfill
+file:img/ruido_audacity.png
+\vfill
+En el primer paso, vamos a obtener el perfil del ruido que hay en la parte
+que hemos seleccionado. De ese modo, el programa sabrá qué debe filtrar (si
+hubiéramos seleccionado todo el archivo, no sabría bien qué es ruido y qué es grabación correcta).
+Entonces, pulsaremos sobre el botón Obtener perfil de ruido.
+El programa cerrará entonces, automáticamente, esta ventana, permitiéndonos
+pasar al paso 2.
+
+En este paso 2, en primer lugar vamos a seleccionar todo el fragmento de
+donde queremos eliminar el ruido (en este caso, todo el audio que hemos
+grabado)
+
+Volvemos a ir al menú Efecto > Reducción de ruido... En la parte inferior de
+la ventana emergente encontramos un potenciómetro con dos valores, Menos y
+Más. Por lo general, podemos comenzar en el valor Menos y comprobar si esto
+elimina el ruido de nuestro archivo. Para ello, arrastramos el potenciómetro
+hacia la izquierda y, a continuación, pulsamos sobre el botón
+Previsualización. Si lo que escuchamos nos convence, pulsamos sobre
+el botón Aceptar.
+
+El programa eliminará la frecuencia de ruido de todo el archivo. Si, por el
+contrario, en la comprobación (previsualización) no queda eliminado el ruido
+todo lo que deseamos, podemos desplazar el potenciómetro un poco hacia la
+derecha y volver a hacer la comprobación, hasta que demos con el valor
+correcto en que el ruido se elimina sin que se altere demasiado el audio de nuestra grabación.
+
+NOTA: Al aumentar el valor del potenciómetro, el programa va añadiendo cada
+vez más frecuencias a eliminar de nuestro archivo, lo que puede original que
+el resultado sea un audio demasiado metalizado.
+
+**** Efecto Fade Out (Desvanecer)
+A veces, especialmente cuando hemos hecho un corte al final de la grabación,
+queda bien que el final no sea muy rotundo, sino que tenga un efecto de
+desvanecimiento. Para practicar esto, vamos añadir este efecto al final de
+la palabra “AUDACITY” que hemos amplificado.
+
+1. Seleccionamos cuidadosamente la palabra o fragmento sobre el que
+   aplicaremos el efecto. En nuestro ejemplo, hemos seleccionado sólo una
+   parte de la palabra, ya que deseamos que se desvanezca sólo el final.
+2. Seleccionamos la opción del menú Efecto > Desvanecer progresivamente
+   (Fade Out).
+**** Otros efectos
+Podemos probar otros efectos, tales como
+***** Cambiar tono
+***** Eco
+***** Fade in (Aparecer)
+***** Wahwah
+***** Delay
+
+Todos estos efectos pueden ser aplicarlos sobre todo el archivo
+(seleccionándolo todo) o sólo sobre un fragmento de nuestro archivo
+(seleccionando dicho fragmento). Podemos probar cada efecto de ambos modos, para comparar el resultado.
 ** Instalando aplicaciones con Synaptic 
 En nuestro *Huayra Medios* disponemos de una herramienta para instalar,
 desinstalar y actualizar los programas de nuestra computadora que se llama
@@ -260,14 +334,14 @@ necesite el sistema.
 
 * Airtime
 
-Airtime es un software de transmisión libre para programar y gestionar una
+*Airtime* es un software de transmisión libre para programar y gestionar una
 estación de radio. Se puede acceder y cargar archivos a la estación desde un
-navegador web y verificar automáticamente los metadatos. El calendario de la
+navegador web y verificar automáticamente los metadatos. El calendario de
 programación se maneja a través de una interfaz fácil de usar y origina la
 reproducción de audios con una precisión de sub segundo.
 
 
-Airtime pretende proporcionar una solución para una amplia gama de proyectos
+*Airtime* pretende proporcionar una solución para una amplia gama de proyectos
 radiales desde comunitarios, públicos y comerciales. Gracias a que Airtime
 es capaz de escalar el tamaño de un proyecto con facilidad, permite su
 implementación en varios escenarios, que van desde un transmisor aislado al
@@ -277,28 +351,26 @@ datos. Airtime respalda formatos de uso común como el .mp3 y otros
 equivalentes abiertos y libres como Ogg Vorbis.
 
 
+
 ** Sourcefabric
 
-Sourcefabric cree en la calidad, el periodismo independiente. Proporcionamos
-las organizaciones de noticias con el software, experiencia y apoyo para
-producirla en línea, en forma impresa y en el aire.
+Sourcefabric cree en la calidad y en el periodismo independiente
+proporcionando a las organizaciones, radios y gobiernos el software, experiencia y apoyo para
+producir en línea, en forma impresa y en el aire.
 
 Sourcefabric se estableció como una organización sin fines de lucro Checa
-con sede en Praga, sucursales en Berlín y Toronto, y representantes en
-Minsk, Guatemala, Varsovia, Belgrado y Cluj. Comenzó su vida como CAMP en
-1998, la división de nuevos medios del Fondo de Inversión para el Desarrollo
-de Medios . En 2010 se puso en marcha como una organización totalmente
-autónoma la obtención de financiación privada que impulsó Sourcefabric en
-las filas de uno de los mayores proyectos de código abierto de Europa para
-las noticias y los medios de comunicación.
+con sede en Praga, tiene sucursales en Berlín y Toronto, y representantes en
+Minsk, Guatemala, Varsovia, Belgrado y Cluj. Hoy Sourcefabric se presenta
+como uno de los mayores proyectos de código abierto de Europa en el sector
+de medios, contando con soluciones para radio y prensa digital.
 
 Los productos de Sourcefabric son construidos por expertos de comunicación y
-un equipo altamente cualificado de más de 30 funcionarios técnicos,
+un equipo altamente calificado de más de 30 profesionales (técnicos,
 desarrolladores, administradores de sistemas e ingenieros de control de
-calidad.
+calidad?.
 
 
-Software libre
+** Software libre
 
 Software libre es el software que respeta la libertad de los usuarios y la
 comunidad. En grandes líneas, significa que los usuarios tienen la libertad
@@ -306,31 +378,39 @@ para ejecutar, copiar, distribuir, estudiar, modificar y mejorar el
 software. Es decir, el software libre es una cuestión de libertad, no de
 precio. 
 
-Con estas libertades, los usuarios (tanto individualmente como en forma
-colectiva) controlan el programa y lo que este hace. Cuando los usuarios no
-controlan el programa, decimos que dicho programa no es libre, o que es
-privativo. Un programa que no es libre controla a los usuarios, y el
-programador controla el programa, con lo cual el programa resulta ser un
-instrumento de poder injusto.
+El software Libre es, por su esencia, democratizador, permitiendo que todos
+tengan acceso a lo último en tecnología y sustentando los principios de
+soberanía e independencia tecnológica ya que permiten la no dependencia de
+empresas o corporaciones. Consideramos que el uso de tecnologías libres es
+fundamental para poder garantizar la aplicación de la Ley 26.522 de
+Servicios de Comunicación Audiovisual ya que es la única tecnología que permite
+garantizar un acceso en igualdad de condiciones a las soluciones necesarias
+para hacer uso de los medios audiovisuales a todas las personas.
 
-Un programa es software libre si los usuarios tienen las cuatro libertades esenciales:
-La libertad de ejecutar el programa para cualquier propósito (libertad 0).
-La libertad de estudiar cómo funciona el programa, y cambiarlo para que haga lo que usted quiera (libertad 1). El acceso al código fuente es una condición necesaria para ello.
-La libertad de redistribuir copias para ayudar a su prójimo (libertad 2).
-La libertad de distribuir copias de sus versiones modificadas a terceros (libertad 3). Esto le permite ofrecer a toda la comunidad la oportunidad de beneficiarse de las modificaciones. El acceso al código fuente es una condición necesaria para ello.
+Entendemos que para poder llevar adelante la construcción de una industria
+de medios de acceso plural y participativo, incluyente de una sociedad
+productora de sus contenidos audiovisuales, es necesario desarrollar
+herramientas libres de producción/difusión de medios adaptadas a la realidad
+nacional. Es en esta linea que el presente libro hace foco en el uso de
+herramientas libres para la producción radial.
 
-Fuente: gnu.org
+*** Las 4 libertades que ha de garantizar un softare para ser libre
+**** La libertad de ejecutar el programa para cualquier propósito (libertad 0).
+**** La libertad de estudiar cómo funciona el programa, y cambiarlo para que haga lo que usted quiera (libertad 1). El acceso al código fuente es una condición necesaria para ello.
+**** La libertad de redistribuir copias para ayudar a su prójimo (libertad 2).
+**** La libertad de distribuir copias de sus versiones modificadas a terceros (libertad 3). Esto le permite ofrecer a toda la comunidad la oportunidad de beneficiarse de las modificaciones. El acceso al código fuente es una condición necesaria para ello.
+
 
 * Instalación
 
-Gracias a su caracteristica de Software Libre Airtime ofrece la posibilidad
+Gracias a su caracteristica de Software Libre *Airtime* ofrece la posibilidad
 de descargar la ultima version del soft directamente desde su pagina oficial
 ( http://apt.sourcefabric.org/misc/airtime-easy-setup.deb ).   
 
-Una vez que entramos al link de descarga, nos solicita un destino donde
-guardar el archivo ejecutable, seleccionamos el mismo y aceptamos. 
+Al hacer clic sobre el link de descarga, nos solicitará un destino donde
+guardar el archivo, seleccionamos el mismo y aceptamos. 
 
-Ya con el archivo ejecutable en nuestro equipo, vamos al lugar donde 
+Con el archivo de instalación en nuestro equipo, vamos al lugar donde 
 guardamos el archivo y ejecutamos el archivo con doble clic. 
 
 
@@ -353,28 +433,27 @@ radio.
 
 
 Al hacer clic en "Streams" en el menú de sistema *Airtime* nos permite
-configurar servidores como Icecast o
-SHOUTcast o la placa de sonido de la computadora.
+configurar servidores como Icecast, SHOUTcast o la placa de sonido de la computadora.
 
-
-En la esquina superior En el encabezado de la página Stream Settings hay una
-casilla con varias opciones globales como Hardware Audio Output, que
-habilita la reproducción desde la placa de sonido predeterminada en el
-servidor, si hay una definida. La opción predeterminada Output Type "ALSA"
-en el menú desplegable será útil para la mayoría de servidores con una
+En la esquina superior,en el encabezado de la página Stream Settings hay una
+casilla con varias opciones globales (Hardware Audio Output), que
+habilita, de existir una placa definida, la reproducción desde la placa de sonido predeterminada en el
+servidor. 
+La opción predeterminada Output Type "ALSA" será útil para la mayoría de los servidores con una
 placa de sonido, en caso contrario tenemos la opción de elegir alguna de las
-interfaces de Liquidsoap disponibles, como OSS o PortAudio. Si *Airtime* va
-a salir directo a consola y no va a usar salida de streaming no hace falta
-configurar nada más, solo haremos un clic en el botón "guardar" ubicado a la
-derecha de la página. 
+interfaces de Liquidsoap disponibles, como OSS o PortAudio.
+
+Si *Airtime* va a salir directo a consola y no va a usar salida de streaming
+no hace falta configurar nada más, solo haremos un clic en el botón
+"guardar" ubicado a la derecha de la página. 
 
 
 *** Configurando una señal entrante
 
 
-Al lado izquierdo inferior de la página "Stream Settings" podemos configurar
-señales de entrada remotas o externas a *Airtime* como programas para DJ
-como Mixxx. *Airtime* soporta dos tipos de señal entrante:
+En la esquina izquierda inferior de la página "Stream Settings" podemos configurar
+señales de entrada remotas o externas a *Airtime* como programas para DJ,
+como por ejemplo Mixxx. *Airtime* soporta dos tipos de señal entrante:
 **** Show Source
  que permite que una persona envíe la señal de su propio programa
 **** Master Source
@@ -388,32 +467,32 @@ modo programación automática (las listas de reproducción y archivos calendari
 La casilla Auto Source Transition permite que la reproducción varíe
 automáticamente a la fuente de mayor prioridad cuando una entrada
 autenticada se conecta o desconecta de *Airtime*. El campo Switch Transition
-Fade fija la longitud de desvanecimiento para los archivos de audio porque
-la reproducción cambiará de una fuente remota y de vuelta. El
-desvanecimiento predeterminado es de medio segundo.
+Fade fija la longitud de desvanecimiento para los archivos de audio cuando
+se produzca el cambio de una fuente de audio remota. El
+desvanecimiento (fade out) predeterminado es de medio segundo.
 
 
-Cada tipo de señal entrante requiere una cuenta de usuario con su contraseña. La cuenta principal (Master
-Username) y la contraseña principal (Master Password) pueden fijarse en la
-casilla Input Stream Settings, mientras la autenticación de las fuentes
-individuales se configura desde el calendario de *Airtime* cuando agregamos
-un nuevo programa. (ver el capítulo programación automática y manejo de 
-Calendario para conocer más detalles.)
+Cada tipo de señal entrante requiere una cuenta de usuario con su
+contraseña. La cuenta principal (Master Username) y la contraseña principal
+(Master Password) pueden fijarse en la casilla Input Stream Settings,
+mientras la autenticación de las fuentes individuales se configura desde el
+calendario de *Airtime* cuando agregamos un nuevo programa. (ver el capítulo
+programación automática y manejo de Calendario para conocer más detalles.)
+
 
 
 Las señales entrantes deben tener un puerto para que el locutor remoto se
-conecte, el cual debe ser en número en el rango entre 1024 y 49151. Si
-tienes el servidor de señal de Icecast o SHOUTcast funcionando en la misma
-máquina que Airtime, debes evitar los puertos 8000 or 8001 para cualquier
-tipo de señal entrante de Airtime. Esto sucede porque tanto Icecast como
+conecte, este puerto debe ser en número en el rango entre 1024 y 49151. Si
+tenemos el servidor de Icecast o SHOUTcast funcionando en la misma
+máquina que *Airtime*, debemos evitar los puertos 8000 o 8001 para cualquier
+tipo de señal entrante de *Airtime*. Esto sucede porque tanto Icecast como
 SHOUTcast usan el puerto 8000, y SHOUTcast también usa el puerto 8001. Si
 los nombres de usuario y contraseñas son similares, los locutores remotos
 pueden conectarse accidentalmente al servidor de señal directamente,
-sobrepasando Airtime.
+sobrepasando *Airtime*.
 
 
-Para evitar la confusión, también se recomienda que uses otro punto de montaje
-(el nombre de archivo específico para que los oyentes y locutores se
+Para evitar la confusión, recomendamos usar otro punto de montaje (el nombre de archivo específico para que los oyentes y locutores se
 conecten) diferente del que usa tu servidor público de Icecast o SHOUTcast.
 
 
@@ -440,7 +519,8 @@ se activa el interruptor, otra línea naranja lo conecta al indicador *Al Aire*.
 \vfill
 
 
-Si marcaste la casilla Auto Source Transition en la página Configuración de Streaming, el interruptor de Master Source se pondrá automáticamente en
+Si marcaste la casilla Auto Source Transition en la página Configuración de
+Streaming, el interruptor de Master Source se pondrá automáticamente en
 posición activa, a la izquierda, cuando una fuente principal se conecte con
 *Airtime*. Caso contrario, los interruptores se activarán  manualmente al
 hacer clic en el lado izquierdo del interruptor, o desactivarlos al hacer
@@ -448,8 +528,6 @@ clic en el derecho. Los interruptores no deben ser arrastrados con el mouse,
 como sucedería con un interruptor de hardware. Las señales de entrada en
 vivo, Show Source y Scheduled Play, pueden activarse o desactivarse
 manualmente de la misma forma.
-
-
 
 
 Para forzar la desconexión de una fuente remota, por ejemplo, cuando ha
@@ -466,35 +544,29 @@ la señal Stream 1 está habilitada, y esta señal llega a Icecast en el mismo
 servidor que la dirección de localhost de IP 127.0.0.1.
 
 
-Para configurar otra señal, haz clic en la barra con el número de señal para
-expandir la casilla, y asegúrate de que esté marcado "habilitada". Ingresa al
-menos la dirección de IP del servidor o el nombre de dominio y los detalles
-del puerto. El puerto predeterminado para los servidores de Icecast y
-SHOUTcast es 8000.
-
-
+Para configurar otra señal, hay que hacer clic en la barra con el número de
+señal elegida para  expandir la casilla y configurarla. Ingresa al menos la
+dirección de IP del servidor o el nombre de dominio y los detalles del
+puerto. El puerto predeterminado para los servidores de Icecast y SHOUTcast
+es 8000.
+Antes de guardar los cambios asegúrate de que esté marcado "habilitada"
 
 
 Haciendo clic en "opciones Avanzadas" vamos acceder a las opciones para ingresar el nombre de usuario, la contraseña y los metadatos para el
 servidor de streaming
 
 
-
-
 Al seleccionar un servidor de SHOUTcast en el menú desplegable Service Type
 estarás restringido para solo usar el formato MP3, de manera que el formato
-Ogg Vorbis esté bloqueado en el menú Stream Type. El nombre de usuario para
+Ogg Vorbis estará bloqueado en el menú Stream Type. El nombre de usuario para
 las fuentes de señal de SHOUTcast es fijo, por lo que no debes ingresar este
-valor en Additional Options, pero sí deberás proveer una contraseña.
-
-
-
+valor en Opciones Avanzadas.
 
 Cualquier problema de conexión entre Liquidsoap y Icecast o SHOUTcast
 aparecerá en la página Stream Settings. Por ejemplo, si ingresas la
-contraseña equivocada, verás el mensaje de error Authentication Required.
-Para arreglar esto, ingresa la contraseña correcta en la casilla Additional
-Options y haz clic en Save.
+contraseña equivocada, vas a ver un mensaje de error Authentication Required.
+Para arreglar esto, ingresa la contraseña correcta en la casilla Opciones
+Avanzadas y hace clic en Guardar.
 
 
 * Bilioteca de medios
@@ -512,9 +584,7 @@ silencios que puedan afectar nuestra programación radial. Para realizar
 estar tareas les podemos usar *Audacity*. Con nuestros audios normalizados
 nos ocuparemos de que los mismos estén correctamente etiquetados, ya que
 luego *Airtime* usará la metadata del archivo para mostrarnos la información
-o realizar selecciones
-
-automáticas de contenido.
+o realizar selecciones automáticas de contenido.
 
 *** ¿Qué son los metadatos?
 
@@ -556,25 +626,17 @@ agregar los archivos previamente normalizados y etiquetados a la biblioteca
 de medios usando la opción Agregar Contenido desde la interfaz de administración. Esta página incluye una casilla para cargar archivos con solo
 arrastrarlos de las carpetas en tu computadora.
 
-
-
-
 Si tu navegador no es compatible con la opción de arrastre, podes usar el
 botón "agregar archivos", el cuál tiene un signo de suma blanco sobre un círculo verde, para abrir una ventana de selección en tu computadora.
 
-
-
 Después de agregar todos los archivos necesarios haremos clic sobre el botón "Comenzar a
 subir" (el botón tiene un ícono de flecha verde.)
-
 
 
 La fila del archivo actualmente en carga estará marcado con un verde pálido.
 En el final de la lista de carga contamos con  una barra de progreso para
 ver la carga de nuestros archivos. (La velocidad de carga depende de
 la conexión de red entre la computadora y el servidor de *Airtime*.) 
-
-
 
 
 Una vez se halla cargado exitosamente, cada fila de archivo mostrará un tilde blanco en el ícono de círculo verde.
@@ -603,25 +665,32 @@ nuestra lista definida, la podremos incluir en los eventos del calendario.
 *** Generar una lista de reproducción paso a paso 
 
 1. Clic en Biblioteca.
-Screen c biblioteca medio llena
+\vfill
+file:img/biblio_airtime_vacia.png
+\vfill
 2. Clic en “Open Media Builder “
-Screen C1 media builder
 3. Clic en Nuevo
-Screen d lista vacia
+\vfill
+file:img/lista_vacia_airtime.png
+\vfill
 4. Clic en Nueva Lista de reproducción
 5. Cambiar el nombre para facilitar su ubicación.
 6. Arrastrar las canciones o bloques inteligentes al campo de trabajo de nuestra lista de reproducción. 
-Screen e listallenando
+\vfill
+file:img/lista_arrastre_airtime.png
+\vfill
 
 Luego de arrastrar los archivos hacia la nueva lista de reproducción, el
 tiempo total aparecerá en la esquina superior derecha. La duración de un
 archivo individual aparece en cada fila de la lista de reproducción con
 letras blancas, y debajo de esta cifra aparece el tiempo transcurrido desde
 el inicio de la Lista, en una letra gris más pequeña.
-Screen f lista llena
+\vfill
+file:img/lista_arrastre_airtime.png
+\vfill
 
 *** fade in – fade out: efecto de edición donde el archivo de audio va increcendo en volumen (fade in) o va decrecendo (fade out). ver *Audacity*
-Screen g lista aleatoria?.
+
 Haz clic en el botón en el botón de Fade (dos fechas horizontales blancas
 cruzando un rectángulo gris), a la derecha de los botones New y Delete, para
 abrir una barra beige donde puedes fijar el desvanecimiento y crecimiento
