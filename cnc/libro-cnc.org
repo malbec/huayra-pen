@@ -1,7 +1,7 @@
 
 #+LANGUAGE: es
 #+Latex_class: koma-report
-#+AUTHOR: Niv Sardi <niv.sardi@unq.edu.ar>, Vladimir di Fiore <vdifiore@gmail.com>, La Comunidad del Sótano, SourceFabric
+#+AUTHOR: Niv Sardi, Vladimir di Fiore, La Comunidad del Sótano, SourceFabric
 #+TITLE: Manual 5 CNC: Uso de Airtime y R4dit
 
 * Introducción
@@ -162,14 +162,10 @@ que si llevamos el puntero dentro del patrón del sonido, la flecha se convierte
 herramienta.
 1. Hacemos clic en un punto cualquiera del patrón de sonido. Vemos que en
    ese punto se inserta una línea.
-\vfill
-file:img/seleccionar_audacity.png
-\vfill
+
 Ahora, mientras pulsamos la tecla "shift", vamos a hacer clic nuevamente en
 otro punto del patrón sonoro, posterior a la línea marcada.
- \vfill
-file:seleccion2_audacity.png
-\vfill
+
 Otra opción de seleccionar es haciendo clic y, sin soltar, arrastrar el puntero hasta el lugar que deseemos (que sería como ese segundo clic).
 
 El espacio que se muestra sombreado, es lo que hemos seleccionado. Podemos
@@ -701,7 +697,9 @@ del sonido en la lista de reproducción.
 
 Los bloques inteligentes nos permite seleccionar los archivos en función de
 los parámetros de búsqueda que asignemos. Estos bloques pueden ser dinámicos o estáticos.
-Screen h bloque vacío
+\vfill
+file:img/bloque_Inteli_airtime.png
+\vfill
 
 Supongamos que queremos un programa de una hora llena de Rock, pero sólo con
 música que no se haya pasado en la última semana. Para hacerlo vamos a crear
@@ -711,17 +709,20 @@ desde la semana pasada en cualquier programa.
 
 
 Bloque Inteligente Estático.
-Screen i estático 1
+\vfill
+file:img/bloque_estatico_airtime.png
+\vfill
 Un bloque inteligente estático guardará los criterios y generara el
 contenido del bloque inmediatamente. Esto nos permite editar y ver en la
-biblioteca antes de añadir a una presentación de forma manual. Esta es una
+biblioteca antes de añadir a una presentación de forma manual. Esta es una
 gran manera de generar una lista de reproducción rápidamente y luego afinar
 el orden o el contenido de esa lista de reproducción.
 
-Screen j estático2
+\vfill
+file:img/bloque_estatico_data_airtime.png
+\vfill
 
 Bloque inteligente Dinámico.
-Screen H otra vez ?
 
 Un bloque inteligente dinámico, a diferencia del estático, sólo guardará los criterios de búsqueda
 que establezcamos, ya que el contenido será asignado cada vez que un
@@ -730,11 +731,9 @@ seleccionaron de la Biblioteca. La utilidad de usarlos es que cada vez que
 se reproduzca va a generar de nuevo la búsqueda en base a los parámetros
 establecidos, logrando que el evento no suene igual a la semana anterior.
 
-Screen k dinámico 1
-
 Como crear un Bloque Inteligente.
 1. Clic en Biblioteca.
-2. Clic en “Open Media Builder “
+2. Clic en “Open Media Builder“
 3. Clic en Nuevo
 4- Clic en nuevo Bloque Inteligente.
 5. Cambiar el nombre para facilitar su búsqueda. 
@@ -744,8 +743,6 @@ Como crear un Bloque Inteligente.
 9. Tipear la palabra que queremos seleccionar (Ej: Criterio: Genero   Modificador: Contiene  ROCK).
 10. Guardar. 
 ** Eventos o programas
-
-Screen A otra vez?
 
 La vista de calendario de *Airtime* tiene tres vistas: Día, Semana y Año,
 las cuales pueden cambiarse con los botones grises en la esquina superior
@@ -760,7 +757,9 @@ minuto a sesenta minutos por fila.
 Para generar un evento nuevo en el calendario se deberá ir a la pestaña que
 dice CALENDARIO (*Solo los administradores y programadores pueden crear eventos nuevos*)
 Al crear un evento tendremos los siguientes datos
-Screen l show1
+\vfill
+file:img/calendario_alta_airtime.png
+\vfill
 1. Qué? - En esta sección , ingresa el nombre, el URL del sitio público, el género y la descripción del programa que creaste.
 2. Cuando? - Determinar los campos de fecha de inicio y finalización y la hora de inicio y finalización y si se repite, cuantas veces, y hasta cuándo.
 3. Entrada de Streming en vivo - En la sección Record & Rebroadcast, la
@@ -768,8 +767,10 @@ Screen l show1
    la tarjeta de audio. Si deseas que la grabación se repita en otro
    horario, selecciona la casilla Rebroadcast? y luego selecciona hasta diez
    fechas y horas en la opción Choose Days.
+\vfill
+file:img/calendario_alta2_airtime.png
+\vfill
 
-Screen l1 show2
 4.  Quien? - En la sección quien, escribe las primeras letras del nombre del
     DJ para ese programa en los campos de búsqueda, y selecciona un nombre
     de la base de datos o escoge uno en la lista vertical contigua. Esta
@@ -784,7 +785,9 @@ Screen l1 show2
 	*tener cuidado de no sobrescribir los eventos*
 
 Como cargar audios al evento
-Screen m agregarcontenidos 
+\vfill
+file:img/carga_contenido_airtime.png
+\vfill
 1. Clic en el signo de admiración Rojo del evento. 
 2. Añadir/eliminar contenido.
 3. Arrastrar hasta el campo de la lista de reproducción los archivos
