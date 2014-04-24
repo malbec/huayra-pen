@@ -1,0 +1,24 @@
+#+TITLE: Reporte de actividad 2013-2014
+#+LaTeX_CLASS: koma-report
+#+LANGUAGE: es
+#+AUTHOR: Niv Sadi, Vladimir di Fiore
+#+Latex_header: \usepackage{babel}[es]
+
+* Resumen
+* Intervenciones exitosas
+** Facttic
+** Usina de medios
+Del trabajo junto a Usinas podemos destacar
+**** Asistencia técnica en tiempo record entre pedido y solución en elecciones 2013 y audiencia publica de la defensoría, en ambas situaciones se les resolvió el problema absorviendo los costos.
+**** Generación y puesta en práctica de una capacitación para la instalación, configuración y uso por periodistas de una plataforma web orientada a prensa.
+
+** Centro Gallegos
+** Mutual Pyme
+**** Asesoramiento constante
+**** 
+** Universidades
+** Polos audiovisuales?
+** Sistemas INAES
+
+* Intervenciones esperando presupuesto
+* Proyectos con alta visibilidad política
