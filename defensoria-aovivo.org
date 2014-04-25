@@ -7,9 +7,8 @@
 
 * Defensoría del Público
 Por medio del presente presupuesto se ofrece servicio de cobertura
-audiovisual y transmisión por internet del evento a realizarse entre
-los días 16 y 20 de Diciembre del año 2013 en las instalaciones de la
-Defensoría del Público.
+audiovisual y transmisión por internet de la audiencia pública a realizarse
+el día 25 en la ciudad de Pergamino.
 
 ** Prestaciones
 
@@ -53,18 +52,18 @@ ante eventualidades.
 |---+----------------------------+----------|
 |   | Prestaciones               |    Costo |
 |---+----------------------------+----------|
-| # | Encoding                   |     3000 |
+| # | Encoding                   |     2000 |
 | # | Transcoding y Player HTML5 |     3000 |
-| # | Streaming via CDN          |     9000 |
+| # | Streaming via CDN          |     3000 |
 | # | Integración a la Web       |      500 |
-| # | Operador On Site           |     5000 |
+| # | Operador On Site           |     2500 |
 |---+----------------------------+----------|
 | _ |                            |      tot |
-| # | Total                      | 20500.00 |
+| # | Total                      | 11000.00 |
 | _ |                            |      iva |
-| # | IVA                        |  4305.00 |
+| # | IVA                        |  2310.00 |
 | _ |                            |    final |
-| # | Final                      | 24805.00 |
+| # | Final                      | 13310.00 |
 |---+----------------------------+----------|
 #+TBLFM: $tot=vsum (@2..@-2);%0.2f::$iva=$tot*0.21;%0.2f::$final=$tot+$iva;%0.2f::
 
