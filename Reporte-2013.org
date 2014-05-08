@@ -408,5 +408,6 @@ Se actuo como puente entre el equipo de Oscar y el equipo tecnico del INAES
 destrabando en dias situaciones que estaban frenando el trabajo desde
 semanas.
 
-Se recomendo la implementación de sistemas recomendados en el INAES y se
-facilito su transición al centro.
+Se recomendo la implementación de sistemas recomendados en el INAES para
+mejorar la productividad (Gestor de incidentes) y se facilito su transición
+al centro.
