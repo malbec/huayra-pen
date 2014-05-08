@@ -396,12 +396,17 @@ parte del equipo de soporte para dar respuestas en linux.
 ** Centro Gallego
 Se brindo asistencia técnica al equipo liderado por Oscar Slepoy, se dio
 soporte para analizar los contratos de proveedores y gestión de presupuestos
-para la migración del Centro Gallego.
+para la migración del Centro Gallego a Software libre. 3 presupuestos:
+Gcoop, OpenSA y Coletti
 
 Se analizó y recomendó soluciones de software libre de gestión, para poder
 salir del pleito con la empresa ThinkSoft. Como lo analizo correctamente
 Oscar Slepoy, la inversión técnica, económica y política hecha sobre el
 sistema ThinkSoft no permite en este momento pensar en una migración.
 
-Se analizó y costeo la migración de los equipos de usuarios a Software
-Libre, con 3 presupuestos: Gcoop, OpenSA y Coletti
+Se actuo como puente entre el equipo de Oscar y el equipo tecnico del INAES
+destrabando en dias situaciones que estaban frenando el trabajo desde
+semanas.
+
+Se recomendo la implementación de sistemas recomendados en el INAES y se
+facilito su transición al centro.
