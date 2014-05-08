@@ -63,7 +63,10 @@ luego trabajar en el modelo de formador de formadores.
 ** Centro Gallegos
 **** Asistencia técnica
 Se ha brindado asistencia en elaboración de planes de trabajo y
-asesoramiento en soluciones tecnológicas. 
+asesoramiento en soluciones tecnológicas.
+**** Comunicación con la tecnica del instituto
+Se facilito la comunicación entre Oscar y la area de informatica del
+instituto, destrabando en horas tareas que se venian retrazando semanas.
 ** Mutual Pyme
 **** Asesoramiento constante
 hemos trabajado junto a la Mutual poniendo nuestros saberes técnicos para
