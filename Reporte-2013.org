@@ -403,4 +403,5 @@ salir del pleito con la empresa ThinkSoft. Como lo analizo correctamente
 Oscar Slepoy, la inversión técnica, económica y política hecha sobre el
 sistema ThinkSoft no permite en este momento pensar en una migración.
 
-
+Se analizó y costeo la migración de los equipos de usuarios a Software
+Libre, con 3 presupuestos: Gcoop, OpenSA y Coletti
