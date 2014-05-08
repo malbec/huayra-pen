@@ -411,3 +411,4 @@ semanas.
 Se recomendo la implementación de sistemas recomendados en el INAES para
 mejorar la productividad (Gestor de incidentes) y se facilito su transición
 al centro.
+
