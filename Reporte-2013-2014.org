@@ -6,19 +6,69 @@
 
 * Resumen
 * Intervenciones exitosas
+** OpCode
+En base al trabajo realizado desde la cooperativa incubada se logro
++ Potenciar y extender el desarrollo de una solución de PlayOut para canales
+  de televisión orientado a Coops, Pymes y Universidades.
++ Se avanzo en un mapa tecnológico para hacer posible técnicamente el multi
+  medios cooperativo.
++ Desarrollo de una aplicación para integrar a Huayra, el Sistema Operativo
+  de Conectar igualdad.
++ Solución de alta calidad técnica para transmisión de eventos sobre
+  internet. (la cooperativa le vendió servicios usando esta tecnología ala Defensoría del
+  público) La misma esta lista para uso de INAES, teniendo por costos fijos
+  solo el costo de transmisión que carga el proveedor de internet y por
+  única vez el costo de comprar una computadora con el equipamiento
+  especifico.
 ** Facttic
++ Participación directa asesorando como INAES e indirecta desde la
+participación de Opcode en la federación
+
 ** Usina de medios
 Del trabajo junto a Usinas podemos destacar
-**** Asistencia técnica en tiempo record entre pedido y solución en elecciones 2013 y audiencia publica de la defensoría, en ambas situaciones se les resolvió el problema absorviendo los costos.
-**** Generación y puesta en práctica de una capacitación para la instalación, configuración y uso por periodistas de una plataforma web orientada a prensa.
+**** Asistencia técnica
+ + Asistencia técnica en tiempo record entre pedido y solución en elecciones
+ 2013 y audiencia publica de la defensoría, en ambas situaciones se les
+ resolvió el problema absorviendo los costos.   
++ participación en calidad de especialistas tecnológicos en varias reuniones
+  a pedido de usina
+**** Formación
+Generación y puesta en práctica de una capacitación para la instalación,
+configuración y uso por periodistas de una plataforma web orientada a
+prensa. Se realizo una capacitación piloto con la cooperativa coopar para
+luego trabajar en el modelo de formador de formadores.
 
 ** Centro Gallegos
+**** Asistencia técnica
+Se ha brindado asistencia en elaboración de planes de trabajo y
+asesoramiento en soluciones tecnológicas. 
 ** Mutual Pyme
 **** Asesoramiento constante
-**** 
+hemos trabajado junto a la Mutual poniendo nuestros saberes técnicos para
+asistir a los compañeros en la evaluación de proyectos tecnológicos.
+**** Suma de Pymes
+Se sumaron dos Pymes del sector desarrollo de Software Librea la Mutual y se
+les brindo asesoramiento tecnológico y de comunicación en red.
 ** Universidades
-** Polos audiovisuales?
-** Sistemas INAES
+Se mantiene dialogo técnico con las siguientes universidades nacionales
+**** UNQ
+**** UNLa
+**** COMAHUE
+**** UBA - EUDEBA
+** CNC
++  
++ Colaboración en la redacción del quinto libro de la serie de guías
+  técnicas de la CNC destinado a radios de todo el país redactando y
+  corrigiendo el apartado de software del mismo. 
 
-* Intervenciones esperando presupuesto
-* Proyectos con alta visibilidad política
+** Sector
++ Trabajo de campo en redes comunitarias con enfoque en las cooperativas
+   como proveedores de internet.
++ Elaboración de cursos de capacitación tecnológica orientados a l
++ Investigación de posibles modelos de negocio para potenciar las
+  cooperativas telefónicas con base en el crédito BNA-CNC
++  
+
+** Sistemas INAES
+Asesoramiento y apoyo permanente.
+
