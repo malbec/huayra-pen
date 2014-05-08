@@ -4,6 +4,26 @@
 #+AUTHOR: Niv Sadi, Vladimir di Fiore
 #+Latex_header: \usepackage{babel}[es]
 
+** MEETING <2014-04-21 Mon 12:30>
+lo que hicimos
+lo que podemos hacer
+
+*** politico
+**** universidades
+**** Facttic
+**** viditec
+
+*** tecnico
+**** linux en la oficina
+**** Coopar
+**** defensoria
+**** playout
+**** usina
+**** erp pyme/multual pyme
+*** futuro
+**** preciosa
+
+
 * Resumen
 * Intervenciones exitosas
 ** OpCode
@@ -27,9 +47,9 @@ participación de Opcode en la federación
 ** Usina de medios
 Del trabajo junto a Usinas podemos destacar
 **** Asistencia técnica
- + Asistencia técnica en tiempo record entre pedido y solución en elecciones
- 2013 y audiencia publica de la defensoría, en ambas situaciones se les
- resolvió el problema absorviendo los costos.   
++ Asistencia técnica en tiempo record entre pedido y solución en elecciones
+  2013 y audiencia publica de la defensoría, en ambas situaciones se les
+  resolvió el problema absorviendo los costos.   
 + participación en calidad de especialistas tecnológicos en varias reuniones
   a pedido de usina
 **** Formación
@@ -37,6 +57,8 @@ Generación y puesta en práctica de una capacitación para la instalación,
 configuración y uso por periodistas de una plataforma web orientada a
 prensa. Se realizo una capacitación piloto con la cooperativa coopar para
 luego trabajar en el modelo de formador de formadores.
+**** Identificación de Tecnología
++ Kaltura, implementado por Colectivo Libre para Imagika
 
 ** Centro Gallegos
 **** Asistencia técnica
