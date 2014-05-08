@@ -413,4 +413,5 @@ mejorar la productividad (Gestor de incidentes) y se facilito su transición
 al centro.
 
 Se identificó y acompaño la instalación de Software Libre para enquestas a
-pedido de Noelia Carrizo en destaque al Centro Gallego.
+pedido de Noelia Carrizo en destaque al Centro Gallego, evitando la compra
+de Software costoso.
