@@ -8,6 +8,9 @@
 lo que hicimos
 lo que podemos hacer
 
+
+
+* Resumen
 *** politico
 **** universidades
 **** Facttic
@@ -21,10 +24,8 @@ lo que podemos hacer
 **** usina
 **** erp pyme/multual pyme
 *** futuro
-**** preciosa
+**** preciosa (aplicación superadora de precios cuidados que necesita fondeo)
 
-
-* Resumen
 * Intervenciones exitosas
 ** OpCode
 En base al trabajo realizado desde la cooperativa incubada se logro
@@ -62,38 +63,75 @@ luego trabajar en el modelo de formador de formadores.
 
 ** Centro Gallegos
 **** Asistencia técnica
-Se ha brindado asistencia en elaboración de planes de trabajo y
-asesoramiento en soluciones tecnológicas.
-**** Comunicación con la tecnica del instituto
-Se facilito la comunicación entre Oscar y la area de informatica del
+Se brindo asistencia técnica al equipo liderado por Oscar Slepoy, se dio
+soporte para analizar los contratos de proveedores y gestión de presupuestos
+para la migración del Centro Gallego.
+
+Se analizó y recomendó soluciones de software libre de gestión, para poder
+salir del pleito con la empresa ThinkSoft. Como lo analizo correctamente
+Oscar Slepoy, la inversión técnica, económica y política hecha sobre el
+sistema ThinkSoft no permite en este momento pensar en una migración.
+
+**** Comunicación con Sistemas del instituto
+Se facilito la comunicación entre Oscar y el area de informatica del
 instituto, destrabando en horas tareas que se venian retrazando semanas.
 ** Mutual Pyme
 **** Asesoramiento constante
 hemos trabajado junto a la Mutual poniendo nuestros saberes técnicos para
 asistir a los compañeros en la evaluación de proyectos tecnológicos.
 **** Suma de Pymes
-Se sumaron dos Pymes del sector desarrollo de Software Librea la Mutual y se
+Se sumaron dos Pymes del sector desarrollo de Software Libre a la Mutual y se
 les brindo asesoramiento tecnológico y de comunicación en red.
 ** Universidades
-Se mantiene dialogo técnico con las siguientes universidades nacionales
+Se mantiene dialogo técnico con las siguientes universidades nacionales y
+con la editoral de la UBA (con
+las tres esta el ok de firmar un convenio cuando se lo desee)
 **** UNQ
 **** UNLa
-**** COMAHUE
-**** UBA - EUDEBA
+**** EUDEBA
 ** CNC
-+  
+
 + Colaboración en la redacción del quinto libro de la serie de guías
   técnicas de la CNC destinado a radios de todo el país redactando y
   corrigiendo el apartado de software del mismo. 
 
 ** Sector
-+ Trabajo de campo en redes comunitarias con enfoque en las cooperativas
++ Trabajo de campo en redes comunitarias (wifi) con enfoque en las cooperativas
    como proveedores de internet.
-+ Elaboración de cursos de capacitación tecnológica orientados a l
++ Elaboración de cursos de capacitación.
 + Investigación de posibles modelos de negocio para potenciar las
   cooperativas telefónicas con base en el crédito BNA-CNC
-+  
 
-** Sistemas INAES
-Asesoramiento y apoyo permanente.
+
+** INAES
+*** Tic-INAES
+Se genero un espacio de asistencia tecnológica con base en herramientas de Software Libre que cubre el soporte interno de INAES tanto como el Sector
+Cooperativo / PyME desde donde se establecieron vinculos y buenas practicas. Todos las soluciones desarrolladas desde este espacio se encuentran en
+repositorios públicos.
+
+*** Instalación de una plataforma de gestión de proyectos
+Se instalo a pedido del área de Facundo Rodano una plataforma de gestión de proyectos en redmine.tic.inaes.gob.ar para la coordinación de los equipos
+territoriales.
+
+*** Instalación de un gestor de incidencias
+Se instalo para su evaluación por el área de coordinación territorial un gestor de incidencias. El mismo que se recomendo usar en 2012 (y se implemento con
+éxito) en el área de informática del instituto.
+
+*** Creación de listas de correo para la comunicación de equipos de trabajo de INAES
+Se habilito un servidor de listas de coreos usado por el equipo de Facundo Rodano para la coordinación de los agentes territoriaes.
+listas.tic.inaes.gob.ar (este recurso esta abierto al resto del instituto para su uso).
+
+*** Configuración a nivel servidor de un blog y capacitación al área de juventud para su uso.
+A pedido de la comisión de juventud (y con el acuerdo del área de Facundo Rodano), se instalo en tic.inaes.gob.ar una plataforma de blog propulsada
+por software libre: Wordpress. Se instalo la pagina y se capacito a miembros de la comisión para su
+administración.
+
+*** Instalación y configuración de un sistema para geo referencia 
+Se instalo en mapas.tic.inaes.gob.ar un sistema de geo-referencia y mapeo (ushahidi), para poder responder a requerimientos que venían del área de
+prensa y para poder experimentar con varios mapeos (Por ejemplo para realizar el mapeo de los cortes de luz).
+
+*** Asistencia a la dirección de Sistemas de INAES
+Durante el año se acompaño a la dirección de sistemas del INAES en varios temas de administración de servidores y de redes.
+
+
 
