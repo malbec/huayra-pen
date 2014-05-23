@@ -1,4 +1,8 @@
-
+#+LaTeX_HEADER: \usepackage[spanish]{babel}
+#+LANGUAGE: es
+#+Latex_class: koma-report
+#+AUTHOR: Niv Sardi <niv.sardi@unq.edu.ar>, Vladimir di Fiore Prieto <vdifiore@gmail.com>
+#+TITLE: HackaTren 
 * Resumen
 EL HackaTren toma como punto de partida al tren como actor en la
 comunicación y la vida socio económica de los pueblos que conecta en su
@@ -28,7 +32,7 @@ que enfrentan hoy los organismos públicos Nacionales y Provinciales en materia 
 Transporte, Trabajo, Industria,
 …) con el fin de ponerlos a disposición del ingenio de los programadores que
 viajaran en del tren. De esta forma, se espera detectar
-buenos programadores como poder usar ideas novedosas para mejorar las
+buenos programadores y poder usar ideas novedosas para mejorar las
 instituciones públicas.
 
 En cada parada del tren se realizarán actividades orientadas a la
@@ -52,7 +56,7 @@ Se propone la proyección de contenidos audiovisuales con licencia libre
 teniendo particular enfoque en la integración nacional.
 
 *** armar una radio en 2h
-en un taller accelerado, en 5 equipos, se recorrera los conocimientos
+en un taller accelerado, en 5 equipos, se recorreran los conocimientos
 necesarios para el armado de una radio comunitaria.
 
 Estos talleres se basaran sobre los manuales de la CNC y vendran acompañados
@@ -63,17 +67,25 @@ necesarios a la tarea.
 en un taller accelerado, en 5 equipos, se recorrera los conocimientos
 necesarios para el armado de una televisión comunitaria.
 
-Estos talleres se basaran sobre los manuales de la CNC y vendran acompañados
-de los mismos tanto como de un DVD de contenidos y otra de programas
-necesarios a la tarea.
+Estos talleres se basaran en la experiencia del proyecto malbec Broadcast en el
+canal Wall KinTun y contara con asistencia de Metropolis Films en lo que
+hace a conocimientos básicos de manejo  de cámara y técnicas de filmación.
+
 
 *** introducción a la programación
 Talleres acelerados para tener un primer acercamiento a la programación. Los
 mismos estarán a cargo de FACTTIC (Federación Argentina de Cooperativas de Trabajo de Tecnología, Innovación y Conocimiento)
 Evaluar sumar a Educ.ar y Program.ar
 *** charlas/debates
-Se propone usar un espacio del tren como catalyzador de debates
+Se propone usar un espacio del tren como catalyzador de debates.
+Se contempla que de este espacio participen autoridades nacionales,
+provinciales y municipales.
 
+*** Presencia de Universidades Nacionales
+Las Universidades Nacionales que estén en un radio de cercanía con alguna de
+las estaciones donde el Tren realice actividades participarán de las mismas
+aportando sus producciones de manera de dar a conocer el trabajo de las
+mismas y acercarlas a la población.
 ** Actividad en Buenos Aires
 
 ** Actividad en Bariloche
