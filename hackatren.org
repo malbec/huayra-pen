@@ -78,4 +78,4 @@ estación para realizar una actividad puntual.
 ** Traslados
 se considerará contar con transporte para permitir que desarroladores/as que
 no vivan cerca de una estación del recorrido puedan subirse al Hackatren en
-Constitución o cualquier otro punto del recorrido.
+Constitución o cualquier otro punto de parada.
