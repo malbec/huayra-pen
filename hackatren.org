@@ -25,9 +25,10 @@ del Ministerio de Interior y Transporte )
 
 El objetivo es hacer un relevamiento de los problemas reales (tangenciales)
 que enfrentan hoy los organismos públicos (Transporte, Trabajo, Industria,
-…) Nacionales y Provinciales y poner a disposición los datos relativos a
-esos problemas para que los ingeniosos programadores subidos arriba del tren
-puedan proponer soluciones novedosas.
+…) Nacionales y Provinciales en fin de ponerlos a disposición del ingenio de
+los programadores subidos arriba del tren. De esta forma, se espera detectar
+buenos programadores como poder usar ideas novedosas para mejorar las
+instituciones públicas.
 
 En cada parada del tren se realizarán actividades orientadas a la
 comunicación tomando como eje la Ley de servicios audiovisuales y la
@@ -44,6 +45,12 @@ Hackatren previo a la llegada del Tren.
 Se realizará un trabajo previo para trabajar con las radios y canales de
 cada estación poniendo el eje en difundir las experiencias locales con eje
 en la importancia del tren para la vida social de la población local.
+
+*** microcine bacua
+*** armar una radio en 2h
+*** armar un canal de television en 2h
+*** introduccion a la programación
+*** charlas/debates
 
 ** Actividad en Buenos Aires
 
