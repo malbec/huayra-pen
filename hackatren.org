@@ -24,9 +24,10 @@ tren en un dahsboard donde podrán verse propuestas de los participantes y
 del Ministerio de Interior y Transporte )
 
 El objetivo es hacer un relevamiento de los problemas reales (tangenciales)
-que enfrentan hoy los organismos públicos (Transporte, Trabajo, Industria,
-…) Nacionales y Provinciales en fin de ponerlos a disposición del ingenio de
-los programadores subidos arriba del tren. De esta forma, se espera detectar
+que enfrentan hoy los organismos públicos Nacionales y Provinciales en materia tecnológica (Interior y
+Transporte, Trabajo, Industria,
+…) con el fin de ponerlos a disposición del ingenio de los programadores que
+viajaran en del tren. De esta forma, se espera detectar
 buenos programadores como poder usar ideas novedosas para mejorar las
 instituciones públicas.
 
@@ -66,9 +67,10 @@ Estos talleres se basaran sobre los manuales de la CNC y vendran acompañados
 de los mismos tanto como de un DVD de contenidos y otra de programas
 necesarios a la tarea.
 
-*** introduccion a la programación
-A cargo de FACTTIC
-
+*** introducción a la programación
+Talleres acelerados para tener un primer acercamiento a la programación. Los
+mismos estarán a cargo de FACTTIC (Federación Argentina de Cooperativas de Trabajo de Tecnología, Innovación y Conocimiento)
+Evaluar sumar a Educ.ar y Program.ar
 *** charlas/debates
 Se propone usar un espacio del tren como catalyzador de debates
 
