@@ -1,0 +1,64 @@
+
+* Resumen
+EL HackaTren toma como punto de partida al tren como actor en la
+comunicación y la vida socio económica de los pueblos que conecta en su
+recorrido para sumar una propuesta cultural centrada en el conocimiento
+libre y la transferencia tecnológica. 
+Es sobre esta base que se quiere potenciar la re apertura del ramal Buenos
+Aires Bariloche con un tren del conocimiento, que irá dejando diferentes
+experiencias a lo largo de todo su recorrido interactuando con los
+habitantes de las estaciones donde se realicen actividades fuera del tren.
+
+El viaje y sus paradas será registrado por la productora Metropolis Films de
+forma voluntaria y bajo una licencia libre para su posterior uso.
+Todos los desarrollos serán liberados con licencia libre.
+* Actividad central
+Durante todo el recorrido del tren se utilizara un vagón para que los y las
+participantes del #Hackatren puedan trabajar en sus proyectos de desarrollo
+a lo largo del recorrido del tren. Estos desarrollos serán publicados una
+vez finalizado el viaje. (las mismas se postularan previo a la salida del tren en un dahsboard donde
+podrán verse propuestas de los participantes y del Ministerio de Interior y
+Transporte )
+En cada parada del tren se realizarán actividades orientadas a la
+comunicación tomando como eje la Ley de servicios audiovisuales y la
+potencialidad del Software Libre.
+Durante todo el recorrido se ira trabajando sobre el material audiovisual
+generado en el Hackatren
+** Actividades en estaciones
+Se utilizará la llegada del tren a cada Ciudad /pueblo para realizar en la estación
+misma una intervención del tipo tecnológica o artistica. La misma oficiará
+de cierre de una capacitación previa realizada por el equipo auxiliar del
+Hackatren previo a la llegada del Tren.
+Se realizará un trabajo previo para trabajar con las radios y canales de
+cada estación poniendo el eje en difundir las experiencias locales con eje
+en la importancia del tren para la vida social de la población local.
+
+** Actividad en Bariloche
+Se realizará una actividad de indole cultural para celebrar la llegada del
+tren en la que participaran artistas locales junto al equipo del Hackatren y
+los participantes para celebrar el regreso del tren y destacar lo realizado
+en el hackaton
+** Cierre final
+Se realizará o bien en Bariloche  o en alguna de las estaciones del tren
+cuando este realice el trayecto Bariloche Buenos Aires. (recomendamos que la
+misma no se realice en CABA para no caer en centralismo.) En la misma se
+presentarán las solucione desarrolladas durante el viaje y se emitirá parte
+del material audiovisual generado en el viaje en la línea de trabajo El Tren
+nos conecta y potencia-
+
+
+* Logistica 
+** Tren
+En el tren se contará con soporte eléctrico para los equipos informáticos,
+routers 3G, y un catering básico que contemple gestionar las comidas de los
+participantes y del equipo.
+
+** Equipo auxiliar
+Se usará un equipo auxiliar para realizar talleres y capacitaciones previo a
+la llegada del tren. este equipo se movilizara en dos vehiculos del tipo
+mini bus para ocuparse de tareas de campo previas a la llegada del tren o de
+traslado de los participantes del Hackatren que se hubieran quedado en una
+estación para realizar una actividad puntual.
+** Traslados
+se considerará contar con transporte para permitir que desarroladores/as que
+no vivan en CABA y conurbano puedan subirse al Hackatren en Constitución
