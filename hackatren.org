@@ -86,6 +86,16 @@ Las Universidades Nacionales que estén en un radio de cercanía con alguna de
 las estaciones donde el Tren realice actividades participarán de las mismas
 aportando sus producciones de manera de dar a conocer el trabajo de las
 mismas y acercarlas a la población.
+
+Se proponen actividad de enfrentamiento técnico entre equipos de estudiantes
+de las distintas universidades nacionales
+
+**** concurso de robotica
+https://en.wikipedia.org/wiki/Eurobot
+https://en.wikipedia.org/wiki/Defcon_Robot_Contest
+**** pwn2own (En alianza con la gente de la EKO Party)
+https://en.wikipedia.org/wiki/Pwn2Own
+
 ** Actividad en Buenos Aires
 Se realizará una actividad lanzamiento el día de la partida del Tren en La estación Constitución para contar que significa el
 HackaTren y cuales son sus objetivos. 
