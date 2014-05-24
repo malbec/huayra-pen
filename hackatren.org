@@ -87,7 +87,8 @@ las estaciones donde el Tren realice actividades participarán de las mismas
 aportando sus producciones de manera de dar a conocer el trabajo de las
 mismas y acercarlas a la población.
 ** Actividad en Buenos Aires
-
+Se realizará una actividad lanzamiento el día de la partida del Tren en La estación Constitución para contar que significa el
+HackaTren y cuales son sus objetivos. 
 ** Actividad en Bariloche
 Se realizará una actividad de indole cultural para celebrar la llegada del
 tren en la que participaran artistas locales junto al equipo del Hackatren y
