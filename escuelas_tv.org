@@ -10,7 +10,7 @@
 | + grabadora de dvd sata dual layer,                              |          |
 | + lector de memoria                                              |          |
 | + validado bajo Huayra GNU/Linux                                 |          |
-| Monitor FullHD 24 pulgadas                                       |        1 |
+| Monitor FullHD (1080p) 24 pulgadas                               |        1 |
 | parlantes 45 w digital coaxial 3,5                               |        1 |
 | Prolongador (zapatilla)4 tomas universal c cable de 3mts o más   |        2 |
 | UPS de 1200va con conexión a pc                                  |        1 |
