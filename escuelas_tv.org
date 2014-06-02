@@ -12,7 +12,8 @@
 | + validado bajo Huayra GNU/Linux                                 |          |
 | Monitor FullHD (1080p) 24 pulgadas                               |        1 |
 | parlantes 45 w digital coaxial 3,5                               |        1 |
-| Prolongador (zapatilla)4 tomas universal c cable de 3mts o más   |        2 |
+| Prolongador (zapatilla)                                          |        2 |
+| tomas universal c cable de 3mts o más                            |        4 |
 | UPS de 1200va con conexión a pc                                  |        1 |
 |------------------------------------------------------------------+----------|
 | VIDEO                                                            |          |
