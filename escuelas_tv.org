@@ -53,7 +53,11 @@ cualquier material que contenga el Gestor de Medios Digitales que podrán ver
 cualquier persona conectada a la red comunal.
 
 Se distribuiran applicativos basados en el Software Libre
-=Popcorn-Time=[fn:http://github.com/popcorn-official/popcorn-app]
+=Popcorn-Time=[fn:http://github.com/popcorn-official/popcorn-app] modificado
+para presentar de manera facil y elegante las distintas fuentes de contenido
+y permitiendo tener un sistema de votos y recomendaciones integrado a la
+plataforma.
+
 **  Laboratorio
 Se instalará un laboratorio para simular la instalación modelo de las
 escuelas y poder realizar todas las pruebas pertinentes antes de realizar el
