@@ -22,6 +22,7 @@
 | Cámara GoPro HERO3 black                                         |        1 |
 | tarjeta de memoria 16GB generación 10                            |        2 |
 | Trípode de video de 1,60mts                                      |        1 |
+| Estabilizador I-Steady CC para camara GoPro
 |------------------------------------------------------------------+----------|
 | SONIDO                                                           |          |
 |------------------------------------------------------------------+----------|
