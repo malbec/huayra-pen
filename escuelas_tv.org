@@ -74,6 +74,10 @@ comunitaria permitiendo realizar streaming de las producciones y de
 cualquier material que contenga el Gestor de Medios Digitales que podrán ver
 cualquier persona conectada a la red comunal.
 
+La solución de syncronización MBC (a nombrar todavia) usando tecnologias
+basadas en BUP y git-annex permitira detectar los cambios en servidores
+remotos y el envio de nuevos contenidos por red o quema de discos.
+
 Se distribuiran applicativos basados en el Software Libre
 =Popcorn-Time=[fn:http://github.com/popcorn-official/popcorn-app] modificado
 para presentar de manera facil y elegante las distintas fuentes de contenido
