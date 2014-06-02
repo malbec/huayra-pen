@@ -44,13 +44,16 @@
 En las escuelas que participan del programa de producción audiovisual se
 montara un Servidor de contenidos y playout basado en la solución libre
 Malbec Broadcast[fn:http://github.com/inaes-tic/malbec]. Este servidor
-oficiara de gestor de medios digitales (MAM), permitiendo alojar las producciones
-de los estudiantes y al mismo tiempo contar con todo el material de
-Conectate, Paka Paka, Encuentro, BACUA y CDA. Mediante el despliegue de los
-nodos de comunicaciones se dará inicio a una red comunitaria permitiendo
-realizar streaming de las producciones y de cualquier material que contenga
-el Gestor de Medios Digitales que podrán ver cualquier persona conectada a
-la red comunal.
+oficiara de gestor de medios digitales (MAM), permitiendo alojar las
+producciones de los estudiantes y al mismo tiempo contar con todo el
+material de Conectate, Paka Paka, Encuentro, BACUA y CDA. Mediante el
+despliegue de los nodos de comunicaciones se dará inicio a una red
+comunitaria permitiendo realizar streaming de las producciones y de
+cualquier material que contenga el Gestor de Medios Digitales que podrán ver
+cualquier persona conectada a la red comunal.
+
+Se distribuiran applicativos basados en el Software Libre
+=Popcorn-Time=[fn:http://github.com/popcorn-official/popcorn-app]
 **  Laboratorio
 Se instalará un laboratorio para simular la instalación modelo de las
 escuelas y poder realizar todas las pruebas pertinentes antes de realizar el
