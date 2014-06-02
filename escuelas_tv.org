@@ -63,7 +63,7 @@ montara un Servidor de contenidos basado en la solución libre
 Malbec Broadcast[fn:http://github.com/inaes-tic/malbec]. 
 
 Especificamente se instalará la solución de ingesta
-Patero[fn:https://github.com/inaes-tic/mbc-patero] que automatiza la
+=MBC-Patero=[fn:https://github.com/inaes-tic/mbc-patero] que automatiza la
 transcodificación y normalización de contenidos.
 
 Este servidor oficiara de gestor de medios digitales (MAM), permitiendo
