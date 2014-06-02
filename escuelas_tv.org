@@ -87,6 +87,11 @@ plataforma.
 Se desarrollara un 'plugin' para usar la syncronizion MBC (via Patero) a una
 API usada por el Popcorn-Time modificado.
 
+Finalmente, se podrá instalar la solución de Playout, Generación de
+Caracteres y Autmoación de camaras
+=MBC-Playout=[fn:https://github.com/inaes-tic/mbc-playout], (con
+=MBC-Ettiquette=[fn:https://github.com/inaes-tic/mbc-etiquette] y
+=MBC-Tetra=[fn:https://github.com/inaes-tic/mbc-tetra])
 **  Laboratorio
 Se instalará un laboratorio para simular la instalación modelo de las
 escuelas y poder realizar todas las pruebas pertinentes antes de realizar el
