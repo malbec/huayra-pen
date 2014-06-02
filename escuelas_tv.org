@@ -1,46 +1,60 @@
 * Borrador para la charla con educación
 ** Listado de hardware a adquirir
-|---------------------------------------------------------------------------------------------------------------------------------------+----------|
-| Descripción                                                                                                                           | cantidad |
-|---------------------------------------------------------------------------------------------------------------------------------------+----------|
-|---------------------------------------------------------------------------------------------------------------------------------------+----------|
-| CPU de alta gama con procesador de 4 nucleos, HD sata II de 1TB, 8 GB ram ddr3, grabadora de dvd sata dual layer, lector de memoria   |        1 |
-| Placa de video 1gb ddr3 hdmi dvi vga                                                                                                  |        1 |
-| Monitor HD 20 pulgadas                                                                                                                |        1 |
-| parlantes 45 w digital coaxial 3,5                                                                                                    |        1 |
-| Prolongador (zapatilla)4 tomas universal c cable de 3mts o más                                                                        |        2 |
-| UPS de 1200va con conexión a pc                                                                                                       |        1 |
-|---------------------------------------------------------------------------------------------------------------------------------------+----------|
-| VIDEO                                                                                                                                 |          |
-|---------------------------------------------------------------------------------------------------------------------------------------+----------|
-| Cámara fotográfica reflex digital lente kit de 18 - 55 mm                                                                             |        1 |
-| Cámara GoPro                                                                                                                          |        1 |
-| tarjeta de memoria 16GB generación 10                                                                                                 |        2 |
-| Trípode de video de 1,60mts                                                                                                           |        1 |
-|---------------------------------------------------------------------------------------------------------------------------------------+----------|
-| SONIDO                                                                                                                                |          |
-|---------------------------------------------------------------------------------------------------------------------------------------+----------|
-| Grabador digital con dos entradas xlr, alimentación phanton, diversos formatos de grabación, mic interno y externo. Huayra compatible |        1 |
-| Tarjeta de memoria de 4GB generación 10                                                                                               |        2 |
-| Micrófono de condensador tipo boom hiper-cardoide. alimentación 48v, phanton y AA                                                     |        1 |
-| Mango pistola con suspensión elastica para boom                                                                                       |        1 |
-| Caña para micrófono Boom                                                                                                              |        1 |
-| Micrófono corbatero UHF                                                                                                               |        2 |
-| Cable de micrófono Canon-canon (xlr) x 10nts Fichas Neutrik                                                                           |        3 |
-|---------------------------------------------------------------------------------------------------------------------------------------+----------|
-| ILUMINACIÖN                                                                                                                           |          |
-|---------------------------------------------------------------------------------------------------------------------------------------+----------|
-| Minipanorámicas de 1000 Wats                                                                                                          |        2 |
-| Minipanorámicas de 500 Wats                                                                                                           |        2 |
-| Trípode para luces de 1,5 mts                                                                                                         |        4 |
-| Alargue 2,5mm x3 de 10mts                                                                                                             |        4 |
-| Pantalla reflectora 5 en 160cm con funda reflex fotografía                                                                            |        1 |
-|---------------------------------------------------------------------------------------------------------------------------------------+----------|
-| RED de distribución de contenidos                                                                                                     |          |
-|---------------------------------------------------------------------------------------------------------------------------------------+----------|
-| Nodos de comunicaciones completos bajo espc CNC INTI                                                                                  |        5 |
-| Servidor de contenidos (CPU de alta gama con procesador de 4 nucleos, 2 HD sata II de 1TB, 8 GB ram ddr3, lector de memoria.)         |        1 |
-|---------------------------------------------------------------------------------------------------------------------------------------+----------|
+|------------------------------------------------------------------+----------|
+| Descripción                                                      | cantidad |
+|------------------------------------------------------------------+----------|
+|------------------------------------------------------------------+----------|
+| CPU de alta gama con procesador de 4 nucleos,                    |        1 |
+| + HD sata III 60 Gb/s de 1TB,                                    |          |
+| + 8 GB ram ddr3,                                                 |          |
+| + grabadora de dvd sata dual layer,                              |          |
+| + lector de memoria                                              |          |
+| + validado bajo Huayra GNU/Linux                                 |          |
+| Monitor HD 20 pulgadas                                           |        1 |
+| parlantes 45 w digital coaxial 3,5                               |        1 |
+| Prolongador (zapatilla)4 tomas universal c cable de 3mts o más   |        2 |
+| UPS de 1200va con conexión a pc                                  |        1 |
+|------------------------------------------------------------------+----------|
+| VIDEO                                                            |          |
+|------------------------------------------------------------------+----------|
+| Cámara fotográfica reflex digital lente kit de 18 - 55 mm        |        1 |
+| Cámara GoPro                                                     |        1 |
+| tarjeta de memoria 16GB generación 10                            |        2 |
+| Trípode de video de 1,60mts                                      |        1 |
+|------------------------------------------------------------------+----------|
+| SONIDO                                                           |          |
+|------------------------------------------------------------------+----------|
+| Grabador digital con dos entradas xlr,                           |        1 |
+| + alimentación phanton,                                          |          |
+| + diversos formatos de grabación,                                |          |
+| + mic interno y externo,                                         |          |
+| + Compatible con el systema Huayra GNU/Linux                     |          |
+| Tarjeta de memoria de 4GB generación 10                          |        2 |
+| Micrófono de condensador tipo boom hiper-cardoide.               |        1 |
+| + alimentación 48v, phanton y AA                                 |          |
+| Mango pistola con suspensión elastica para boom                  |        1 |
+| Caña para micrófono Boom                                         |        1 |
+| Micrófono corbatero UHF                                          |        2 |
+| Cable de micrófono Canon-canon (xlr) x 10nts Fichas Neutrik      |        3 |
+|------------------------------------------------------------------+----------|
+| ILUMINACIÖN                                                      |          |
+|------------------------------------------------------------------+----------|
+| Minipanorámicas de 1000 Wats                                     |        2 |
+| Minipanorámicas de 500 Wats                                      |        2 |
+| Trípode para luces de 1,5 mts                                    |        4 |
+| Alargue 2,5mm x3 de 10mts                                        |        4 |
+| Pantalla reflectora 5 en 160cm con funda reflex fotografía       |        1 |
+|------------------------------------------------------------------+----------|
+| RED de distribución de contenidos                                |          |
+|------------------------------------------------------------------+----------|
+| Nodos de comunicaciones completos bajo espc CNC INTI             |        5 |
+| Servidor de contenidos                                           |        1 |
+| + CPU de alta gama con procesador de 4 nucleos,                  |          |
+| + 5 HD sata III de 500GB 60Gb/s (capacidad total: 2TB en RAID5), |          |
+| + 4 GB ram ddr3,                                                 |          |
+| + 2 Placas de red Gigabyte ethernet                              |          |
+| + 2 Puertos USB 3.0                                              |          |
+|------------------------------------------------------------------+----------|
 ** Uso de Mesh y popcornnivbacua
 En las escuelas que participan del programa de producción audiovisual se
 montara un Servidor de contenidos y playout basado en la solución libre
