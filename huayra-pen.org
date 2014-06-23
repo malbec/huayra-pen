@@ -2,30 +2,7 @@
 #+AUTHOR: Niv Sardi <xaiki@debian.org>, Vladimir Di Fiore <vdifiore@gmail.com>
 #+LANGUAGE: es
 
-* Introducción
-El programa Connectar Igualdad tiene como objetivo el empoderamiento
-tecnologico de los estudiantes de segundario de la nación entregandoles una
-computadora (netbook) para acotar la brecha digital, hoy uno de los
-elementos de exclusión menos tratados.
-
-El plan progresar tiene como objetivo fomentar la integración de más jovenes
-excluidos a los circuitos educativos formales. El apoyo economico permite
-abstraerlos de sus responsabilidades familiares directas en pos de la
-adquicision de un titulo, motor de progreso social.
-
-Si bien se repartieron casi 4 Millones de maquinas, muchos  jovenes
-han quedado fuera de este programa, ya sea por haber tenido que dejar los
-estudios o por haber egresado pre Conectar Igualdad.
-
-En muchos hogares la computadora a la que accedieron estos jovenes es la
-única maquina del hogar, y si bien esto implica un mayor acceso de la
-familia el mismo redunda en una perdida de autonomía de los jovenes sobre
-sus computadoras en pos del uso comunitario de su familia.
-
-Finalmente, si bien la netbook es un avance de suma importancia, sabemos que
-algunas tareas requieren mas capacidad de procesamiento
-o espacio de pantalla.
-
+#+INCLUDE: README.org
 * Propuesta                                                          
 Se propone el desarrollo de un pendrive booteable conteniendo una versión de
 Huayra GNU/Linux[fn::sistema operativo de las netbooks de connectar
