@@ -3,6 +3,7 @@
 #+LANGUAGE: es
 
 #+INCLUDE: README.org
+
 * Propuesta                                                          
 Se propone el desarrollo de un pendrive booteable conteniendo una versión de
 Huayra GNU/Linux[fn::sistema operativo de las netbooks de connectar
