@@ -2,6 +2,7 @@
 #+AUTHOR: Niv Sardi <xaiki@debian.org>, Vladimir Di Fiore <vdifiore@gmail.com>
 #+LANGUAGE: es
 
+## Introducción va a README para github
 #+INCLUDE: README.org
 
 * Propuesta                                                          
