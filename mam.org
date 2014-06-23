@@ -1,0 +1,6 @@
+diseño tentativo de un MAM2MAM.
+
+idea: que pasa si se escribe un transporte eficiente sobre redes de alta
+latencia para git, el protocolo git tendria que resolver el resto.
+que pasa entonces si se hace un driver de FS que use git para comitear con
+semantica de mongodb ?
