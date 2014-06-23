@@ -1,5 +1,5 @@
 #+TITLE: HUAYRA PROGRESAR
-#+AUTHOR: Niv Sardi <xaiki@inaes.gob.ar>, Vladimir Di Fiore <vdifiore@gmail.com>
+#+AUTHOR: Niv Sardi <xaiki@debian.org>, Vladimir Di Fiore <vdifiore@gmail.com>
 #+LANGUAGE: es
 
 * Introducción
